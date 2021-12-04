@@ -1,5 +1,6 @@
+.cache
+node_modules
+stats.html
 .DS_Store
 .vscode
 npm-debug.log
-node_modules
-dist

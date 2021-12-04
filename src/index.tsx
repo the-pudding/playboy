@@ -1,17 +1,30 @@
-import { h, render } from "preact";
-import Thing from "./Thing";
+import { hydrate, prerender as ssr } from "preact-iso";
+import { useState } from "preact/hooks";
 
-if (module.hot) {
-  module.hot.accept();
-  require("preact/debug");
-}
+export function App() {
+  const [count, setCount] = useState(0);
 
-export default function Article() {
   return (
-    <div>
-      hello! <Thing />
-    </div>
+    <>
+      <section>
+        <h1>Home</h1>
+        <p>This is the home page.</p>
+        <>
+          <button style={{ width: 30 }} onClick={() => setCount(count - 1)}>
+            -
+          </button>
+          <output style={{ padding: 10 }}>Count: {count}</output>
+          <button style={{ width: 30 }} onClick={() => setCount(count + 1)}>
+            +
+          </button>
+        </>
+      </section>
+    </>
   );
 }
 
-render(<Article />, document.querySelector("#app")!);
+hydrate(<App />);
+
+export async function prerender(data) {
+  return await ssr(<App {...data} />);
+}

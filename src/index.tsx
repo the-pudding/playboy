@@ -1,6 +1,12 @@
 import { hydrate, prerender as ssr } from "preact-iso";
+import "preact/debug";
 
 import doc from "./data/doc.json";
+import Paragraphs from "./Paragraphs";
+import UnitPicker from "./UnitPicker";
+import Warning from "./Warning";
+
+import "./global.css";
 
 export function App() {
   return (
@@ -9,14 +15,22 @@ export function App() {
         <h1>{doc.title}</h1>
         <p>{doc.subtitle}</p>
 
-        {doc.intro.map((paragraph, i) => (
-          <p
-            key={i}
-            dangerouslySetInnerHTML={{
-              __html: paragraph.value,
-            }}
-          />
-        ))}
+        <Paragraphs data={doc.intro} />
+
+        <Warning>
+          {doc.warning.map((p, i) => (
+            <p
+              key={i}
+              dangerouslySetInnerHTML={{
+                __html: p.value,
+              }}
+            />
+          ))}
+        </Warning>
+
+        <Paragraphs data={doc.scrollyIntro} />
+
+        <UnitPicker />
       </article>
     </>
   );

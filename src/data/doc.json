@@ -27,6 +27,32 @@
       "value": "How did Playboy view beauty over the years, and where is the trend headed now?"
     }
   ],
+  "warning": [
+    {
+      "type": "text",
+      "value": "Since the subject matter is Playboy and the Playmates of the Month, you should beware that most links might be NSFW. All visible content on this page is safe for work."
+    },
+    {
+      "type": "text",
+      "value": "There are mentions of body measurements, and some content in this article might be triggering to those who have current or past experiences with disordered eating or body dysmorphia."
+    }
+  ],
+  "scrollyIntro": [
+    {
+      "type": "text",
+      "value": "Since the first issue in December 1953, Playboy picked the Playmate of the Month <strong>812 times</strong>, featuring <strong>806 unique women</strong>. Playmates are featured in what’s known as the “centerfold” of the magazine, where the pages have no break between them. Since 2021, the “Playmate of the Month” title is no longer awarded, and a Playmate is picked every quarter."
+    },
+    {
+      "type": "text",
+      "value": "While we look at the data for Playmates, it’s important to remember that there are real human beings behind this data. Through the years, Playmates have been admired, but more often vilified for their work in what is essentially the sex industry. The cultural, political and religious framing around sexuality and beauty has a way of clouding judgments — and while the data points serve as a clarifying lens — we need to be careful about reducing these humans to a handful of numbers. This particular set of numbers serve as anchors so we can talk about beauty as it’s perceived by Playboy, limited as they might be in describing actual beauty."
+    }
+  ],
+  "unitPicker": [
+    {
+      "type": "text",
+      "value": "Show data units in [feet, inches, pounds] or [centimetres, kilograms]"
+    }
+  ],
   "quote": {},
   "/quote": {},
   "chart": {},

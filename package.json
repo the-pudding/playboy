@@ -3,6 +3,7 @@
   "type": "module",
   "scripts": {
     "start": "wmr",
+    "prebuild": "node --loader ts-node/esm ./scripts/googleDoc.ts",
     "build": "wmr build --prerender",
     "serve": "wmr serve"
   },
@@ -14,6 +15,11 @@
     "preact-iso": "^2.3.0"
   },
   "devDependencies": {
+    "archieml": "^0.5.0",
+    "html-entities": "^2.3.2",
+    "htmlparser2": "^7.2.0",
+    "node-fetch": "^3.1.0",
+    "ts-node": "^10.4.0",
     "wmr": "^3.7.2"
   }
 }

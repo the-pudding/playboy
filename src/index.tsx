@@ -1,24 +1,23 @@
 import { hydrate, prerender as ssr } from "preact-iso";
-import { useState } from "preact/hooks";
+
+import doc from "./data/doc.json";
 
 export function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      <section>
-        <h1>Home</h1>
-        <p>This is the home page.</p>
-        <>
-          <button style={{ width: 30 }} onClick={() => setCount(count - 1)}>
-            -
-          </button>
-          <output style={{ padding: 10 }}>Count: {count}</output>
-          <button style={{ width: 30 }} onClick={() => setCount(count + 1)}>
-            +
-          </button>
-        </>
-      </section>
+      <article>
+        <h1>{doc.title}</h1>
+        <p>{doc.subtitle}</p>
+
+        {doc.intro.map((paragraph, i) => (
+          <p
+            key={i}
+            dangerouslySetInnerHTML={{
+              __html: paragraph.value,
+            }}
+          />
+        ))}
+      </article>
     </>
   );
 }

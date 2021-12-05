@@ -1,6 +1,6 @@
 import { h } from "preact";
 
-import { useIsMetric, useStore } from "./store";
+import { useIsMetric, useStore } from "../store";
 
 export default function UnitPicker({}: {}) {
   const store = useStore();

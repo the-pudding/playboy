@@ -11,6 +11,8 @@
     "extends": "preact"
   },
   "dependencies": {
+    "@mantine/hooks": "^3.3.2",
+    "normalize.css": "^8.0.1",
     "preact": "^10.6.2",
     "preact-iso": "^2.3.0",
     "zustand": "^3.6.6"

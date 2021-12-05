@@ -2,15 +2,20 @@ import { hydrate, prerender as ssr } from "preact-iso";
 import "preact/debug";
 
 import doc from "./data/doc.json";
-import Paragraphs from "./Paragraphs";
-import UnitPicker from "./UnitPicker";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Paragraphs from "./components/Paragraphs";
+import UnitPicker from "./components/UnitPicker";
 import Warning from "./Warning";
 
+import "normalize.css/normalize.css";
 import "./global.css";
 
 export function App() {
   return (
     <>
+      <Header />
+
       <article>
         <h1>{doc.title}</h1>
         <p>{doc.subtitle}</p>
@@ -32,6 +37,8 @@ export function App() {
 
         <UnitPicker />
       </article>
+
+      <Footer />
     </>
   );
 }

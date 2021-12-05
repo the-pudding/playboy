@@ -1,3 +1,5 @@
+// adapted from https://github.com/newsdev/archieml-js/blob/master/examples/google_drive.js
+
 import url from "url";
 import fs from "fs/promises";
 

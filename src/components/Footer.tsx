@@ -1,6 +1,6 @@
 import { h } from "preact";
 import { useEffect, useState } from "preact/hooks";
-import { useMediaQuery } from "@mantine/hooks";
+import { css } from "@emotion/css";
 
 import Wordmark from "./Wordmark";
 
@@ -21,15 +21,12 @@ export default function Footer() {
     loadStories();
   }, []);
 
-  const isSm = useMediaQuery("only screen and (min-width: 30em)");
-  const isLg = useMediaQuery("only screen and (min-width: 50em)");
-
   return (
     <footer
-      style={{
-        padding: "3em 1em",
-        marginTop: "10em",
-      }}
+      className={css`
+        padding: 3em 1em;
+        margin-top: 10em;
+      `}
     >
       <section
         style={{
@@ -42,13 +39,21 @@ export default function Footer() {
       >
         {stories.map(({ hed, url, image }) => (
           <div
-            style={{
-              display: "block",
-              width: isLg ? "25%" : isSm ? "25%" : "100%",
-              border: "none",
-              marginBottom: "3rem",
-              padding: isSm || isLg ? "0 1rem" : "",
-            }}
+            className={css`
+              display: block;
+              width: 100%;
+              margin-bottom: 3rem;
+
+              @media only screen and (min-width: 30em) {
+                width: 50%;
+                padding: 0 1rem;
+              }
+
+              @media only screen and (min-width: 50em) {
+                width: 25%;
+                padding: 0 1rem;
+              }
+            `}
           >
             <a
               href={`https://pudding.cool/${url}`}

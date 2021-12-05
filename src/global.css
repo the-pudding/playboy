@@ -42,8 +42,9 @@ body {
   padding: 0;
 }
 
+h2,
 p {
-  max-width: 65ch;
+  max-width: 43rem;
 }
 
 h1,

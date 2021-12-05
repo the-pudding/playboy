@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Paragraphs from "./components/Paragraphs";
 import UnitPicker from "./components/UnitPicker";
+import Scrolly from "./components/Scrolly";
 import Warning from "./Warning";
 
 import "normalize.css/normalize.css";
@@ -36,6 +37,8 @@ export function App() {
         <Paragraphs data={doc.scrollyIntro} />
 
         <UnitPicker />
+
+        <Scrolly sections={doc.scrolly} />
       </article>
 
       <Footer />

@@ -11,6 +11,7 @@
     "extends": "preact"
   },
   "dependencies": {
+    "@emotion/css": "^11.5.0",
     "@mantine/hooks": "^3.3.2",
     "normalize.css": "^8.0.1",
     "preact": "^10.6.2",

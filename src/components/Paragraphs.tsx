@@ -1,10 +1,11 @@
 import { h } from "preact";
 
-export default function Paragraphs({
-  data,
-}: {
-  data: { type: string; value: string }[];
-}) {
+export interface Paragraph {
+  type: "text";
+  value: string;
+}
+
+export default function Paragraphs({ data }: { data: Paragraph[] }) {
   return (
     <>
       {data.map((p, i) => (

@@ -8,5 +8,5 @@ export default defineConfig({
     "react-dom": "preact/compat",
   },
   root: `${process.cwd()}/src`,
-  visualize: true,
+  // visualize: true,
 });

@@ -1,3 +1,47 @@
+:root {
+  --base-off-black: #282828;
+  --base-green-1: #79a695;
+  --base-green-2: #a5f2d5;
+  --base-blue-1: #586fa6;
+  --base-blue-2: #8dabf2;
+  --base-red: #a64153;
+  --base-purple-0: #220619;
+  --base-purple-1: #390a29;
+  --base-purple-2: #440d31;
+  --base-purple-3: #591642;
+  --base-orange-1: #d96666;
+  --base-orange-2: #f29f80;
+  --base-tan-1: #f2c299;
+  --base-tan-2: #fedec3;
+  --base-tan-3: #fff2e8;
+  --base-tan-4: #fffaf5;
+  --base-white: #fff;
+  --categorical-blue: #4477aa;
+  --categorical-red: #ee6677;
+  --categorical-green: #228833;
+  --categorical-yellow: #ccbb44;
+  --categorical-cyan: #66ccee;
+  --categorical-purple: #aa3377;
+  --categorical-gray: #bbbbbb;
+
+  --sans: "National 2 Web", Helvetica, Arial, sans-serif;
+  --serif: "Tiempos Text Web", Georgia, Times, serif;
+  --mono: "Space Mono", Menlo, Consolas, Monaco, "Courier New", monospace;
+}
+
+body {
+  font-family: var(--sans);
+  font-size: 18px;
+  line-height: 1.65;
+  font-feature-settings: "kern" 1, "onum" 0, "liga" 0, "tnum" 1;
+  text-rendering: optimizeLegibility;
+  word-wrap: break-word;
+  color: var(--base-off-black);
+  background-color: var(--base-white);
+  margin: 0;
+  padding: 0;
+}
+
 p {
   max-width: 65ch;
 }
@@ -8,6 +52,11 @@ p {
   margin: 1rem auto;
 }
 
+h1,
+h2 {
+  font-family: var(--serif);
+}
+
 *,
 *::before,
 *::after {
@@ -16,3 +65,172 @@ p {
   padding: 0;
   vertical-align: baseline;
 }
+
+/*
+			This font software is the property of Commercial Type.
+
+			You may not modify the font software, use it on another website, or install it on a computer.
+
+			License information is available at http://commercialtype.com/eula
+			For more information please visit Commercial Type at http://commercialtype.com or email us at info[at]commercialtype.com
+
+			Copyright (C) 2017 Schwartzco Inc.
+			License: 1704-GNCLGK
+*/
+
+/*
+********************
+	National
+********************
+*/
+
+@font-face {
+  font-family: "National 2 Web";
+  src: url("https://pudding.cool/assets/fonts/national/National2Web-Regular.woff2")
+      format("woff2"),
+    url("https://pudding.cool/assets/fonts/national/National2Web-Regular.woff")
+      format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "National 2 Web";
+  src: url("https://pudding.cool/assets/fonts/national/National2Web-Bold.woff2")
+      format("woff2"),
+    url("https://pudding.cool/assets/fonts/national/National2Web-Bold.woff")
+      format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+/*
+********************
+	Space Mono
+********************
+*/
+
+@font-face {
+  font-family: "Space Mono";
+  src: url("https://pudding.cool/assets/fonts/spacemono/SpaceMono-Regular.woff2")
+      format("woff2"),
+    url("https://pudding.cool/assets/fonts/spacemono/SpaceMono-Regular.woff")
+      format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Space Mono";
+  src: url("https://pudding.cool/assets/fonts/spacemono/SpaceMono-Bold.woff2")
+      format("woff2"),
+    url("https://pudding.cool/assets/fonts/spacemono/SpaceMono-Bold.woff")
+      format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+/*
+********************
+	National Narrow
+********************
+*/
+
+/*
+@font-face {
+	font-family: 'National 2 Narrow Web';
+	src: url('https://pudding.cool/assets/fonts/national/National2NarrowWeb-Extralight.woff2') format('woff2'),
+	url('https://pudding.cool/assets/fonts/national/National2NarrowWeb-Extralight.woff') format('woff');
+	font-weight: 200;
+	font-style: normal;
+	font-stretch: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'National 2 Narrow Web';
+	src: url('https://pudding.cool/assets/fonts/national/National2NarrowWeb-Regular.woff2') format('woff2'),
+	url('https://pudding.cool/assets/fonts/national/National2NarrowWeb-Regular.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'National 2 Narrow Web';
+	src: url('https://pudding.cool/assets/fonts/national/National2NarrowWeb-Bold.woff2') format('woff2'),
+	url('https://pudding.cool/assets/fonts/national/National2NarrowWeb-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+	font-display: swap;
+}
+
+/*
+@font-face {
+	font-family: 'National 2 Narrow Web';
+	src: url('https://pudding.cool/assets/fonts/national/National2NarrowWeb-Black.woff2') format('woff2'),
+	url('https://pudding.cool/assets/fonts/national/National2NarrowWeb-Black.woff') format('woff');
+	font-weight: 900;
+	font-style: normal;
+	font-stretch: normal;
+	font-display: swap;
+}
+*/
+
+/*
+********************
+	Tiempos Text
+********************
+*/
+
+@font-face {
+  font-family: "Tiempos Text Web";
+  src: url("https://pudding.cool/assets/fonts/tiempos/TiemposTextWeb-Regular.woff2")
+      format("woff2"),
+    url("https://pudding.cool/assets/fonts/tiempos/TiemposTextWeb-Regular.woff")
+      format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Tiempos Text Web";
+  src: url("https://pudding.cool/assets/fonts/tiempos/TiemposTextWeb-Bold.woff2")
+      format("woff2"),
+    url("https://pudding.cool/assets/fonts/tiempos/TiemposTextWeb-Bold.woff")
+      format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+/*
+********************
+	Tiempos Headline
+********************
+*/
+
+/*
+@font-face {
+	font-family: 'Tiempos Headline Web';
+	src: url('https://pudding.cool/assets/fonts/tiempos/TiemposHeadlineWeb-Regular.woff2') format('woff2'),
+	url('https://pudding.cool/assets/fonts/tiempos/TiemposHeadlineWeb-Regular.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	font-display: swap;
+}
+*/

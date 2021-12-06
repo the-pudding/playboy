@@ -1,5 +1,7 @@
 import { h } from "preact";
+import { Waypoint as ReactWaypoint } from "react-waypoint";
 
+import { useWindowSize } from "../../hooks";
 import Paragraphs, { Paragraph } from "../Paragraphs";
 import { Section, Quote } from "./types";
 
@@ -26,20 +28,27 @@ export default function Waypoint({ data }: { data: Section }) {
     }
   );
 
+  const ws = useWindowSize();
+
   return (
-    <div
-      style={{
-        background: "var(--base-blue-1)",
-        border: "1px solid transparent",
-      }}
+    <ReactWaypoint
+      topOffset={ws.width > 1023 ? "33%" : "10%"}
+      bottomOffset={ws.width > 1023 ? "60%" : "10%"}
     >
-      {title && <h2>{title}</h2>}
-      {quote && (
-        <blockquote>
-          {quote.value.text} - {quote.value.attr}
-        </blockquote>
-      )}
-      <Paragraphs data={text} />
-    </div>
+      <div
+        style={{
+          background: "var(--base-blue-1)",
+          border: "1px solid transparent",
+        }}
+      >
+        {title && <h2>{title}</h2>}
+        {quote && (
+          <blockquote>
+            {quote.value.text} - {quote.value.attr}
+          </blockquote>
+        )}
+        <Paragraphs data={text} />
+      </div>
+    </ReactWaypoint>
   );
 }

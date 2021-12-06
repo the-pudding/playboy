@@ -3,9 +3,10 @@
   "type": "module",
   "scripts": {
     "start": "wmr",
-    "prebuild": "node --loader ts-node/esm ./scripts/googleDoc.ts",
+    "xprebuild": "node --loader ts-node/esm ./scripts/googleDoc.ts",
     "build": "wmr build --prerender",
-    "serve": "wmr serve"
+    "serve": "wmr serve",
+    "postinstall": "patch-package"
   },
   "eslintConfig": {
     "extends": "preact"
@@ -14,8 +15,11 @@
     "@emotion/css": "^11.5.0",
     "@mantine/hooks": "^3.3.2",
     "normalize.css": "^8.0.1",
+    "patch-package": "^6.4.7",
     "preact": "^10.6.2",
     "preact-iso": "^2.3.0",
+    "react-waypoint": "^10.1.0",
+    "vizlib": "https://gitpkg.now.sh/ebemunk/blog/projects/playboy/vizlib?master",
     "zustand": "^3.6.6"
   },
   "devDependencies": {

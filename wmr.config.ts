@@ -9,4 +9,5 @@ export default defineConfig({
   },
   root: `${process.cwd()}/src`,
   // visualize: true,
+  middleware: [],
 });

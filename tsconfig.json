@@ -11,7 +11,8 @@
 		"module": "esnext",
 		"resolveJsonModule": true,
 		"allowSyntheticDefaultImports": true,
-		"downlevelIteration": true
+		"downlevelIteration": true,
+		"esModuleInterop": true,
 	},
 	"include": ["node_modules/wmr/types.d.ts", "**/*"],
 	"typeAcquisition": {

@@ -9,6 +9,7 @@ export default defineConfig({
     "react-dom": "preact/compat",
   },
   root: `${process.cwd()}/src`,
+  out: `${process.cwd()}/docs`,
   // visualize: true,
   middleware: [],
   plugins: [csv()],

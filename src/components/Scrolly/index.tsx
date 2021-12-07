@@ -1,9 +1,35 @@
 import { h } from "preact";
+import { useState } from "preact/hooks";
+import { ResponsiveSvg } from "vizlib";
 
 import { Section } from "./types";
 import Waypoint from "./Waypoint";
+import Chart from "./Chart";
+
+const STAGES = [
+  "start",
+  "marilyn",
+  "noissue",
+  "jenniferjackson",
+  "inesrau",
+  "marshaelle",
+  "otherfirsts",
+  "karenmcdougal",
+  "hefner",
+  "age",
+  "height",
+  "weight",
+  "bust",
+  "waist",
+  "hips",
+  "hair",
+  "enhancements",
+  "ethnicity",
+];
 
 export default function Scrolly({ sections }: { sections: Section[] }) {
+  const [stage, setStage] = useState<typeof STAGES[number]>("start");
+
   return (
     <>
       <div
@@ -20,13 +46,9 @@ export default function Scrolly({ sections }: { sections: Section[] }) {
             width: "80vw",
           }}
         >
-          <div
-            style={{
-              background: "red",
-              height: "100%",
-              width: "100%",
-            }}
-          />
+          <ResponsiveSvg margin={{ top: 30, left: 30, right: 10, bottom: 10 }}>
+            <Chart />
+          </ResponsiveSvg>
         </div>
         <div
           style={{
@@ -34,7 +56,14 @@ export default function Scrolly({ sections }: { sections: Section[] }) {
           }}
         >
           {sections.map((section) => (
-            <Waypoint key={section.type} data={section} />
+            <Waypoint
+              key={section.type}
+              data={section}
+              active={stage === section.type}
+              onEnter={() => {
+                setStage(section.type);
+              }}
+            />
           ))}
         </div>
       </div>

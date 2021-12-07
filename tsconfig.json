@@ -12,7 +12,7 @@
 		"resolveJsonModule": true,
 		"allowSyntheticDefaultImports": true,
 		"downlevelIteration": true,
-		"esModuleInterop": true,
+		"esModuleInterop": true
 	},
 	"include": ["node_modules/wmr/types.d.ts", "**/*"],
 	"typeAcquisition": {

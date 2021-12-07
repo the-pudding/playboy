@@ -3,7 +3,7 @@
   "type": "module",
   "scripts": {
     "start": "rm -rf .cache && wmr",
-    "xprebuild": "node --loader ts-node/esm ./scripts/googleDoc.ts",
+    "prebuild": "node --loader ts-node/esm ./scripts/googleDoc.ts",
     "build": "wmr build --prerender",
     "serve": "wmr serve",
     "postinstall": "patch-package"
@@ -26,11 +26,13 @@
   },
   "devDependencies": {
     "@rollup/pluginutils": "^4.1.1",
+    "@types/node": "^16.11.12",
     "archieml": "^0.5.0",
     "html-entities": "^2.3.2",
     "htmlparser2": "^7.2.0",
     "node-fetch": "^3.1.0",
     "ts-node": "^10.4.0",
+    "typescript": "^4.5.2",
     "wmr": "^3.7.2"
   }
 }

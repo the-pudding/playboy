@@ -68,9 +68,9 @@ export default function accessors(
     case Step.Hair:
       return [identity, identity, (d) => d.hair];
     case Step.Enhancements:
-      return [identity, identity, (d) => d.ethnicity];
-    case Step.Ethnicity:
       return [identity, identity, (d) => d.breasts];
+    case Step.Ethnicity:
+      return [identity, identity, (d) => d.ethnicity];
     default:
       throw Error(`step ${step} is not accounted for!`);
   }

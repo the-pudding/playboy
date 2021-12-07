@@ -19,6 +19,7 @@ export default function useData(step: Step) {
         chartWidth,
         xA,
         yA,
+        cA,
       }),
     [step, chartHeight, chartWidth, xA, yA]
   );

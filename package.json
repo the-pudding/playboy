@@ -2,7 +2,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "wmr",
+    "start": "rm -rf .cache && wmr",
     "xprebuild": "node --loader ts-node/esm ./scripts/googleDoc.ts",
     "build": "wmr build --prerender",
     "serve": "wmr serve",

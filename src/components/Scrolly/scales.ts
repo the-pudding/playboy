@@ -14,7 +14,7 @@ import {
 
 import { Breasts, data, Ethnicity, Hair, Playmate } from "../../data/data";
 import { Step } from "./types";
-import { XAccessor, YAccessor } from "./accessors";
+import { CAccessor, XAccessor, YAccessor } from "./accessors";
 
 export default function scales({
   step,
@@ -22,12 +22,14 @@ export default function scales({
   chartWidth,
   xA,
   yA,
+  cA,
 }: {
   step: Step;
   chartHeight: number;
   chartWidth: number;
   xA: XAccessor;
   yA: YAccessor;
+  cA: CAccessor;
 }) {
   switch (step) {
     case Step.Start:
@@ -85,7 +87,7 @@ export default function scales({
         .size([chartWidth / 2 - 10, chartHeight])
         .padding((d) => (d.depth === 1 ? 5 : 25));
 
-      const grouped = group(data, (d) => d[step] ?? null);
+      const grouped = group(data, cA);
       const hi = hierarchy(grouped).count();
 
       // @ts-ignore wrong typings in case when arg is a Map
@@ -94,14 +96,20 @@ export default function scales({
       const nodes = packed.leaves();
 
       const csD = {
-        [Step.Hair]: Object.values(Hair).map((d) => d.toString()),
-        [Step.Ethnicity]: Object.values(Ethnicity).map((d) => d.toString()),
-        [Step.Enhancements]: Object.values(Breasts).map((d) => d.toString()),
+        [Step.Hair]: Object.values(Hair)
+          .filter((d) => typeof d !== "string")
+          .map((d) => d.toString()),
+        [Step.Ethnicity]: Object.values(Ethnicity)
+          .filter((d) => typeof d !== "string")
+          .map((d) => d.toString()),
+        [Step.Enhancements]: Object.values(Breasts)
+          .filter((d) => typeof d !== "string")
+          .map((d) => d.toString()),
       };
       const csR = {
         hair: ["#fee08b", "rgb(140 81 23)", "#555", "rgb(215, 25, 28)"],
         ethnicity: schemeSpectral[4],
-        breasts: schemeSpectral[3],
+        enhancements: schemeSpectral[3],
       };
 
       const colorScale = scaleOrdinal().domain(csD[step]).range(csR[step]);

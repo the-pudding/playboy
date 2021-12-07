@@ -11,6 +11,8 @@ export default function Scrolly({ sections }: { sections: Section[] }) {
   const [step, setStep] = useState<Step>(Step.Start);
   const { scales, data, accessors } = useData(step);
 
+  console.log(scales);
+
   return (
     <>
       <div

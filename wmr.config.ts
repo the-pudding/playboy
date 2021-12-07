@@ -1,4 +1,5 @@
 import { defineConfig } from "wmr";
+import { createFilter } from "@rollup/pluginutils";
 
 // Full list of options: https://wmr.dev/docs/configuration
 export default defineConfig({
@@ -10,4 +11,19 @@ export default defineConfig({
   root: `${process.cwd()}/src`,
   // visualize: true,
   middleware: [],
+  plugins: [csv()],
 });
+
+function csv() {
+  const filter = createFilter(/.+\.csv/, undefined);
+  return {
+    name: "csv",
+    transform(code, id) {
+      if (!filter(id)) return null;
+      return {
+        code: `export default ${JSON.stringify(code)}`,
+        map: null,
+      };
+    },
+  };
+}

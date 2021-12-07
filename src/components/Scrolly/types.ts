@@ -1,3 +1,4 @@
+import { Playmate } from "../../data/data";
 import { Paragraph } from "../Paragraphs";
 
 export enum Step {
@@ -37,4 +38,11 @@ export interface Quote {
 export interface Section {
   type: Step;
   value: (Paragraph | Title | Quote)[];
+}
+
+export interface PlaymateCircle {
+  cx: number;
+  cy: number;
+  fill: string;
+  datum: Playmate;
 }

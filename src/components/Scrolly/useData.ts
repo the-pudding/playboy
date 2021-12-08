@@ -59,6 +59,7 @@ export default function useData(step: Step) {
           // dont overlap. thankfully theres max 3 lol
           if (
             [
+              Step.Start,
               Step.Marilyn,
               Step.NoIssue,
               Step.JenniferJackson,

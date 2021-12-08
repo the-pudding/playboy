@@ -1,11 +1,14 @@
+import { select } from "d3";
 import { h, Fragment } from "preact";
+import { useEffect, useRef } from "preact/hooks";
 import { usePlotContext } from "vizlib";
-import { useStore } from "../../store";
+import { useIsMetric, useStore } from "../../store";
 
 import { XAxis, YAxis } from "./Axis";
 import HefnerDeath from "./HefnerDeath";
 import PlaymateCircles from "./PlaymateCircles";
 import { Step } from "./types";
+import USAverage from "./USAverage";
 import useData from "./useData";
 import { formatFeetIn, GroupingSteps, ScatterSteps, STEP_UNITS } from "./util";
 
@@ -13,6 +16,19 @@ export default function Chart({ step }: { step: Step }) {
   const { chartHeight, chartWidth } = usePlotContext();
   const { scales, data, accessors } = useData(step);
   const units = useStore((state) => state.units);
+  const isMetric = useIsMetric();
+
+  const ageRef = useRef();
+  useEffect(() => {
+    if (step !== Step.Age) return;
+
+    select(ageRef.current)
+      .transition()
+      .delay(750 * 2)
+      .duration(750)
+      .attr("fill-opacity", 0.2);
+  }, [step]);
+
   console.log(data);
   return (
     <Fragment>
@@ -37,7 +53,7 @@ export default function Chart({ step }: { step: Step }) {
             scale={scales.sY}
             step={step}
             units={STEP_UNITS[units][step]}
-            {...(step === Step.Height && units !== "metric"
+            {...(step === Step.Height && !isMetric
               ? {
                   tickFormat: formatFeetIn,
                 }
@@ -56,6 +72,26 @@ export default function Chart({ step }: { step: Step }) {
 
       {[Step.Hefner, ...ScatterSteps].includes(step) && (
         <HefnerDeath step={step} sX={scales.sX} />
+      )}
+
+      {step === Step.Age && (
+        <rect
+          ref={ageRef}
+          x={0}
+          y={scales.sY(18)}
+          width={chartWidth}
+          height={chartHeight - scales.sY(18)}
+          fill="red"
+          fillOpacity={0}
+        />
+      )}
+
+      {step === Step.Height && (
+        <USAverage value={scales.sY(isMetric ? 162.6 : 64)} />
+      )}
+
+      {step === Step.Weight && (
+        <USAverage value={scales.sY(isMetric ? 74.9 : 165)} />
       )}
 
       <PlaymateCircles data={data} r={3} transitionDuration={750} />

@@ -36,8 +36,8 @@ body {
   font-feature-settings: "kern" 1, "onum" 0, "liga" 0, "tnum" 1;
   text-rendering: optimizeLegibility;
   word-wrap: break-word;
-  color: var(--base-off-black);
-  background-color: var(--base-white);
+  color: var(--base-white);
+  background-color: var(--base-off-black);
   margin: 0;
   padding: 0;
 }

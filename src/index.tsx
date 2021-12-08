@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 import Paragraphs from "./components/Paragraphs";
 import UnitPicker from "./components/UnitPicker";
 import Scrolly from "./components/Scrolly";
-import Warning from "./Warning";
+import Warning from "./components/Warning";
 
 import "normalize.css/normalize.css";
 import "./global.css";

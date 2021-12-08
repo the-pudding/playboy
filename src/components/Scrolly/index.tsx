@@ -30,7 +30,7 @@ export default function Scrolly({ sections }: { sections: Section[] }) {
           }}
         >
           <ResponsiveSvg margin={{ top: 30, left: 30, right: 10, bottom: 10 }}>
-            <Chart />
+            <Chart step={step} />
           </ResponsiveSvg>
         </div>
         <div

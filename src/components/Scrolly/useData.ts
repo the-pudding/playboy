@@ -1,4 +1,4 @@
-import { useMemo } from "react";
+import { useMemo } from "preact/hooks";
 import { usePlotContext } from "vizlib";
 
 import { data } from "../../data/data";
@@ -57,7 +57,18 @@ export default function useData(step: Step) {
           // fuck im such a noob..
           // when there are multiple playmates, spread the points around so they
           // dont overlap. thankfully theres max 3 lol
-          if (step === Step.Start) {
+          if (
+            [
+              Step.Marilyn,
+              Step.NoIssue,
+              Step.JenniferJackson,
+              Step.InesRau,
+              Step.MarshaElle,
+              Step.OtherFirsts,
+              Step.KarenMcDougal,
+              Step.Hefner,
+            ].includes(step)
+          ) {
             const key = `${d.year}-${d.month}`;
 
             if (handledMultiple[key]) {

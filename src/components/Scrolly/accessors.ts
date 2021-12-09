@@ -1,13 +1,13 @@
 import { identity } from "remeda";
-import { Playmate } from "../../data/data";
 
+import { Breasts, Ethnicity, Hair, Playmate } from "../../data/data";
 import { Units } from "../../store";
 import { cm2in, kg2lb, PLAYMATE_PINK } from "../../util";
 import { Step } from "./types";
 
 export type XAccessor = (d: Playmate) => number | string | Playmate | Date;
 export type YAccessor = (d: Playmate) => number | string | Playmate;
-export type CAccessor = (d: Playmate) => number | string;
+export type CAccessor = (d: Playmate) => string;
 
 export default function accessors(
   step: Step,
@@ -63,11 +63,11 @@ export default function accessors(
         (d) => PLAYMATE_PINK,
       ];
     case Step.Hair:
-      return [identity, identity, (d) => d.hair];
+      return [identity, identity, (d) => Hair[d.hair]];
     case Step.Enhancements:
-      return [identity, identity, (d) => d.breasts];
+      return [identity, identity, (d) => Breasts[d.breasts]];
     case Step.Ethnicity:
-      return [identity, identity, (d) => d.ethnicity];
+      return [identity, identity, (d) => Ethnicity[d.ethnicity]];
     default:
       throw Error(`step ${step} is not accounted for!`);
   }

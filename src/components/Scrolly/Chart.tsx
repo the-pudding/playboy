@@ -13,6 +13,7 @@ import { Step } from "./types";
 import USAverage from "./USAverage";
 import Voronoi from "./Voronoi";
 import useData from "./useData";
+import GroupingCircles from "./GroupingCircles";
 import { formatFeetIn, GroupingSteps, ScatterSteps, STEP_UNITS } from "./util";
 
 const LOESS = lazy(() => import("./LOESS"));
@@ -102,6 +103,20 @@ export default function Chart({ step }: { step: Step }) {
         <Suspense fallback={null}>
           <LOESS sX={scales.sX} sY={scales.sY} step={step} />
         </Suspense>
+      )}
+
+      {GroupingSteps.includes(step) && (
+        <Fragment>
+          <GroupingCircles
+            data={scales.extras.map((d) => ({
+              ...d,
+              cx: d.x,
+              cy: d.y,
+              stroke: scales.sC(d.data[0].toString()) as string,
+            }))}
+            transitionDuration={750}
+          />
+        </Fragment>
       )}
 
       <PlaymateCircles data={data} r={3} transitionDuration={750} />

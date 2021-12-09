@@ -50,7 +50,7 @@ export default function useData(step: Step) {
           const datum = {
             cx: sX(xA(d)) as number,
             cy: sY(yA(d)) as number,
-            fill: sC(cA(d).toString()) as string,
+            fill: sC(cA(d)) as string,
             datum: d,
           };
 

@@ -53,7 +53,7 @@ export default function Scrolly({ sections }: { sections: Section[] }) {
                 setStep(section.type);
               }}
               className={css`
-                background: var(--base-blue-1);
+                background: rgba(80, 80, 106, 0.7);
                 border: 1px solid transparent;
                 opacity: ${step === section.type ? 1 : 0.5};
                 padding: 0 0.5rem;

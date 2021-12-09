@@ -97,17 +97,17 @@ export default function scales({
 
       const csD = {
         [Step.Hair]: Object.values(Hair)
-          .filter((d) => typeof d !== "string")
+          .filter((d) => typeof d === "string")
           .map((d) => d.toString()),
         [Step.Ethnicity]: Object.values(Ethnicity)
-          .filter((d) => typeof d !== "string")
+          .filter((d) => typeof d === "string")
           .map((d) => d.toString()),
         [Step.Enhancements]: Object.values(Breasts)
-          .filter((d) => typeof d !== "string")
+          .filter((d) => typeof d === "string")
           .map((d) => d.toString()),
       };
       const csR = {
-        hair: ["#fee08b", "rgb(140 81 23)", "#555", "rgb(215, 25, 28)"],
+        hair: ["#fee08b", "#555", "rgb(140 81 23)", "rgb(215, 25, 28)"],
         ethnicity: schemeSpectral[4],
         enhancements: schemeSpectral[3],
       };

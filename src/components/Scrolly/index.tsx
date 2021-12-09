@@ -6,6 +6,7 @@ import { Section, Step } from "./types";
 import Waypoint from "./Waypoint";
 import Chart from "./Chart";
 import useData from "./useData";
+import Highlights from "./Highlights";
 
 export default function Scrolly({ sections }: { sections: Section[] }) {
   const [step, setStep] = useState<Step>(Step.Start);
@@ -31,6 +32,7 @@ export default function Scrolly({ sections }: { sections: Section[] }) {
         >
           <ResponsiveSvg margin={{ top: 30, left: 30, right: 10, bottom: 10 }}>
             <Chart step={step} />
+            <Highlights step={step} />
           </ResponsiveSvg>
         </div>
         <div

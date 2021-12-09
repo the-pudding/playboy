@@ -7,6 +7,7 @@ import Waypoint from "./Waypoint";
 import Chart from "./Chart";
 import useData from "./useData";
 import Highlights from "./Highlights";
+import { css } from "@emotion/css";
 
 export default function Scrolly({ sections }: { sections: Section[] }) {
   const [step, setStep] = useState<Step>(Step.Start);
@@ -17,18 +18,19 @@ export default function Scrolly({ sections }: { sections: Section[] }) {
   return (
     <>
       <div
-        style={{
-          position: "relative",
-          display: "flex",
-        }}
+        className={css`
+          position: relative;
+        `}
       >
         <div
-          style={{
-            position: "sticky",
-            top: "10vh",
-            height: "80vh",
-            width: "80vw",
-          }}
+          className={css`
+            position: sticky;
+            top: 10vh;
+            height: 80vh;
+            width: 95vw;
+            margin: 0 auto;
+            z-index: 0;
+          `}
         >
           <ResponsiveSvg margin={{ top: 30, left: 30, right: 10, bottom: 10 }}>
             <Chart step={step} />
@@ -36,18 +38,28 @@ export default function Scrolly({ sections }: { sections: Section[] }) {
           </ResponsiveSvg>
         </div>
         <div
-          style={{
-            width: "20vw",
-          }}
+          className={css`
+            max-width: 40ch;
+            z-index: 1;
+            position: relative;
+            pointer-events: none;
+          `}
         >
-          {sections.map((section) => (
+          {sections.map((section, i) => (
             <Waypoint
               key={section.type}
               data={section}
-              active={step === section.type}
               onEnter={() => {
                 setStep(section.type);
               }}
+              className={css`
+                background: var(--base-blue-1);
+                border: 1px solid transparent;
+                opacity: ${step === section.type ? 1 : 0.5};
+                padding: 0 0.5rem;
+                margin-bottom: ${i === sections.length - 1 ? 0 : "90vh"};
+                pointer-events: all;
+              `}
             />
           ))}
         </div>

@@ -30,11 +30,7 @@
   "warning": [
     {
       "type": "text",
-      "value": "Since the subject matter is Playboy and the Playmates of the Month, you should beware that most links might be NSFW. All visible content on this page is safe for work."
-    },
-    {
-      "type": "text",
-      "value": "There are mentions of body measurements, and some content in this article might be triggering to those who have current or past experiences with disordered eating or body dysmorphia."
+      "value": "⚠️ There are mentions of body measurements, and some content in this article might be triggering to those who have current or past experiences with disordered eating or body dysmorphia."
     }
   ],
   "scrollyIntro": [

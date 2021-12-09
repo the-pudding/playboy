@@ -8,11 +8,11 @@ import { Section, Quote } from "./types";
 export default function Waypoint({
   data,
   onEnter,
-  active = false,
+  className = "",
 }: {
   data: Section;
   onEnter: () => void;
-  active?: boolean;
+  className?: string;
 }) {
   const { title, text, quote } = data.value.reduce<{
     title?: string;
@@ -39,18 +39,8 @@ export default function Waypoint({
   const ws = useWindowSize();
 
   return (
-    <ReactWaypoint
-      topOffset={ws.width > 1023 ? "33%" : "10%"}
-      bottomOffset={ws.width > 1023 ? "60%" : "10%"}
-      onEnter={onEnter}
-    >
-      <div
-        style={{
-          background: "var(--base-blue-1)",
-          border: "1px solid transparent",
-          opacity: active ? 1 : 0.3,
-        }}
-      >
+    <ReactWaypoint topOffset="10%" bottomOffset="10%" onEnter={onEnter}>
+      <div className={className}>
         {title && <h2>{title}</h2>}
         {quote && (
           <blockquote>

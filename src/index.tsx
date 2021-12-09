@@ -11,13 +11,21 @@ import Warning from "./components/Warning";
 
 import "normalize.css/normalize.css";
 import "./global.css";
+import { css } from "@emotion/css";
 
 export function App() {
   return (
     <>
       <Header />
 
-      <article>
+      <article
+        className={css`
+          a,
+          a:visited {
+            color: var(--color-pink);
+          }
+        `}
+      >
         <h1>{doc.title}</h1>
         <p>{doc.subtitle}</p>
 

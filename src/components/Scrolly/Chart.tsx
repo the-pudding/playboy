@@ -14,6 +14,7 @@ import USAverage from "./USAverage";
 import Voronoi from "./Voronoi";
 import useData from "./useData";
 import GroupingCircles from "./GroupingCircles";
+import Bars from "./Bars";
 import { formatFeetIn, GroupingSteps, ScatterSteps, STEP_UNITS } from "./util";
 
 const LOESS = lazy(() => import("./LOESS"));
@@ -115,6 +116,16 @@ export default function Chart({ step }: { step: Step }) {
               stroke: scales.sC(d.data[0].toString()) as string,
             }))}
             transitionDuration={750}
+          />
+          <Bars
+            width={chartWidth / 2 - 40}
+            height={Math.min(chartWidth / 2 / 1.6, chartHeight)}
+            accessor={accessors.cA}
+            // @ts-ignore
+            colorScale={scales.sC}
+            transform={`translate(${chartWidth / 2 + 20},${
+              (chartHeight - Math.min(chartWidth / 2 / 1.6, chartHeight)) / 2
+            })`}
           />
         </Fragment>
       )}

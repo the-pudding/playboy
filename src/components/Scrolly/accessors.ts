@@ -2,11 +2,8 @@ import { identity } from "remeda";
 import { Playmate } from "../../data/data";
 
 import { Units } from "../../store";
-import { PLAYMATE_PINK } from "../../util";
+import { cm2in, kg2lb, PLAYMATE_PINK } from "../../util";
 import { Step } from "./types";
-
-const cm2in = (num) => (num ? num / 2.54 : null);
-const kg2lb = (num) => (num ? num / 0.45359237 : null);
 
 export type XAccessor = (d: Playmate) => number | string | Playmate | Date;
 export type YAccessor = (d: Playmate) => number | string | Playmate;

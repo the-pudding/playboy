@@ -482,7 +482,7 @@
             },
             {
               "type": "text",
-              "value": "The trendlines shown in red were computed via <a href=\"https://en.wikipedia.org/wiki/Local_regression\" target=\"_blank\">LOESS</a>."
+              "value": "The trendlines shown in red were computed via <a href=\"https://en.wikipedia.org/wiki/Local_regression\" target=\"_blank\">LOESS</a>. Averages for women in the US between 2015-2018 are from the <a href=\"https://www.cdc.gov/nchs/data/series/sr_03/sr03-046-508.pdf\" target=\"_blank\">CDC NCHS Vital and Health Statistics</a>."
             },
             {
               "type": "text",

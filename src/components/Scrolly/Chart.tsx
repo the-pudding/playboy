@@ -1,5 +1,7 @@
 import { select } from "d3";
 import { h, Fragment } from "preact";
+import { Suspense, lazy } from "preact/compat";
+
 import { useEffect, useRef } from "preact/hooks";
 import { usePlotContext } from "vizlib";
 import { useIsMetric, useStore } from "../../store";
@@ -11,6 +13,9 @@ import { Step } from "./types";
 import USAverage from "./USAverage";
 import useData from "./useData";
 import { formatFeetIn, GroupingSteps, ScatterSteps, STEP_UNITS } from "./util";
+// import LOESS from "./LOESS";
+
+const LOESS = lazy(() => import("./LOESS"));
 
 export default function Chart({ step }: { step: Step }) {
   const { chartHeight, chartWidth } = usePlotContext();
@@ -93,6 +98,12 @@ export default function Chart({ step }: { step: Step }) {
       {step === Step.Weight && (
         <USAverage value={scales.sY(isMetric ? 74.9 : 165)} />
       )}
+
+      <Suspense fallback={<div>Loading...</div>}>
+        {ScatterSteps.includes(step) && (
+          <LOESS sX={scales.sX} sY={scales.sY} step={step} />
+        )}
+      </Suspense>
 
       <PlaymateCircles data={data} r={3} transitionDuration={750} />
     </Fragment>

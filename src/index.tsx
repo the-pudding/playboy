@@ -1,8 +1,5 @@
 import { hydrate, prerender as ssr } from "preact-iso";
-
-// if (process.env.NODE_ENV === "development") {
-//   require("preact/debug");
-// }
+import "preact/debug";
 
 import doc from "./data/doc.json";
 import Header from "./components/Header";

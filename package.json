@@ -19,6 +19,7 @@
     "patch-package": "^6.4.7",
     "preact": "^10.6.2",
     "preact-iso": "^2.3.0",
+    "react-popper": "^2.2.5",
     "react-waypoint": "^10.1.0",
     "remeda": "^0.0.32",
     "vizlib": "https://gitpkg.now.sh/ebemunk/blog/projects/playboy/vizlib?master",

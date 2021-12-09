@@ -11,9 +11,9 @@ import HefnerDeath from "./HefnerDeath";
 import PlaymateCircles from "./PlaymateCircles";
 import { Step } from "./types";
 import USAverage from "./USAverage";
+import Voronoi from "./Voronoi";
 import useData from "./useData";
 import { formatFeetIn, GroupingSteps, ScatterSteps, STEP_UNITS } from "./util";
-// import LOESS from "./LOESS";
 
 const LOESS = lazy(() => import("./LOESS"));
 
@@ -34,7 +34,6 @@ export default function Chart({ step }: { step: Step }) {
       .attr("fill-opacity", 0.2);
   }, [step]);
 
-  console.log(data);
   return (
     <Fragment>
       {!GroupingSteps.includes(step) && (
@@ -99,13 +98,14 @@ export default function Chart({ step }: { step: Step }) {
         <USAverage value={scales.sY(isMetric ? 74.9 : 165)} />
       )}
 
-      <Suspense fallback={<div>Loading...</div>}>
-        {ScatterSteps.includes(step) && (
+      {ScatterSteps.includes(step) && (
+        <Suspense fallback={null}>
           <LOESS sX={scales.sX} sY={scales.sY} step={step} />
-        )}
-      </Suspense>
+        </Suspense>
+      )}
 
       <PlaymateCircles data={data} r={3} transitionDuration={750} />
+      <Voronoi data={data} step={step} />
     </Fragment>
   );
 }

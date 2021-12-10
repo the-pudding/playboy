@@ -1,3 +1,4 @@
+import { css } from "@emotion/css";
 import { h } from "preact";
 import { Waypoint as ReactWaypoint } from "react-waypoint";
 
@@ -43,8 +44,42 @@ export default function Waypoint({
       <div className={className}>
         {title && <h2>{title}</h2>}
         {quote && (
-          <blockquote>
-            {quote.value.text} - {quote.value.attr}
+          <blockquote
+            className={css`
+              font-style: italic;
+              position: relative;
+              padding: 1rem;
+              font-size: 1rem;
+
+              &::before {
+                content: "“";
+                position: absolute;
+                top: 0;
+                left: 0;
+                font-size: 2rem;
+              }
+
+              &::after {
+                content: "”";
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                font-size: 2rem;
+              }
+            `}
+          >
+            <p
+              dangerouslySetInnerHTML={{
+                __html: quote.value.text,
+              }}
+              style={{ margin: 0 }}
+            />
+            <p
+              dangerouslySetInnerHTML={{
+                __html: quote.value.attr,
+              }}
+              style={{ margin: 0 }}
+            />
           </blockquote>
         )}
         <Paragraphs data={text} />

@@ -143,6 +143,7 @@ export default function Voronoi({
             style={{
               ...styles.popper,
               pointerEvents: pinned ? "auto" : "none",
+              zIndex: 2,
             }}
             {...attributes.popper}
           >

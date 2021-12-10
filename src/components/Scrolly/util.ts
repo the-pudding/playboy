@@ -17,6 +17,21 @@ export const MONTHS = [
   "Dec",
 ];
 
+export const MONTHS_FULL = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
+];
+
 export const STEP_UNITS = {
   metric: {
     [Step.Start]: "",

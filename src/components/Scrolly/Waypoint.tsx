@@ -2,7 +2,6 @@ import { css } from "@emotion/css";
 import { h } from "preact";
 import { Waypoint as ReactWaypoint } from "react-waypoint";
 
-import { useWindowSize } from "../../hooks";
 import Paragraphs, { Paragraph } from "../Paragraphs";
 import { Section, Quote } from "./types";
 
@@ -36,8 +35,6 @@ export default function Waypoint({
       quote: null,
     }
   );
-
-  const ws = useWindowSize();
 
   return (
     <ReactWaypoint topOffset="10%" bottomOffset="10%" onEnter={onEnter}>

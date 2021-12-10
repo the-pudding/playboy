@@ -1,9 +1,10 @@
 import { h } from "preact";
 
-import { Breasts, Ethnicity, Hair, Playmate } from "../data/data";
-import { useStore } from "../store";
-import { cm2in, kg2lb } from "../util";
-import { formatFeetIn, MONTHS_FULL } from "./Scrolly/util";
+import { Breasts, Ethnicity, Hair, Playmate } from "../../data/data";
+import { useStore } from "../../store";
+import { cm2in, kg2lb } from "../../util";
+import { formatFeetIn, MONTHS_FULL } from "../Scrolly/util";
+import TooltipHistogram from "./TooltipHistogram";
 
 export default function PlaymateTooltip({
   data,
@@ -90,7 +91,6 @@ export default function PlaymateTooltip({
             }}
           >
             <Info label="Age" value={data.mateAge} />
-            {/* birthplace */}
 
             <Info label="Ethnicity" value={Ethnicity[data.ethnicity]} />
             <Info label="Hair" value={Hair[data.hair]} />
@@ -103,32 +103,32 @@ export default function PlaymateTooltip({
               }
               units={isMetric ? "cm" : ""}
             />
-            {/* histogram */}
+            <TooltipHistogram pm={data} hkey="heightCM" />
             <Info
               label="Weight"
               value={isMetric ? data.weightKG : kg2lb(data.weightKG).toFixed(0)}
               units={isMetric ? "kg" : "lb"}
             />
-            {/* histogram */}
+            <TooltipHistogram pm={data} hkey="weightKG" />
 
             <Info
               label="Bust"
               value={isMetric ? data.bustCM : cm2in(data.bustCM).toFixed(0)}
               units={isMetric ? "cm" : "in"}
             />
-            {/* histogram */}
+            <TooltipHistogram pm={data} hkey="bustCM" />
             <Info
               label="Waist"
               value={isMetric ? data.waistCM : cm2in(data.waistCM).toFixed(0)}
               units={isMetric ? "cm" : "in"}
             />
-            {/* histogram */}
+            <TooltipHistogram pm={data} hkey="waistCM" />
             <Info
               label="Hips"
               value={isMetric ? data.hipsCM : cm2in(data.hipsCM).toFixed(0)}
               units={isMetric ? "cm" : "in"}
             />
-            {/* histogram */}
+            <TooltipHistogram pm={data} hkey="hipsCM" />
           </div>
         </>
       )}

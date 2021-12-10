@@ -45,18 +45,21 @@ body {
 }
 
 h2,
+h3,
 p {
   max-width: 43rem;
 }
 
 h1,
 h2,
+h3,
 p {
   margin: 1rem auto;
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: var(--serif);
 }
 

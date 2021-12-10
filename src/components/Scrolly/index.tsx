@@ -5,15 +5,11 @@ import { ResponsiveSvg } from "vizlib";
 import { Section, Step } from "./types";
 import Waypoint from "./Waypoint";
 import Chart from "./Chart";
-import useData from "./useData";
 import Highlights from "./Highlights";
 import { css } from "@emotion/css";
 
 export default function Scrolly({ sections }: { sections: Section[] }) {
   const [step, setStep] = useState<Step>(Step.Start);
-  const { scales } = useData(step);
-
-  console.log(scales);
 
   return (
     <>

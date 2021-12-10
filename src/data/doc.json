@@ -425,70 +425,51 @@
         "title": "Difference from Average per Year",
         "subtitle": "Playmates have been increasingly \"different\" from the \"Most Average Playmate\" through the years."
       }
+    }
+  ],
+  "outro": [
+    {
+      "type": "title",
+      "value": "Individuals All"
     },
     {
       "type": "text",
-      "value": "lenna.jpg"
+      "value": "Behind all the flash and glamour that comes with earning Playmate of the Month and living in the Playboy Mansion, these women are like any of us. They <a href=\"https://m.imdb.com/name/nm0584428/trivia\" target=\"_blank\">went to college</a>, struggled with <a href=\"https://en.wikipedia.org/wiki/Star_Stowe\" target=\"_blank\">drug abuse</a> and <a href=\"https://cfox.com/news/8089075/bc-playboy-model-kelly-tough/\" target=\"_blank\">overcame it</a>, <a href=\"https://www.vaildaily.com/news/playboy-playmate-mother-teresa-of-haiti-skips-oscars/\" target=\"_blank\">established philanthropic foundations</a>, used their fortune to <a href=\"https://en.wikipedia.org/wiki/Jayde_Nicole\" target=\"_blank\">open restaurants</a> and <a href=\"https://www.imdb.com/name/nm5330841/bio#:~:text=She%20helped%20organize,children%20with%20cancer.\" target=\"_blank\">helped those in need</a>, <a href=\"https://www.foxnews.com/entertainment/playboy-playmate-marsha-elle#:~:text=She%20endured%20years%20of%20insecurity%20and%20didn%E2%80%99t%20wear%20shorts%20until%20age%2023.\" target=\"_blank\">had insecurities</a>, <a href=\"https://en.wikipedia.org/wiki/Patricia_McClain\" target=\"_blank\">got interested in politics</a>, <a href=\"https://thehollywoodtimes.today/model-and-humanitarian-jordan-emanuel-raising-awareness-and-educating-individuals-about-mental-illness/\" target=\"_blank\">grappled with depression</a>, led quiet lives, and <a href=\"https://en.wikipedia.org/wiki/Karen_McDougal#Affair_with_Donald_Trump\" target=\"_blank\">not so quiet lives</a>. They were into <a href=\"https://411mania.com/movies/411mania-com-interviews-playboy-october-playmate-of-the-month-pamela-horton/#:~:text=Pamela%20Horton%3A%20I%E2%80%99ve%20played,It%20was%20enjoyable%20overall.\" target=\"_blank\">LoL and Diablo 3</a>, <a href=\"https://secreteast.ca/2015/02/from-manuels-to-melrose-stephanie-brantons-campaign-for-playmate-of-the-year/#:~:text=%E2%80%9CI%20can%20honestly%20say%20that%20I%E2%80%99ve%20wanted%20to%20be%20Playmate%20my%20whole%20life%2C%20I%20don%E2%80%99t%20know%20if%20that%20%C2%A0would%20mean%20more%20to%20anyone%20else.%E2%80%9D\" target=\"_blank\">dreamed of becoming Playmates</a>, and <a href=\"https://abcnews.go.com/Entertainment/horrific-murder-playboy-playmate-verge-hollywood-stardom-flaw/story?id=66193166#:~:text=From%20Dairy%20Queen%20to%20the%20Playboy%20Mansion\" target=\"_blank\">worked at Dairy Queen</a>. They were victims of <a href=\"https://www.iheart.com/podcast/256-the-naked-podcaster-30941512/episode/playboy-model-7-times-who-went-52719725/\" target=\"_blank\">domestic violence</a>, wanted to<a href=\"https://gallimore985544.livejournal.com/139896.html#:~:text=Q.%20What%20are,a%20bigger%20school.\" target=\"_blank\"> become broadcasters</a>, were <a href=\"https://www.latimes.com/archives/la-xpm-1998-mar-15-me-29162-story.html\" target=\"_blank\">single moms that got </a><a href=\"https://www.latimes.com/archives/la-xpm-1998-mar-15-me-29162-story.html\" target=\"_blank\">sued by Playboy</a>, and on and on."
     },
     {
       "type": "text",
-      "value": "If you’ve ever worked with computer image processing, you have most likely come across `lena.jpg`. <a href=\"https://web.archive.org/web/19970704201816/http://www.playboy.com/news/lena/lena.html\" target=\"_blank\">It’s one of the most used images in computer history</a>. This image is a crop of Lena Sjooblom’s (now Forsen) 1972 November centerfold."
+      "value": "They were and are real people who had a real impact on others around them, good and bad. It’s worth noting this before we go celebrity worshipping or shunning models in this industry."
     },
     {
       "type": "text",
-      "value": "The usage has been <a href=\"http://www.cs.umd.edu/users/oleary/faculty/node8.html\" target=\"_blank\">criticized</a>, as “Suggestive pictures used in lectures on image processing … convey the message that the lecturer caters to the males only”. I have certainly come across this image when I was studying in university around the 2010s. Does it still appear in lectures?"
+      "value": "One thing is clear, Hugh Hefner’s death has had more impact on who appears in Playboy than its business dealings or revenues. The real world in which Playmates lived, a reality which was masterfully hidden behind glamour shots and PR campaigns, has started to be reflected in the types of women featured as well. It has changed Playboy’s beauty standards from the core - ever so slightly, but a shift nonetheless - and this is a hopeful change."
     },
     {
       "type": "text",
-      "value": "Read about the history of this image on <a href=\"https://pudding.cool/2021/10/lenna/\" target=\"_blank\">Can Data Die?</a>"
+      "value": "PS. On December 2nd, 2021, Playboy announced its first-ever Creative Director In Residence <a href=\"https://www.plbygroup.com/news-releases/news-release-details/playboy-names-cardi-b-first-ever-creative-director-residence\" target=\"_blank\">as Cardi B</a>. What direction will this development take Playboy and their Playmates?"
     },
     {
-      "type": "outro",
+      "type": "methodology",
       "value": [
         {
           "type": "title",
-          "value": "Individuals All"
+          "value": "Methodology"
         },
         {
           "type": "text",
-          "value": "Behind all the flash and glamour that comes with earning Playmate of the Month and living in the Playboy Mansion, these women are like any of us. They <a href=\"https://m.imdb.com/name/nm0584428/trivia\" target=\"_blank\">went to college</a>, struggled with <a href=\"https://en.wikipedia.org/wiki/Star_Stowe\" target=\"_blank\">drug abuse</a> and <a href=\"https://cfox.com/news/8089075/bc-playboy-model-kelly-tough/\" target=\"_blank\">overcame it</a>, <a href=\"https://www.vaildaily.com/news/playboy-playmate-mother-teresa-of-haiti-skips-oscars/\" target=\"_blank\">established philanthropic foundations</a>, used their fortune to <a href=\"https://en.wikipedia.org/wiki/Jayde_Nicole\" target=\"_blank\">open restaurants</a> and <a href=\"https://www.imdb.com/name/nm5330841/bio#:~:text=She%20helped%20organize,children%20with%20cancer.\" target=\"_blank\">helped those in need</a>, <a href=\"https://www.foxnews.com/entertainment/playboy-playmate-marsha-elle#:~:text=She%20endured%20years%20of%20insecurity%20and%20didn%E2%80%99t%20wear%20shorts%20until%20age%2023.\" target=\"_blank\">had insecurities</a>, <a href=\"https://en.wikipedia.org/wiki/Patricia_McClain\" target=\"_blank\">got interested in politics</a>, <a href=\"https://thehollywoodtimes.today/model-and-humanitarian-jordan-emanuel-raising-awareness-and-educating-individuals-about-mental-illness/\" target=\"_blank\">grappled with depression</a>, led quiet lives, and <a href=\"https://en.wikipedia.org/wiki/Karen_McDougal#Affair_with_Donald_Trump\" target=\"_blank\">not so quiet lives</a>. They were into <a href=\"https://411mania.com/movies/411mania-com-interviews-playboy-october-playmate-of-the-month-pamela-horton/#:~:text=Pamela%20Horton%3A%20I%E2%80%99ve%20played,It%20was%20enjoyable%20overall.\" target=\"_blank\">LoL and Diablo 3</a>, <a href=\"https://secreteast.ca/2015/02/from-manuels-to-melrose-stephanie-brantons-campaign-for-playmate-of-the-year/#:~:text=%E2%80%9CI%20can%20honestly%20say%20that%20I%E2%80%99ve%20wanted%20to%20be%20Playmate%20my%20whole%20life%2C%20I%20don%E2%80%99t%20know%20if%20that%20%C2%A0would%20mean%20more%20to%20anyone%20else.%E2%80%9D\" target=\"_blank\">dreamed of becoming Playmates</a>, and <a href=\"https://abcnews.go.com/Entertainment/horrific-murder-playboy-playmate-verge-hollywood-stardom-flaw/story?id=66193166#:~:text=From%20Dairy%20Queen%20to%20the%20Playboy%20Mansion\" target=\"_blank\">worked at Dairy Queen</a>. They were victims of <a href=\"https://www.iheart.com/podcast/256-the-naked-podcaster-30941512/episode/playboy-model-7-times-who-went-52719725/\" target=\"_blank\">domestic violence</a>, wanted to<a href=\"https://gallimore985544.livejournal.com/139896.html#:~:text=Q.%20What%20are,a%20bigger%20school.\" target=\"_blank\"> become broadcasters</a>, were <a href=\"https://www.latimes.com/archives/la-xpm-1998-mar-15-me-29162-story.html\" target=\"_blank\">single moms that got </a><a href=\"https://www.latimes.com/archives/la-xpm-1998-mar-15-me-29162-story.html\" target=\"_blank\">sued by Playboy</a>, and on and on."
+          "value": "Measurement data was gathered from <a href=\"https://mypmates.club/\" target=\"_blank\">mypmates.club</a> and <a href=\"https://www.babepedia.com/\" target=\"_blank\">babepedia</a>. Some obvious mistakes were manually fixed by cross-checking other sources and finally compiled together. When there were disagreements about data, mypmates.club values were used."
         },
         {
           "type": "text",
-          "value": "They were and are real people who had a real impact on others around them, good and bad. It’s worth noting this before we go celebrity worshipping or shunning models in this industry."
+          "value": "The trendlines shown in red were computed via <a href=\"https://en.wikipedia.org/wiki/Local_regression\" target=\"_blank\">LOESS</a>. Averages for women in the US between 2015-2018 are from the <a href=\"https://www.cdc.gov/nchs/data/series/sr_03/sr03-046-508.pdf\" target=\"_blank\">CDC NCHS Vital and Health Statistics</a>."
         },
         {
           "type": "text",
-          "value": "One thing is clear, Hugh Hefner’s death has had more impact on who appears in Playboy than its business dealings or revenues. The real world in which Playmates lived, a reality which was masterfully hidden behind glamour shots and PR campaigns, has started to be reflected in the types of women featured as well. It has changed Playboy’s beauty standards from the core - ever so slightly, but a shift nonetheless - and this is a hopeful change."
+          "value": "For the “most average” calculations, the Euclidean distance from the normalized average is used across most of the data points."
         },
         {
           "type": "text",
-          "value": "PS. On December 2nd, 2021, Playboy announced its first-ever Creative Director In Residence <a href=\"https://www.plbygroup.com/news-releases/news-release-details/playboy-names-cardi-b-first-ever-creative-director-residence\" target=\"_blank\">as Cardi B</a>. What direction will this development take Playboy and their Playmates?"
-        },
-        {
-          "type": "methodology",
-          "value": [
-            {
-              "type": "title",
-              "value": "Methodology"
-            },
-            {
-              "type": "text",
-              "value": "Measurement data was gathered from <a href=\"https://mypmates.club/\" target=\"_blank\">mypmates.club</a> and <a href=\"https://www.babepedia.com/\" target=\"_blank\">babepedia</a>. Some obvious mistakes were manually fixed by cross-checking other sources and finally compiled together. When there were disagreements about data, mypmates.club values were used."
-            },
-            {
-              "type": "text",
-              "value": "The trendlines shown in red were computed via <a href=\"https://en.wikipedia.org/wiki/Local_regression\" target=\"_blank\">LOESS</a>. Averages for women in the US between 2015-2018 are from the <a href=\"https://www.cdc.gov/nchs/data/series/sr_03/sr03-046-508.pdf\" target=\"_blank\">CDC NCHS Vital and Health Statistics</a>."
-            },
-            {
-              "type": "text",
-              "value": "For the “most average” calculations, the Euclidean distance from the normalized average is used across most of the data points."
-            },
-            {
-              "type": "text",
-              "value": "Data collected and processed with TS, and visualized with Preact and d3. See the code on the <a href=\"http://link-to-repo\" target=\"_blank\">repository</a>."
-            }
-          ]
+          "value": "Data collected and processed with TS, and visualized with Preact and d3. See the code on the <a href=\"http://link-to-repo\" target=\"_blank\">repository</a>."
         }
       ]
     }

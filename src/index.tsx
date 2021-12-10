@@ -1,3 +1,4 @@
+import { css } from "@emotion/css";
 import { hydrate, prerender as ssr } from "preact-iso";
 import "preact/debug";
 
@@ -8,10 +9,10 @@ import Paragraphs from "./components/Paragraphs";
 import UnitPicker from "./components/UnitPicker";
 import Scrolly from "./components/Scrolly";
 import Warning from "./components/Warning";
+import Hourglass from "./components/Hourglass";
 
 import "normalize.css/normalize.css";
 import "./global.css";
-import { css } from "@emotion/css";
 
 export function App() {
   return (
@@ -47,6 +48,10 @@ export function App() {
         <UnitPicker />
 
         <Scrolly sections={doc.scrolly} />
+
+        <UnitPicker />
+
+        <Hourglass data={doc.hourglass} />
       </article>
 
       <Footer />

@@ -1,9 +1,10 @@
-import { css } from "@emotion/css";
 import { h } from "preact";
 import { Waypoint as ReactWaypoint } from "react-waypoint";
 
 import Paragraphs, { Paragraph } from "../Paragraphs";
-import { Section, Quote } from "./types";
+import { Quote as IQuote } from "../../types";
+import { Section } from "./types";
+import Quote from "../Quote";
 
 export default function Waypoint({
   data,
@@ -16,7 +17,7 @@ export default function Waypoint({
 }) {
   const { title, text, quote } = data.value.reduce<{
     title?: string;
-    quote?: Quote;
+    quote?: IQuote;
     text: Paragraph[];
   }>(
     (acc, cur) => {
@@ -40,45 +41,7 @@ export default function Waypoint({
     <ReactWaypoint topOffset="10%" bottomOffset="10%" onEnter={onEnter}>
       <div className={className}>
         {title && <h2>{title}</h2>}
-        {quote && (
-          <blockquote
-            className={css`
-              font-style: italic;
-              position: relative;
-              padding: 1rem;
-              font-size: 1rem;
-
-              &::before {
-                content: "“";
-                position: absolute;
-                top: 0;
-                left: 0;
-                font-size: 2rem;
-              }
-
-              &::after {
-                content: "”";
-                position: absolute;
-                right: 0;
-                bottom: 0;
-                font-size: 2rem;
-              }
-            `}
-          >
-            <p
-              dangerouslySetInnerHTML={{
-                __html: quote.value.text,
-              }}
-              style={{ margin: 0 }}
-            />
-            <p
-              dangerouslySetInnerHTML={{
-                __html: quote.value.attr,
-              }}
-              style={{ margin: 0 }}
-            />
-          </blockquote>
-        )}
+        {quote && <Quote data={quote} />}
         <Paragraphs data={text} />
       </div>
     </ReactWaypoint>

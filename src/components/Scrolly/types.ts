@@ -1,4 +1,5 @@
 import { Playmate } from "../../data/data";
+import { Quote, Title } from "../../types";
 import { Paragraph } from "../Paragraphs";
 
 export enum Step {
@@ -20,19 +21,6 @@ export enum Step {
   Hair = "hair",
   Enhancements = "enhancements",
   Ethnicity = "ethnicity",
-}
-
-export interface Title {
-  type: "title";
-  value: string;
-}
-
-export interface Quote {
-  type: "quote";
-  value: {
-    text: string;
-    attr: string;
-  };
 }
 
 export interface Section {

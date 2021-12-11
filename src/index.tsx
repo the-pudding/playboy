@@ -10,6 +10,7 @@ import UnitPicker from "./components/UnitPicker";
 import Scrolly from "./components/Scrolly";
 import Warning from "./components/Warning";
 import Hourglass from "./components/Hourglass";
+import MostAverage from "./components/MostAverage";
 
 import "normalize.css/normalize.css";
 import "./global.css";
@@ -52,6 +53,27 @@ export function App() {
         <UnitPicker />
 
         <Hourglass data={doc.hourglass} />
+
+        <MostAverage data={doc.mostAverage} />
+
+        <h2>{doc.outro[0].value}</h2>
+        <Paragraphs data={doc.outro.slice(1)} />
+
+        <hr style={{ maxWidth: "43rem", margin: "3rem auto" }} />
+
+        <h2
+          style={{
+            fontSize: "1.1rem",
+          }}
+        >
+          {doc.methodology[0].value}
+        </h2>
+        <Paragraphs
+          data={doc.methodology.slice(1)}
+          className={css`
+            font-size: 0.9rem;
+          `}
+        />
       </article>
 
       <Footer />

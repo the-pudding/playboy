@@ -13,6 +13,7 @@ export default function VizHeading({
       <h3
         style={{
           marginBottom: 0,
+          fontSize: "1.2rem",
         }}
       >
         {title}
@@ -20,6 +21,8 @@ export default function VizHeading({
       <p
         style={{
           marginTop: 0,
+          fontSize: "1rem",
+          fontStyle: "italic",
         }}
         dangerouslySetInnerHTML={{
           __html: subtitle,

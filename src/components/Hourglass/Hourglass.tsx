@@ -121,7 +121,7 @@ export default function Hourglass() {
               marginRight: "0.25rem",
             }}
           />{" "}
-          "Ideal"
+          “Ideal”
         </div>
         <div
           style={{

@@ -1,13 +1,16 @@
-import { h } from "preact";
+import { ComponentProps, h } from "preact";
 
 export interface Paragraph {
   type: "text";
   value: string;
 }
 
-export default function Paragraphs({ data }: { data: Paragraph[] }) {
+export default function Paragraphs({
+  data,
+  ...rest
+}: { data: Paragraph[] } & Omit<ComponentProps<"div">, "data">) {
   return (
-    <>
+    <div {...rest}>
       {data.map((p, i) => (
         <p
           key={i}
@@ -16,6 +19,6 @@ export default function Paragraphs({ data }: { data: Paragraph[] }) {
           }}
         />
       ))}
-    </>
+    </div>
   );
 }

@@ -1,4 +1,3 @@
-import { css } from "@emotion/css";
 import { hydrate, lazy, prerender as ssr } from "preact-iso";
 import "preact/debug";
 
@@ -25,14 +24,7 @@ export function App() {
     <>
       <Header />
 
-      <article
-        className={css`
-          a,
-          a:visited {
-            color: var(--color-pink);
-          }
-        `}
-      >
+      <article>
         <h1>{doc.title}</h1>
         <p>{doc.subtitle}</p>
 
@@ -81,9 +73,9 @@ export function App() {
         </h2>
         <Paragraphs
           data={doc.methodology.slice(1)}
-          className={css`
-            font-size: 0.9rem;
-          `}
+          style={{
+            fontSize: "0.9rem",
+          }}
         />
       </article>
 

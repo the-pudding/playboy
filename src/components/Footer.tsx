@@ -1,6 +1,5 @@
 import { h } from "preact";
 import { useEffect, useState } from "preact/hooks";
-import { css } from "@emotion/css";
 
 import Wordmark from "./Wordmark";
 
@@ -23,10 +22,10 @@ export default function Footer() {
 
   return (
     <footer
-      className={css`
-        padding: 3em 1em;
-        margin-top: 10em;
-      `}
+      style={{
+        padding: "3em 1em",
+        marginTop: "10em",
+      }}
     >
       <section
         style={{
@@ -39,21 +38,21 @@ export default function Footer() {
       >
         {stories.map(({ hed, url, image }) => (
           <div
-            className={css`
-              display: block;
-              width: 100%;
-              margin-bottom: 3rem;
+          // className={css`
+          //   display: block;
+          //   width: 100%;
+          //   margin-bottom: 3rem;
 
-              @media only screen and (min-width: 30em) {
-                width: 50%;
-                padding: 0 1rem;
-              }
+          //   @media only screen and (min-width: 30em) {
+          //     width: 50%;
+          //     padding: 0 1rem;
+          //   }
 
-              @media only screen and (min-width: 50em) {
-                width: 25%;
-                padding: 0 1rem;
-              }
-            `}
+          //   @media only screen and (min-width: 50em) {
+          //     width: 25%;
+          //     padding: 0 1rem;
+          //   }
+          // `}
           >
             <a
               href={`https://pudding.cool/${url}`}

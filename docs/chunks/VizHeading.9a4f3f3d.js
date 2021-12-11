@@ -1,1 +1,0 @@
-import{m as t}from"../index.aa8a182b.js";function e({data:{title:e,subtitle:i}}){return t`<div><h3 style=${{marginBottom:0,fontSize:"1.2rem"}}>${e}</h3><p style=${{marginTop:0,fontSize:"1rem",fontStyle:"italic"}} dangerouslySetInnerHTML=${{__html:i}}/></div>`}export{e as V};

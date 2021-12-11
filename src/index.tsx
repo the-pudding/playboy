@@ -7,14 +7,14 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Paragraphs from "./components/Paragraphs";
 import UnitPicker from "./components/UnitPicker";
-// import Scrolly from "./components/Scrolly";
+import Scrolly from "./components/Scrolly";
 import Warning from "./components/Warning";
-// import Hourglass from "./components/Hourglass";
-// import MostAverage from "./components/MostAverage";
+import Hourglass from "./components/Hourglass";
+import MostAverage from "./components/MostAverage";
 
-const Scrolly = lazy(() => import("./components/Scrolly"));
-const Hourglass = lazy(() => import("./components/Hourglass"));
-const MostAverage = lazy(() => import("./components/MostAverage"));
+// const Scrolly = lazy(() => import("./components/Scrolly"));
+// const Hourglass = lazy(() => import("./components/Hourglass"));
+// const MostAverage = lazy(() => import("./components/MostAverage"));
 
 import "normalize.css/normalize.css";
 import "./global.css";

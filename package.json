@@ -4,7 +4,7 @@
   "scripts": {
     "start": "rm -rf .cache && wmr",
     "prebuild": "node --loader ts-node/esm ./scripts/googleDoc.ts",
-    "build": "rm -rf docs && mkdir docs && wmr build --prerender && touch docs/.nojekyll",
+    "build": "wmr build --prerender",
     "serve": "wmr serve",
     "postinstall": "patch-package"
   },

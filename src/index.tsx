@@ -18,6 +18,7 @@ const MostAverage = lazy(() => import("./components/MostAverage"));
 
 import "normalize.css/normalize.css";
 import "./global.css";
+import { Suspense } from "preact/compat";
 
 export function App() {
   return (
@@ -52,13 +53,19 @@ export function App() {
 
         <UnitPicker />
 
-        <Scrolly sections={doc.scrolly} />
+        <Suspense fallback={null}>
+          <Scrolly sections={doc.scrolly} />
+        </Suspense>
 
         <UnitPicker />
 
-        <Hourglass data={doc.hourglass} />
+        <Suspense fallback={null}>
+          <Hourglass data={doc.hourglass} />
+        </Suspense>
 
-        <MostAverage data={doc.mostAverage} />
+        <Suspense fallback={null}>
+          <MostAverage data={doc.mostAverage} />
+        </Suspense>
 
         <h2>{doc.outro[0].value}</h2>
         <Paragraphs data={doc.outro.slice(1)} />

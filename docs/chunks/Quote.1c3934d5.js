@@ -1,4 +1,4 @@
-import{m as t,c as e}from"../index.715d35d1.js";function o({data:o}){return t`<blockquote className=${e`
+import{m as t,c as e}from"../index.aa8a182b.js";function o({data:o}){return t`<blockquote className=${e`
         padding: 1rem;
         font-size: 1.3rem;
         max-width: 43rem;

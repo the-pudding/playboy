@@ -1,4 +1,4 @@
-import { identity } from "remeda";
+import { identity } from "remeda/dist/es/identity";
 import {
   scalePoint,
   scaleTime,

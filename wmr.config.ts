@@ -11,7 +11,7 @@ export default defineConfig({
   root: `${process.cwd()}/src`,
   out: `${process.cwd()}/docs`,
   publicPath: "/playboy/",
-  // visualize: true,
+  visualize: true,
   middleware: [],
   plugins: [csv()],
 });

@@ -1,7 +1,7 @@
 import { mean, scaleOrdinal, schemeGreens, select } from "d3";
 import { h } from "preact";
 import { useEffect, useMemo, useRef, useState } from "preact/hooks";
-import { groupBy } from "remeda";
+import { groupBy } from "remeda/dist/es/groupBy";
 import { ResponsiveSvg } from "vizlib";
 
 import { data } from "../../data/data";

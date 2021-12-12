@@ -1,4 +1,4 @@
-import { hydrate, prerender as ssr } from "preact-iso";
+import { hydrate, lazy, prerender as ssr } from "preact-iso";
 // import "preact/debug";
 
 import doc from "./data/doc.json";
@@ -6,13 +6,18 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Paragraphs from "./components/Paragraphs";
 import UnitPicker from "./components/UnitPicker";
-import Scrolly from "./components/Scrolly";
 import Warning from "./components/Warning";
-import Hourglass from "./components/Hourglass";
-import MostAverage from "./components/MostAverage";
+// import Scrolly from "./components/Scrolly";
+// import Hourglass from "./components/Hourglass";
+// import MostAverage from "./components/MostAverage";
+
+const Scrolly = lazy(() => import("./components/Scrolly"));
+const Hourglass = lazy(() => import("./components/Hourglass"));
+const MostAverage = lazy(() => import("./components/MostAverage"));
 
 import "normalize.css/normalize.css";
 import "./global.css";
+import { Suspense } from "preact/compat";
 
 export function App() {
   return (
@@ -40,13 +45,19 @@ export function App() {
 
         <UnitPicker />
 
-        {/* <Scrolly sections={doc.scrolly} /> */}
+        <Suspense fallback={null}>
+          <Scrolly sections={doc.scrolly} />
+        </Suspense>
 
         <UnitPicker />
 
-        <Hourglass data={doc.hourglass} />
+        <Suspense fallback={null}>
+          <Hourglass data={doc.hourglass} />
+        </Suspense>
 
-        <MostAverage data={doc.mostAverage} />
+        <Suspense fallback={null}>
+          <MostAverage data={doc.mostAverage} />
+        </Suspense>
 
         <h2>{doc.outro[0].value}</h2>
         <Paragraphs data={doc.outro.slice(1)} />

@@ -40,7 +40,7 @@ export function App() {
 
         <UnitPicker />
 
-        <Scrolly sections={doc.scrolly} />
+        {/* <Scrolly sections={doc.scrolly} /> */}
 
         <UnitPicker />
 

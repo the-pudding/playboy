@@ -464,7 +464,7 @@
     },
     {
       "type": "text",
-      "value": "For the “most average” calculations, the Euclidean distance from the normalized average is used across most of the data points."
+      "value": "For the “most average” calculations, the Euclidean distance from the normalized average is used across most of the data points, taking into account Height, Weight, Bust, Waist, Hips, Age, Hair Color, Ethnicity and Cosmetic Enhancements."
     },
     {
       "type": "text",

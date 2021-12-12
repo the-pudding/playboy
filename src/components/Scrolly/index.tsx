@@ -1,5 +1,5 @@
 import { h } from "preact";
-import { useState } from "preact/hooks";
+import { useLayoutEffect, useState } from "preact/hooks";
 import { ResponsiveSvg } from "vizlib";
 
 import { Section, Step } from "./types";
@@ -11,10 +11,16 @@ import { color } from "d3-color";
 export default function Scrolly({ sections }: { sections: Section[] }) {
   const [step, setStep] = useState<Step>(Step.Start);
 
-  const waypointBG = color(
-    window.getComputedStyle(document.documentElement).getPropertyValue("--t1-1")
-  ).brighter(2);
-  waypointBG.opacity = 0.7;
+  const [waypointBG, setWaypointBG] = useState<string>("transparent");
+  useLayoutEffect(() => {
+    const waypointBG = color(
+      window
+        .getComputedStyle(document.documentElement)
+        .getPropertyValue("--t1-1")
+    ).brighter(2);
+    waypointBG.opacity = 0.7;
+    setWaypointBG(waypointBG.toString());
+  });
 
   return (
     <>

@@ -1,5 +1,4 @@
 import {
-  max,
   groups,
   mean,
   range,

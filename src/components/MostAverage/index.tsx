@@ -1,9 +1,11 @@
+import { groups, mean } from "d3";
 import { Fragment, h } from "preact";
 
-import { Quote as IQuote, Title } from "../../types";
+import { Quote as IQuote, Title } from "../../type";
 import Paragraphs, { Paragraph } from "../Paragraphs";
 import Quote from "../Quote";
 import VizHeading from "../VizHeading";
+import YearAverages from "./YearAverages";
 
 export interface Viz {
   type: "avgViz" | "diffViz";
@@ -15,7 +17,7 @@ export interface Viz {
 
 export type Section = Paragraph | Title | IQuote | Viz;
 
-export default function Hourglass({ data }: { data: Section[] }) {
+export default function MostAverage({ data }: { data: Section[] }) {
   return (
     <Fragment>
       {data.map((section, i) => {
@@ -27,6 +29,7 @@ export default function Hourglass({ data }: { data: Section[] }) {
           return (
             <div>
               <VizHeading data={section.value} />
+              {section.type === "avgViz" ? null : <YearAverages />}
             </div>
           );
       })}

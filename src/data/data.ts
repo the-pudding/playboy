@@ -1,6 +1,5 @@
 import { csvParse } from "d3";
 
-import { useIsMetric } from "../store";
 import csv from "./data.csv";
 
 export enum Hair {
@@ -38,6 +37,7 @@ export interface Playmate {
   mateAge: number;
   first?: string;
   date: Date;
+  avgDist: number;
 }
 
 export const data = csvParse<Playmate, keyof Playmate>(csv, (d) => ({
@@ -55,4 +55,5 @@ export const data = csvParse<Playmate, keyof Playmate>(csv, (d) => ({
   breasts: +d.breasts,
   ethnicity: +d.ethnicity,
   date: new Date(+d.year, +d.month, 1),
+  avgDist: +d.avgDist,
 }));

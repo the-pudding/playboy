@@ -1,6 +1,6 @@
 import { Fragment, h } from "preact";
 
-import { Quote as IQuote, Title } from "../../types";
+import { Quote as IQuote, Title } from "../../type";
 import Paragraphs, { Paragraph } from "../Paragraphs";
 import Quote from "../Quote";
 import VizHeading from "../VizHeading";

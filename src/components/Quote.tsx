@@ -1,6 +1,6 @@
 import { h } from "preact";
 
-import { Quote } from "../types";
+import { Quote } from "../type";
 
 export default function Quote({ data }: { data: Quote }) {
   return (

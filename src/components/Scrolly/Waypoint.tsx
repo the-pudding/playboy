@@ -2,7 +2,7 @@ import { h } from "preact";
 import { Waypoint as ReactWaypoint } from "react-waypoint";
 
 import Paragraphs, { Paragraph } from "../Paragraphs";
-import { Quote as IQuote } from "../../types";
+import { Quote as IQuote } from "../../type";
 import { Section } from "./types";
 import Quote from "../Quote";
 

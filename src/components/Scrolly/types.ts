@@ -1,5 +1,5 @@
 import { Playmate } from "../../data/data";
-import { Quote, Title } from "../../types";
+import { Quote, Title } from "../../type";
 import { Paragraph } from "../Paragraphs";
 
 export enum Step {

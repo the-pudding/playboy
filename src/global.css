@@ -21,9 +21,13 @@
   vertical-align: baseline;
 }
 
+html,
+body {
+  font-size: 18px;
+}
+
 body {
   font-family: var(--sans);
-  font-size: 18px;
   line-height: 1.65;
   font-feature-settings: "kern" 1, "onum" 0, "liga" 0, "tnum" 1;
   text-rendering: optimizeLegibility;
@@ -100,6 +104,15 @@ a:visited:hover {
   right: 0;
   bottom: -2rem;
   font-size: 2rem;
+}
+
+@media only screen and (max-width: 50rem) {
+  h1,
+  h2,
+  h3,
+  p {
+    padding: 0 1rem;
+  }
 }
 
 /*

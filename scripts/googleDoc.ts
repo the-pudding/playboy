@@ -52,7 +52,8 @@ async function getGoogleDoc(docId: string) {
             href = url.parse(aTag.attribs.href, true).query.q;
           }
 
-          var str = '<a href="' + href + '" target="_blank">';
+          var str =
+            '<a href="' + href + '" target="_blank" rel"noopener noreferrer">';
           str += tagHandlers._base(aTag);
           str += "</a>";
           return str;

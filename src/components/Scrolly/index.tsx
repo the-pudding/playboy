@@ -6,9 +6,15 @@ import { Section, Step } from "./types";
 import Waypoint from "./Waypoint";
 import Chart from "./Chart";
 import Highlights from "./Highlights";
+import { color } from "d3-color";
 
 export default function Scrolly({ sections }: { sections: Section[] }) {
   const [step, setStep] = useState<Step>(Step.Start);
+
+  const waypointBG = color(
+    window.getComputedStyle(document.documentElement).getPropertyValue("--t1-1")
+  ).brighter(2);
+  waypointBG.opacity = 0.7;
 
   return (
     <>
@@ -44,7 +50,7 @@ export default function Scrolly({ sections }: { sections: Section[] }) {
                 setStep(section.type);
               }}
               style={{
-                background: "rgba(80, 80, 96, 0.7)",
+                background: waypointBG,
                 border: "1px solid transparent",
                 opacity: step === section.type ? 1 : 0.5,
                 padding: "0 0.5rem",

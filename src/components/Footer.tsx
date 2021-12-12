@@ -37,23 +37,7 @@ export default function Footer() {
         }}
       >
         {stories.map(({ hed, url, image }) => (
-          <div
-          // className={css`
-          //   display: block;
-          //   width: 100%;
-          //   margin-bottom: 3rem;
-
-          //   @media only screen and (min-width: 30em) {
-          //     width: 50%;
-          //     padding: 0 1rem;
-          //   }
-
-          //   @media only screen and (min-width: 50em) {
-          //     width: 25%;
-          //     padding: 0 1rem;
-          //   }
-          // `}
-          >
+          <div className="footerStory">
             <a
               href={`https://pudding.cool/${url}`}
               style={{

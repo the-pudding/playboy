@@ -9,11 +9,11 @@ import Quote from "../Quote";
 export default function Waypoint({
   data,
   onEnter,
-  className = "",
+  style,
 }: {
   data: Section;
   onEnter: () => void;
-  className?: string;
+  style: any;
 }) {
   const { title, text, quote } = data.value.reduce<{
     title?: string;
@@ -39,7 +39,7 @@ export default function Waypoint({
 
   return (
     <ReactWaypoint topOffset="10%" bottomOffset="10%" onEnter={onEnter}>
-      <div className={className}>
+      <div style={style}>
         {title && <h2>{title}</h2>}
         {quote && <Quote data={quote} />}
         <Paragraphs data={text} />

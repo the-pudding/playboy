@@ -72,6 +72,42 @@ h3 {
   vertical-align: baseline;
 }
 
+.footerStory {
+  display: block;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+@media only screen and (min-width: 30em) {
+  .footerStory {
+    width: 50%;
+    padding: 0 1rem;
+  }
+}
+
+@media only screen and (min-width: 50em) {
+  .footerStory {
+    width: 25%;
+    padding: 0 1rem;
+  }
+}
+
+.quote::before {
+  content: "“";
+  position: absolute;
+  top: -1rem;
+  left: -1.5rem;
+  font-size: 2rem;
+}
+
+.quote::after {
+  content: "”";
+  position: absolute;
+  right: 0;
+  bottom: -2rem;
+  font-size: 2rem;
+}
+
 /*
 			This font software is the property of Commercial Type.
 

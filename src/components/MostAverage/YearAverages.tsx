@@ -72,7 +72,7 @@ function Viz() {
 
 export default function YearAverages() {
   return (
-    <ResponsiveSvg aspectRatio={2.5} margin={30}>
+    <ResponsiveSvg aspectRatio={2} margin={30}>
       <Viz />
     </ResponsiveSvg>
   );

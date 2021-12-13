@@ -118,7 +118,6 @@ export async function prerender(data) {
     ...head.scripts.map((props) => ({ type: "script", props })),
   ]);
 
-  // Return the results back to WMR
   return {
     ...result,
     head: {

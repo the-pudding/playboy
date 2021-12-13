@@ -4,9 +4,13 @@ import { ResponsiveSvg } from "vizlib";
 
 import { Section, Step } from "./types";
 import Waypoint from "./Waypoint";
-import Chart from "./Chart";
+// import Chart from "./Chart";
 import Highlights from "./Highlights";
 import { color } from "d3-color";
+import { lazy } from "preact-iso";
+import { Suspense } from "preact/compat";
+
+const Chart = lazy(() => import("./Chart"));
 
 export default function Scrolly({ sections }: { sections: Section[] }) {
   const [step, setStep] = useState<Step>(Step.Start);
@@ -36,7 +40,9 @@ export default function Scrolly({ sections }: { sections: Section[] }) {
           }}
         >
           <ResponsiveSvg margin={{ top: 30, left: 30, right: 10, bottom: 10 }}>
-            <Chart step={step} />
+            <Suspense fallback={null}>
+              <Chart step={step} />
+            </Suspense>
             <Highlights step={step} />
           </ResponsiveSvg>
         </div>

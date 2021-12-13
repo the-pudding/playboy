@@ -1,4 +1,4 @@
-import { hydrate, lazy, prerender as ssr } from "preact-iso";
+import { hydrate, prerender as ssr } from "preact-iso";
 // import "preact/debug";
 
 import doc from "./data/doc.json";
@@ -7,13 +7,9 @@ import Footer from "./components/Footer";
 import Paragraphs from "./components/Paragraphs";
 import UnitPicker from "./components/UnitPicker";
 import Warning from "./components/Warning";
-// import Scrolly from "./components/Scrolly";
-// import Hourglass from "./components/Hourglass";
-// import MostAverage from "./components/MostAverage";
-
-const Scrolly = lazy(() => import("./components/Scrolly"));
-const Hourglass = lazy(() => import("./components/Hourglass"));
-const MostAverage = lazy(() => import("./components/MostAverage"));
+import Scrolly from "./components/Scrolly";
+import Hourglass from "./components/Hourglass";
+import MostAverage from "./components/MostAverage";
 
 import "normalize.css/normalize.css";
 import "./global.css";

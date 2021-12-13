@@ -22,8 +22,6 @@ export default function Scrolly({ sections }: { sections: Section[] }) {
     setWaypointBG(waypointBG.toString());
   });
 
-  console.log("loaded");
-
   return (
     <>
       <div style={{ position: "relative" }}>

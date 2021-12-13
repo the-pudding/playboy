@@ -27,7 +27,9 @@ export default function PlaymateCircles({
           const entered = enter
             .append("circle")
             .attr("opacity", 0)
-            .attr("fill", (d) => d.fill)
+            .attr("fill", (d) =>
+              d.datum.name === "Lenna Sjooblom" ? "yellow" : d.fill
+            )
             .attr("cx", (d) => d.cx)
             .attr("cy", (d) => d?.cy ?? 0)
             .attr("r", r)

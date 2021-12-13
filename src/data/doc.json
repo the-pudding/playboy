@@ -405,7 +405,7 @@
       "type": "avgViz",
       "value": {
         "title": "Most/Least Average Playmates",
-        "subtitle": "This visualization shows models selected as Playmates ordered by their distance to the average of their data points. One trend is shown: Old-School Average vs New-School Average. The top 5 most average are all from older issues, whereas the top 5 least average are all from 2003 and later."
+        "subtitle": "Playmates ordered by their distance to the average Playmate. The top 5 most average are all from older issues, whereas the top 5 least average are all from 2003 and later."
       }
     },
     {

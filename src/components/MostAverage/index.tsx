@@ -1,10 +1,10 @@
-import { groups, mean } from "d3";
 import { Fragment, h } from "preact";
 
 import { Quote as IQuote, Title } from "../../type";
 import Paragraphs, { Paragraph } from "../Paragraphs";
 import Quote from "../Quote";
 import VizHeading from "../VizHeading";
+import MostLeast from "./MostLeast";
 import YearAverages from "./YearAverages";
 
 export interface Viz {
@@ -29,7 +29,7 @@ export default function MostAverage({ data }: { data: Section[] }) {
           return (
             <div>
               <VizHeading data={section.value} />
-              {section.type === "avgViz" ? null : <YearAverages />}
+              {section.type === "avgViz" ? <MostLeast /> : <YearAverages />}
             </div>
           );
       })}

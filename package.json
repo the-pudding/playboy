@@ -4,7 +4,7 @@
   "scripts": {
     "start": "rm -rf .cache && wmr",
     "prebuild": "node --loader ts-node/esm ./scripts/googleDoc.ts",
-    "build": "wmr build --prerender",
+    "build": "wmr build --prerender && node --loader ts-node/esm ./scripts/publicPath.ts",
     "serve": "wmr serve",
     "postinstall": "patch-package"
   },

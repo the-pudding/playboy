@@ -46,6 +46,8 @@ export default function Scrolly({ sections }: { sections: Section[] }) {
             zIndex: 1,
             position: "relative",
             pointerEvents: "none",
+            display: "flex",
+            flexDirection: "column",
           }}
         >
           {sections.map((section, i) => (
@@ -60,7 +62,7 @@ export default function Scrolly({ sections }: { sections: Section[] }) {
                 border: "1px solid transparent",
                 opacity: step === section.type ? 1 : 0.5,
                 padding: "0 0.5rem",
-                marginBottom: i === sections.length - 1 ? 0 : "90vh",
+                marginBottom: "90vh",
                 pointerEvents: "all",
               }}
             />

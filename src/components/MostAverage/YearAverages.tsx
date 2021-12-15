@@ -1,15 +1,9 @@
-import {
-  groups,
-  mean,
-  range,
-  scaleBand,
-  scaleLinear,
-  schemeTableau10,
-} from "d3";
+import { groups, mean, range, scaleBand, scaleLinear } from "d3";
 import { h } from "preact";
 import { ResponsiveSvg, usePlotContext, Axis } from "vizlib";
 
 import { data } from "../../data/data";
+import { PLAYMATE_PINK } from "../../util";
 
 const yearAvgs = groups(data, (d) => d.year).map(([year, arr]) => [
   year,
@@ -63,7 +57,7 @@ function Viz() {
           y={y(avg)}
           width={x.bandwidth()}
           height={ctx.chartHeight - y(avg)}
-          fill={schemeTableau10[0]}
+          fill={PLAYMATE_PINK}
         />
       ))}
     </>

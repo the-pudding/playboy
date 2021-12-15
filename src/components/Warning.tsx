@@ -4,10 +4,10 @@ export default function Warning({ children }: { children: ComponentChildren }) {
   return (
     <p
       style={{
-        backgroundColor: "var(--t1-2)",
+        backgroundColor: "var(--color-warning)",
         padding: "0.5rem 1rem",
         borderRadius: "0.5rem",
-        color: "var(--base-white)",
+        color: "var(--color-text)",
       }}
     >
       {children}

@@ -26,7 +26,7 @@ export default function Bars({
 }: {
   width: number;
   height: number;
-  colorScale: ScaleOrdinal<string, unknown, never>;
+  colorScale: ScaleOrdinal<string, any, never>;
   accessor: XAccessor | YAccessor | CAccessor;
 } & SVGProps<SVGGElement>) {
   const years = range(1953, 2021).map((year) => {
@@ -71,7 +71,6 @@ export default function Bars({
       .selectAll("g")
       .data(stack, (d: Series<Playmate, string>) => d.key)
       .join("g")
-      // @ts-ignore
       .attr("fill", (d: Series<Playmate, string>) => colorScale(d.key))
       .selectAll("rect")
       .data(

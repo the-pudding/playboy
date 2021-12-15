@@ -95,8 +95,6 @@ export default function Hourglass() {
               style={{
                 height: "1rem",
                 width: "1rem",
-                // background:
-                // chosen && chosen !== k ? 'transparent' : (color(k) as string),
                 border: `2px solid ${color(k)}`,
                 marginRight: "0.25rem",
               }}

@@ -28,7 +28,7 @@ export default function PlaymateCircles({
             .append("circle")
             .attr("opacity", 0)
             .attr("fill", (d) =>
-              d.datum.name === "Lenna Sjooblom" ? "yellow" : d.fill
+              d.datum.name === "Lenna Sjooblom" ? "var(--color-lenna)" : d.fill
             )
             .attr("cx", (d) => d.cx)
             .attr("cy", (d) => d?.cy ?? 0)
@@ -53,7 +53,11 @@ export default function PlaymateCircles({
               .transition(t)
               .attr("cx", (d) => d.cx)
               .attr("cy", (d) => d.cy)
-              .attr("fill", (d) => d.fill)
+              .attr("fill", (d) =>
+                d.datum.name === "Lenna Sjooblom"
+                  ? "var(--color-lenna)"
+                  : d.fill
+              )
               .attr("opacity", 1)
           ),
         (exit) =>

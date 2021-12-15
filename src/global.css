@@ -3,13 +3,63 @@
   --serif: "Tiempos Text Web", Georgia, Times, serif;
   --mono: "Space Mono", Menlo, Consolas, Monaco, "Courier New", monospace;
 
-  --t1-1: #363636;
-  --t1-2: #99d8d0;
-  --t1-3: #ffbcbc;
+  --color-lenna: yellow;
+}
 
-  --background: var(--t1-1);
-  --warning: var(--t1-2);
-  --links: var(--t1-3);
+.theme {
+  --color-background: #363636;
+  --color-text: white;
+  --color-warning: #4c657e;
+  --color-links: #4cd3c2;
+  --color-playmate: #ff7cde;
+}
+
+.theme1 {
+  --color-background: #1d1b38;
+  --color-text: white;
+  --color-warning: #336d88;
+  --color-links: #f6bed6;
+  --color-playmate: #e79cc2;
+}
+
+.theme2 {
+  --color-background: #363636;
+  --color-text: white;
+  --color-warning: #b7efcd;
+  --color-links: #99d8d0;
+  --color-playmate: #ffbcbc;
+}
+
+.theme3 {
+  --color-background: #060930;
+  --color-text: white;
+  --color-warning: #595b83;
+  --color-links: #f4abc4;
+  --color-playmate: #f4abc4;
+}
+
+.theme4 {
+  --color-background: #363636;
+  --color-text: white;
+  --color-warning: #b7efcd;
+  --color-links: #4cd3c2;
+  --color-playmate: #ffbcbc;
+}
+
+.theme5 {
+  --color-background: #424153;
+  --color-text: white;
+  --color-warning: #993399;
+  --color-links: #fdadc7;
+  --color-playmate: #ea4c88;
+}
+
+.theme6 {
+  --color-background: #36413d;
+  --color-text: white;
+  --color-warning: #4c657e;
+  --color-links: #ffe2ad;
+  --color-playmate: #f29696;
 }
 
 *,
@@ -32,8 +82,8 @@ body {
   font-feature-settings: "kern" 1, "onum" 0, "liga" 0, "tnum" 1;
   text-rendering: optimizeLegibility;
   word-wrap: break-word;
-  color: white;
-  background-color: var(--background);
+  color: var(--color-text);
+  background-color: var(--color-background);
   margin: 0;
   padding: 0;
 }
@@ -59,15 +109,15 @@ h3 {
 
 a,
 a:visited {
-  color: var(--links);
+  color: var(--color-links);
   font-weight: bold;
-  text-decoration-style: wavy;
+  /* text-decoration-style: wavy; */
   transition: color 0.3s ease-in-out;
 }
 
 a:hover,
 a:visited:hover {
-  color: white;
+  color: var(--color-text);
 }
 
 .footerStory {

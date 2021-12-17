@@ -11,12 +11,12 @@ import Warning from "./components/Warning";
 import Scrolly from "./components/Scrolly";
 import Hourglass from "./components/Hourglass";
 import MostAverage from "./components/MostAverage";
-
-import "normalize.css/normalize.css";
-import "./global.css";
 import { useStore } from "./store";
 import { cm2in } from "./util";
 import { formatFeetIn } from "./components/Scrolly/util";
+
+import "normalize.css/normalize.css";
+import "./global.css";
 
 export function App() {
   useHead({

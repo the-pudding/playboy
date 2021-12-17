@@ -166,6 +166,22 @@ a:visited:hover {
   }
 }
 
+.unit-picker-button {
+  padding: 0.25rem;
+  background: transparent;
+  color: var(--color-text);
+  border: none;
+  border-bottom: 1px solid var(--color-text);
+  cursor: pointer;
+}
+.unit-picker-button:hover {
+  border-color: var(--color-playmate);
+}
+.unit-picker-button.active {
+  border-bottom-width: 3px;
+  border-bottom-color: var(--color-playmate);
+}
+
 /*
 			This font software is the property of Commercial Type.
 

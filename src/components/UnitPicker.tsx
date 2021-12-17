@@ -9,11 +9,17 @@ export default function UnitPicker({}: {}) {
   return (
     <p>
       Show data units in{" "}
-      <button onClick={() => store.set("imperial")}>
+      <button
+        onClick={() => store.set("imperial")}
+        className={`unit-picker-button ${!isMetric && "active"}`}
+      >
         feet, inches, pounds
       </button>{" "}
       or{" "}
-      <button onClick={() => store.set("metric")}>
+      <button
+        onClick={() => store.set("metric")}
+        className={`unit-picker-button ${isMetric && "active"}`}
+      >
         centimetres, kilograms
       </button>
     </p>

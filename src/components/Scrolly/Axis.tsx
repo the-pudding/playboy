@@ -1,4 +1,3 @@
-import { range } from "d3";
 import { ComponentProps, h } from "preact";
 import { Axis } from "vizlib";
 

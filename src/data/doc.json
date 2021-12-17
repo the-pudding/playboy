@@ -205,7 +205,7 @@
         },
         {
           "type": "text",
-          "value": "The average height of women in the US was 5'4\" or 162.6 cm <a href=\"https://www.cdc.gov/nchs/data/series/sr_03/sr03-046-508.pdf\" target=\"_blank\" rel\"noopener noreferrer\">between 2015-2018</a>."
+          "value": "The average height of women in the US was <span data-cm=162.6>5’4”</span> <a href=\"https://www.cdc.gov/nchs/data/series/sr_03/sr03-046-508.pdf\" target=\"_blank\" rel\"noopener noreferrer\">between 2015-2018</a>."
         }
       ]
     },
@@ -259,11 +259,11 @@
         },
         {
           "type": "text",
-          "value": "The most significant change among body measurements is the waist, with an <strong>11% increase</strong>. Playmates with much larger waist measurements started being featured especially after 2017. About 13% of the women were above 28”/71.2 cm after Hefner’s death, compared to <1% up until that time."
+          "value": "The most significant change among body measurements is the waist, with an <strong>11% increase</strong>. Playmates with much larger waist measurements started being featured especially after 2017. About 13% of the women were above <span data-cm=71.2 only-inches>28”</span> after Hefner’s death, compared to <1% up until that time."
         },
         {
           "type": "text",
-          "value": "Even with that, the average waist measurement of women in the US was 36.3\" or 92.1 cm between 2015–2018. If we plot it on this graph, it would extend beyond the top axis. In other words, <strong>no Playmate has ever been at the US average for waist measurement</strong>."
+          "value": "Even with that, the average waist measurement of women in the US was <span data-cm=92.1 only-inches>36.3\"</span> between 2015–2018. If we plot it on this graph, it would extend beyond the top axis. In other words, <strong>no Playmate has ever been at the US average for waist measurement</strong>."
         },
         {
           "type": "text",
@@ -425,6 +425,20 @@
         "title": "Difference from Average per Year",
         "subtitle": "Playmates have been increasingly different from the “Most Average Playmate” through the years."
       }
+    }
+  ],
+  "lenna": [
+    {
+      "type": "text",
+      "value": "If you’ve ever worked with computer image processing, you have most likely come across `lenna.jpg`. <a href=\"https://web.archive.org/web/19970704201816/http://www.playboy.com/news/lena/lena.html\" target=\"_blank\" rel\"noopener noreferrer\">It’s one of the most used images in computer history</a>. This image is a crop of Lena Sjooblom’s (now Forsen) 1972 November centerfold."
+    },
+    {
+      "type": "text",
+      "value": "The usage has been <a href=\"http://www.cs.umd.edu/users/oleary/faculty/node8.html\" target=\"_blank\" rel\"noopener noreferrer\">criticized</a>, as “Suggestive pictures used in lectures on image processing … convey the message that the lecturer caters to the males only”. I have certainly come across this image when I was studying in university around the 2010s. Does it still appear in lectures?"
+    },
+    {
+      "type": "text",
+      "value": "Read about the history and controversy of this image on <a href=\"https://pudding.cool/2021/10/lenna/\" target=\"_blank\" rel\"noopener noreferrer\">Can Data Die?</a>"
     }
   ],
   "outro": [

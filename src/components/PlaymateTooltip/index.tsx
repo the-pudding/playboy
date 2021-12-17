@@ -3,8 +3,10 @@ import { h } from "preact";
 import { Breasts, Ethnicity, Hair, Playmate } from "../../data/data";
 import { useStore } from "../../store";
 import { cm2in, kg2lb } from "../../util";
+import Paragraphs from "../Paragraphs";
 import { formatFeetIn, MONTHS_FULL } from "../Scrolly/util";
 import TooltipHistogram from "./TooltipHistogram";
+import doc from "../../data/doc.json";
 
 export default function PlaymateTooltip({
   data,
@@ -74,7 +76,16 @@ export default function PlaymateTooltip({
           click for more info
         </div>
       )}
-      {pinned && (
+
+      {pinned && data.name === "Lenna Sjooblom" && (
+        <Paragraphs
+          data={doc.lenna}
+          style={{
+            fontSize: "0.8rem",
+          }}
+        />
+      )}
+      {pinned && data.name !== "Lenna Sjooblom" && (
         <>
           <div
             style={{

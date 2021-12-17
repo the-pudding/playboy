@@ -14,6 +14,9 @@ import MostAverage from "./components/MostAverage";
 
 import "normalize.css/normalize.css";
 import "./global.css";
+import { useStore } from "./store";
+import { cm2in } from "./util";
+import { formatFeetIn } from "./components/Scrolly/util";
 
 export function App() {
   useHead({
@@ -107,6 +110,22 @@ export function App() {
 }
 
 hydrate(<App />);
+
+useStore.subscribe((state) => {
+  if (state.units === "metric") {
+    document.querySelectorAll("[data-cm]").forEach((el) => {
+      el.innerHTML = `${+el.attributes["data-cm"].value} cm`;
+    });
+  } else {
+    document.querySelectorAll("[data-cm]").forEach((el) => {
+      if (el.attributes["only-inches"]) {
+        el.innerHTML = `${cm2in(+el.attributes["data-cm"].value)}"`;
+      } else {
+        el.innerHTML = formatFeetIn(cm2in(+el.attributes["data-cm"].value));
+      }
+    });
+  }
+});
 
 export async function prerender(data) {
   const result = await ssr(<App {...data} />);

@@ -35,6 +35,12 @@ export default function Voronoi({
             offset: [0, 8],
           },
         },
+        {
+          name: "preventOverflow",
+          options: {
+            altAxis: true,
+          },
+        },
       ],
     }
   );

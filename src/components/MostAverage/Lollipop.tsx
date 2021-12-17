@@ -61,6 +61,12 @@ export default function Lollipop({
             offset: [0, 8],
           },
         },
+        {
+          name: "preventOverflow",
+          options: {
+            altAxis: true,
+          },
+        },
       ],
     }
   );

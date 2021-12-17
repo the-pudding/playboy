@@ -119,7 +119,7 @@ useStore.subscribe((state) => {
   } else {
     document.querySelectorAll("[data-cm]").forEach((el) => {
       if (el.attributes["only-inches"]) {
-        el.innerHTML = `${cm2in(+el.attributes["data-cm"].value)}"`;
+        el.innerHTML = `${cm2in(+el.attributes["data-cm"].value).toFixed(0)}"`;
       } else {
         el.innerHTML = formatFeetIn(cm2in(+el.attributes["data-cm"].value));
       }

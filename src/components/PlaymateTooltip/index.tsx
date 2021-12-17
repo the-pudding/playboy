@@ -35,6 +35,8 @@ export default function PlaymateTooltip({
         padding: "0.25rem",
         borderRadius: "5px",
         maxWidth: "14rem",
+        maxHeight: "70vh",
+        overflowY: "auto",
       }}
       data-playmatetooltip
     >

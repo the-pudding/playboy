@@ -3,6 +3,7 @@ import { h, Fragment } from "preact";
 import { Axis, ResponsiveSvg, usePlotContext } from "vizlib";
 
 import { data } from "../../data/data";
+import { useYearTickValues } from "../../hooks";
 import Lollipop from "./Lollipop";
 
 function Viz() {
@@ -16,12 +17,20 @@ function Viz() {
     [new Date(1970, 0, 1), new Date(2022, 0, 1)],
     [0, chartWidth]
   );
+  const xTickValues = useYearTickValues();
 
   const y = scalePoint(range(15), [0, chartHeight]).padding(1);
 
   return (
     <Fragment>
-      <Axis scale={x} orientation="top" tickSizeOuter={0} />
+      <Axis
+        scale={x}
+        orientation="top"
+        tickSizeOuter={0}
+        tickValues={xTickValues
+          .filter((d) => d >= 1970)
+          .map((d) => new Date(d, 0, 1))}
+      />
       <Axis
         scale={y}
         orientation="right"

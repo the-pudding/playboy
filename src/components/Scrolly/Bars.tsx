@@ -15,6 +15,7 @@ import { SVGProps } from "react";
 import { Axis } from "vizlib";
 
 import { data, Playmate } from "../../data/data";
+import { useWindowSize, useYearTickValues } from "../../hooks";
 import { CAccessor, XAccessor, YAccessor } from "./accessors";
 
 export default function Bars({
@@ -95,6 +96,15 @@ export default function Bars({
       );
   }, [width, height, colorScale, accessor]);
 
+  const ws = useWindowSize();
+  const wWidth = ws.width ?? 0;
+  let xTickValues = useYearTickValues();
+  if (wWidth < 768) {
+    xTickValues = range(1960, 2021, 20);
+  } else if (wWidth <= 1024) {
+    xTickValues = range(1960, 2021, 10);
+  }
+
   return (
     // @ts-ignore
     <g {...rest}>
@@ -107,7 +117,7 @@ export default function Bars({
       <Axis
         scale={xScale}
         orientation="bottom"
-        tickValues={range(1955, 2021, 5).map(String)}
+        tickValues={xTickValues.map(String)}
         transform={`translate(0,${height - 10})`}
         transitionDuration={300}
       />

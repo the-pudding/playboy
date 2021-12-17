@@ -3,6 +3,7 @@ import { h } from "preact";
 import { ResponsiveSvg, usePlotContext, Axis } from "vizlib";
 
 import { data } from "../../data/data";
+import { useYearTickValues } from "../../hooks";
 import { PLAYMATE_PINK } from "../../util";
 
 const yearAvgs = groups(data, (d) => d.year).map(([year, arr]) => [
@@ -23,13 +24,15 @@ function Viz() {
     .padding(0.2);
   const y = scaleLinear().domain([0, 1]).range([ctx.chartHeight, 0]).nice();
 
+  const xTickValues = useYearTickValues();
+
   return (
     <>
       <Axis
         scale={x}
         orientation="bottom"
         transform={`translate(0,${ctx.chartHeight})`}
-        tickValues={range(1955, 2021, 5).map(String)}
+        tickValues={xTickValues.map(String)}
       />
       <Axis scale={y} orientation="left" tickValues={range(0, 1.1, 0.2)}>
         <text

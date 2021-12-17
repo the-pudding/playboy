@@ -1,3 +1,4 @@
+import { range } from "d3";
 import { useLayoutEffect, useState } from "preact/hooks";
 
 export function useWindowSize() {
@@ -24,4 +25,9 @@ export function useWindowSize() {
     return () => window.removeEventListener("resize", handleResize);
   }, []); // Empty array ensures that effect is only run on mount
   return windowSize;
+}
+
+export function useYearTickValues() {
+  const ws = useWindowSize();
+  return (ws.width ?? 0) >= 425 ? range(1955, 2021, 5) : range(1960, 2021, 10);
 }

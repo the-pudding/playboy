@@ -2,6 +2,7 @@ import { range } from "d3";
 import { ComponentProps, h } from "preact";
 import { Axis } from "vizlib";
 
+import { useYearTickValues } from "../../hooks";
 import { Step } from "./types";
 import { MONTHS } from "./util";
 
@@ -11,6 +12,8 @@ export const XAxis = ({
 }: {
   step: Step;
 } & ComponentProps<typeof Axis>) => {
+  const xTickValues = useYearTickValues();
+
   switch (step) {
     case Step.Start:
     case Step.Marilyn:
@@ -24,7 +27,7 @@ export const XAxis = ({
       return (
         <Axis
           orientation="top"
-          tickValues={range(1955, 2021, 5).map(String)}
+          tickValues={xTickValues.map(String)}
           tickSizeOuter={0}
           transitionDuration={300}
           {...rest}
@@ -42,6 +45,7 @@ export const XAxis = ({
           orientation="top"
           tickSizeOuter={0}
           transitionDuration={300}
+          tickValues={xTickValues.map((d) => new Date(d, 0, 1))}
           {...rest}
         />
       );

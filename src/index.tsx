@@ -14,6 +14,7 @@ import MostAverage from "./components/MostAverage";
 import { useStore } from "./store";
 import { cm2in } from "./util";
 import { formatFeetIn } from "./components/Scrolly/util";
+import Title from "./components/Title";
 
 import "normalize.css/normalize.css";
 import "./global.css";
@@ -56,8 +57,7 @@ export function App() {
       <Header />
 
       <article>
-        <h1>{doc.title}</h1>
-        <p>{doc.subtitle}</p>
+        <Title />
 
         <Paragraphs data={doc.intro} />
 

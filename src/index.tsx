@@ -78,8 +78,6 @@ export function App() {
 
         <Scrolly sections={doc.scrolly} />
 
-        <UnitPicker />
-
         <Hourglass data={doc.hourglass} />
 
         <MostAverage data={doc.mostAverage} />

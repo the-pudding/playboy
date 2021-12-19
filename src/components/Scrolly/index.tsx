@@ -57,6 +57,8 @@ export default function Scrolly({ sections }: { sections: Section[] }) {
               onEnter={() => {
                 setStep(section.type);
               }}
+              number={i + 1}
+              total={sections.length}
               style={{
                 background: waypointBG,
                 border: "1px solid transparent",

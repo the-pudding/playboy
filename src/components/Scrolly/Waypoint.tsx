@@ -10,10 +10,14 @@ export default function Waypoint({
   data,
   onEnter,
   style,
+  number,
+  total,
 }: {
   data: Section;
   onEnter: () => void;
   style: any;
+  number: number;
+  total: number;
 }) {
   const { title, text, quote } = data.value.reduce<{
     title?: string;
@@ -40,6 +44,15 @@ export default function Waypoint({
   return (
     <ReactWaypoint topOffset="10%" bottomOffset="10%" onEnter={onEnter}>
       <div style={style}>
+        <div
+          style={{
+            textAlign: "right",
+            fontSize: "0.7rem",
+            color: "rgba(255,255,255,0.5)",
+          }}
+        >
+          {number}/{total}
+        </div>
         {title && <h2>{title}</h2>}
         {quote && <Quote data={quote} />}
         <Paragraphs data={text} />

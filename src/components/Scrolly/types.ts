@@ -3,14 +3,13 @@ import { Quote, Title } from "../../type";
 import { Paragraph } from "../Paragraphs";
 
 export enum Step {
-  Start = "start",
   Marilyn = "marilyn",
-  NoIssue = "noissue",
   JenniferJackson = "jenniferjackson",
   InesRau = "inesrau",
   MarshaElle = "marshaelle",
   OtherFirsts = "otherfirsts",
-  KarenMcDougal = "karenmcdougal",
+  Explainer = "explainer",
+  NoIssue = "noissue",
   Hefner = "hefner",
   Age = "age",
   Height = "height",

@@ -9,7 +9,7 @@ import Chart from "./Chart";
 import Highlights from "./Highlights";
 
 export default function Scrolly({ sections }: { sections: Section[] }) {
-  const [step, setStep] = useState<Step>(Step.Start);
+  const [step, setStep] = useState<Step>(Step.Marilyn);
 
   const [waypointBG, setWaypointBG] = useState<string>("transparent");
   useLayoutEffect(() => {

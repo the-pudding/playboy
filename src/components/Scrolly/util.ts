@@ -34,14 +34,13 @@ export const MONTHS_FULL = [
 
 export const STEP_UNITS = {
   metric: {
-    [Step.Start]: "",
+    [Step.Explainer]: "",
     [Step.Marilyn]: "",
     [Step.NoIssue]: "",
     [Step.JenniferJackson]: "",
     [Step.InesRau]: "",
     [Step.MarshaElle]: "",
     [Step.OtherFirsts]: "",
-    [Step.KarenMcDougal]: "",
     [Step.Hefner]: "",
     [Step.Age]: "years",
     [Step.Height]: "cm",
@@ -51,14 +50,13 @@ export const STEP_UNITS = {
     [Step.Hips]: "cm",
   },
   imperial: {
-    [Step.Start]: "",
+    [Step.Explainer]: "",
     [Step.Marilyn]: "",
     [Step.NoIssue]: "",
     [Step.JenniferJackson]: "",
     [Step.InesRau]: "",
     [Step.MarshaElle]: "",
     [Step.OtherFirsts]: "",
-    [Step.KarenMcDougal]: "",
     [Step.Hefner]: "",
     [Step.Age]: "years",
     [Step.Height]: "ft.in.",
@@ -78,18 +76,6 @@ export const formatFeetIn = (num) => {
   return `${feet}'${formatter(num % 12)}"`;
 };
 
-export const StaticSteps = [
-  Step.Start,
-  Step.Marilyn,
-  Step.NoIssue,
-  Step.JenniferJackson,
-  Step.InesRau,
-  Step.MarshaElle,
-  Step.OtherFirsts,
-  Step.KarenMcDougal,
-  Step.Hefner,
-];
-
 export const ScatterSteps = [
   Step.Age,
   Step.Height,
@@ -100,3 +86,10 @@ export const ScatterSteps = [
 ];
 
 export const GroupingSteps = [Step.Hair, Step.Enhancements, Step.Ethnicity];
+
+export const TimelineSteps = [
+  Step.Marilyn,
+  Step.JenniferJackson,
+  Step.InesRau,
+  Step.MarshaElle
+]

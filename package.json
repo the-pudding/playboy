@@ -21,7 +21,7 @@
     "react-popper": "^2.2.5",
     "react-waypoint": "^10.1.0",
     "remeda": "^0.0.32",
-    "vizlib": "https://gitpkg.now.sh/ebemunk/blog/projects/playboy/vizlib?master",
+    "vizlib": "https://gitpkg.now.sh/ebemunk/blog/projects/2021-12-01-playmates/vizlib?master",
     "zustand": "^3.6.6"
   },
   "devDependencies": {

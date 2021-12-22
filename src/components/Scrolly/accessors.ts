@@ -16,14 +16,13 @@ export default function accessors(
   const isMetric = units === "metric";
 
   switch (step) {
-    case Step.Start:
+    case Step.Explainer:
     case Step.Marilyn:
     case Step.NoIssue:
     case Step.JenniferJackson:
     case Step.InesRau:
     case Step.MarshaElle:
     case Step.OtherFirsts:
-    case Step.KarenMcDougal:
     case Step.Hefner:
       return [
         (d) => d.year.toString(),

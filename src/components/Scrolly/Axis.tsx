@@ -14,14 +14,13 @@ export const XAxis = ({
   const xTickValues = useYearTickValues();
 
   switch (step) {
-    case Step.Start:
+    case Step.Explainer:
     case Step.Marilyn:
     case Step.NoIssue:
     case Step.JenniferJackson:
     case Step.InesRau:
     case Step.MarshaElle:
     case Step.OtherFirsts:
-    case Step.KarenMcDougal:
     case Step.Hefner:
       return (
         <Axis
@@ -63,14 +62,13 @@ export const YAxis = ({
   units?: string;
 } & ComponentProps<typeof Axis>) => {
   switch (step) {
-    case Step.Start:
+    case Step.Explainer:
     case Step.Marilyn:
     case Step.NoIssue:
     case Step.JenniferJackson:
     case Step.InesRau:
     case Step.MarshaElle:
     case Step.OtherFirsts:
-    case Step.KarenMcDougal:
     case Step.Hefner:
       return (
         <Axis

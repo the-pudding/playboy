@@ -72,11 +72,6 @@ const getCutouts = (
         .filter((d) => d.datum.name === "Marsha Elle")
         .map(mapPlaymateToCutoutCircle);
 
-    case Step.KarenMcDougal:
-      return data
-        .filter((d) => ["Karen McDougal"].includes(d.datum.name))
-        .map(mapPlaymateToCutoutCircle);
-
     case Step.OtherFirsts:
       return data
         .filter((d) =>
@@ -135,7 +130,7 @@ const getCutouts = (
 export default function Highlights({ step }: { step: Step }) {
   // const plotCtx = usePlotContext()
 
-  const { data, scales } = useData(Step.Start);
+  const { data, scales } = useData(Step.Explainer);
   const cutouts = getCutouts(step, data, scales);
 
   // const pathRef = useRef(null)
@@ -169,7 +164,7 @@ export default function Highlights({ step }: { step: Step }) {
       .attr("r", 10);
   }, [step, scales]);
 
-  if ([Step.Start, Step.Hefner].includes(step)) return null;
+  if ([Step.Explainer, Step.Hefner].includes(step)) return null;
 
   return (
     <>

@@ -40,7 +40,7 @@
     },
     {
       "type": "text",
-      "value": "While we look at the data for Playmates, it’s important to remember that there are real human beings behind this data. Through the years, Playmates have been admired, but more often disparaged for their work in what is essentially the sex industry. The cultural, political and religious framing around sexuality and beauty has a way of clouding judgments — and while the data points serve as a clarifying lens — we need to be careful about reducing these humans to a handful of numbers. This particular set of numbers serve as anchors so we can talk about beauty as it’s perceived by Playboy, limited as they might be in describing <em>actual</em> beauty."
+      "value": "While we look at the data for Playmates, it’s important to remember that there are real human beings behind this data. This particular set of numbers serve as anchors so we can talk about beauty as it’s perceived by Playboy, limited as they might be in describing <em>actual</em> beauty."
     }
   ],
   "unitPicker": [
@@ -51,19 +51,6 @@
   ],
   "scrolly": [
     {
-      "type": "start",
-      "value": [
-        {
-          "type": "text",
-          "value": "The pink dots represent each individual Playmate of the Month. Click or Tap the circles at any point to get more information about them."
-        },
-        {
-          "type": "text",
-          "value": "There were 7 issues where multiple Playmates appeared at the same time. They’re shown as clusters in the same month."
-        }
-      ]
-    },
-    {
       "type": "marilyn",
       "value": [
         {
@@ -73,15 +60,6 @@
         {
           "type": "text",
           "value": "The hype around her appearance catapulted the magazine to success right from the start."
-        }
-      ]
-    },
-    {
-      "type": "noissue",
-      "value": [
-        {
-          "type": "text",
-          "value": "In March of 1955, the staff couldn’t meet the deadlines to deliver the issue, <a href=\"https://web.archive.org/web/20060326233118/http://www.playboy.com/worldofplayboy/faq/collecting.html#4\" target=\"_blank\" rel\"noopener noreferrer\">so nothing was released</a>."
         }
       ]
     },
@@ -138,11 +116,24 @@
       ]
     },
     {
-      "type": "karenmcdougal",
+      "type": "explainer",
       "value": [
         {
           "type": "text",
-          "value": "<strong>Karen McDougal</strong> <a href=\"https://www.newyorker.com/news/news-desk/donald-trump-a-playboy-model-and-a-system-for-concealing-infidelity-national-enquirer-karen-mcdougal\" target=\"_blank\" rel\"noopener noreferrer\">made headlines</a> when the story of her alleged affair with Donald Trump broke in the media 4 days before the 2016 election."
+          "value": "The pink dots represent each individual Playmate of the Month. Click or Tap the circles at any point to get more information about them."
+        },
+        {
+          "type": "text",
+          "value": "There were 7 issues where multiple Playmates appeared at the same time. They’re shown as clusters in the same month."
+        }
+      ]
+    },
+    {
+      "type": "noissue",
+      "value": [
+        {
+          "type": "text",
+          "value": "In March of 1955, the staff couldn’t meet the deadlines to deliver the issue, <a href=\"https://web.archive.org/web/20060326233118/http://www.playboy.com/worldofplayboy/faq/collecting.html#4\" target=\"_blank\" rel\"noopener noreferrer\">so nothing was released</a>."
         }
       ]
     },
@@ -155,11 +146,7 @@
         },
         {
           "type": "text",
-          "value": "Hugh Hefner passed away on September 27, 2017. It’s reported that he had been personally involved in picking Playmates of the Month, and the data below suggests that the characteristics of who gets picked have started changing significantly after his death."
-        },
-        {
-          "type": "text",
-          "value": "Even though it’s evident that Playboy has often been progressive, this also highlights some of the biases that he might have reinforced through his personal touch."
+          "value": "Hugh Hefner passed away on September 27, 2017. It’s reported that he was personally involved in picking Playmates of the Month, and the data below suggests that the characteristics of who gets picked have started changing significantly after his death."
         },
         {
           "type": "text",
@@ -180,11 +167,7 @@
         },
         {
           "type": "text",
-          "value": "Note the highlighted area in red. 8 Playmates, up until 1981 were under the age of 18 when photographed. This would be a felony today. Wikipedia quotes, <em>“in the early years of the magazine, laws regarding corruption of a minor were less well established.”</em>"
-        },
-        {
-          "type": "text",
-          "value": "There is the interesting story of one Playmate, who was photographed at the age of 16. Hugh Hefner and the Playmate’s mother were arrested, but the case was dismissed after they found that her mother had signed a statement saying that her daughter was 18."
+          "value": "Note the highlighted area in red. 8 Playmates, up until 1981 were under the age of 18 when photographed. By today’s laws, this would be a felony. In the 1950s, Hefner was taken to court for<a href=\"https://www.newyorker.com/magazine/2006/03/20/the-girls-next-door-2\" target=\"_blank\" rel\"noopener noreferrer\"> </a><a href=\"https://www.newyorker.com/magazine/2006/03/20/the-girls-next-door-2\" target=\"_blank\" rel\"noopener noreferrer\">contributing to the delinquency of a minor</a>, but the case was dismissed as the child had written permission from her mother."
         },
         {
           "type": "text",
@@ -229,7 +212,7 @@
         },
         {
           "type": "text",
-          "value": "<strong>Ali Chanel</strong> is an obvious outlier, and a welcome one for body positivity. Dubbed “Playboy’s curviest Playmate”, she has <a href=\"https://www.foxnews.com/entertainment/ali-chanel-playboy-playmate\" target=\"_blank\" rel\"noopener noreferrer\">encouraged</a> others to accept their bodies as they are."
+          "value": "<strong>Ali Chanel</strong>, dubbed “Playboy’s curviest Playmate”, is regarded as a champion of body positivity, and has <a href=\"https://www.foxnews.com/entertainment/ali-chanel-playboy-playmate\" target=\"_blank\" rel\"noopener noreferrer\">encouraged</a> others to accept their bodies as they are."
         }
       ]
     },
@@ -242,7 +225,7 @@
         },
         {
           "type": "text",
-          "value": "There has been a significant drop in bust sizes, <strong>9.6% decrease</strong> overall. This is interesting, because most sources online claim that bust size, especially in the US, has actually <em>gone up</em>, but without citing clear sources. This divergence highlights yet another contradictory nature of Playboy."
+          "value": "There has been a significant drop in bust sizes, <strong>9.6% decrease</strong> overall. This is interesting, because most sources online claim that bust size, especially in the US, has actually <em>gone up</em>, but without citing clear sources. This divergence may highlight yet another contradictory nature of Playboy."
         },
         {
           "type": "text",
@@ -285,10 +268,6 @@
         {
           "type": "text",
           "value": "In fact, 20% of the Playmates had larger hips than at any other point in the magazine’s history after Hefner’s death."
-        },
-        {
-          "type": "text",
-          "value": "This minor increase suggests that while post-Hefner era Playboy favors a wider variety of models on a variety of fronts, a small waist remains standard."
         }
       ]
     },
@@ -301,11 +280,11 @@
         },
         {
           "type": "text",
-          "value": "What do you think of when you think of hair color in the context of Playboy magazine? If you're like me, you think “blond”."
+          "value": "What do you think of when you think of hair color in the context of Playboy magazine? Marilyn Monroe, Pamela Anderson, Anna Nicole Smith were all blond."
         },
         {
           "type": "text",
-          "value": "The truth is that there is almost equal representation of brown and blond hair, but black hair is underrepresented."
+          "value": "The truth is that there is almost equal representation of brown and blond hair in the magazine, but black hair is underrepresented."
         },
         {
           "type": "text",
@@ -313,11 +292,11 @@
         },
         {
           "type": "text",
-          "value": "Clearly, having light hair has become the “beauty standard”, as <a href=\"https://books.google.ca/books?id=3asbkganD14C&q=What+percent+of+adults+are+naturally+blond%3F&pg=PA52&redir_esc=y#v=onepage&q=What%20percent%20of%20adults%20are%20naturally%20blond%3F&f=false\" target=\"_blank\" rel\"noopener noreferrer\">48% of White college women dyed their hair blond or blonder</a>, higher than any other color. This might also be a reason why black hair is underrepresented."
+          "value": "Having light hair has become the “beauty standard”, with <a href=\"https://books.google.ca/books?id=3asbkganD14C&q=What+percent+of+adults+are+naturally+blond%3F&pg=PA52&redir_esc=y#v=onepage&q=What%20percent%20of%20adults%20are%20naturally%20blond%3F&f=false\" target=\"_blank\" rel\"noopener noreferrer\">48% of White college women dyed their hair blond or blonder</a>, higher than any other color. This might also be a reason why black hair is underrepresented."
         },
         {
           "type": "text",
-          "value": "Could the dominant cultural force of Playboy be influencing some of the choices made by college-aged women, even if indirectly? And in that vein, to what extent is Playboy an aspirational publication?"
+          "value": "Could the dominant cultural force of Playboy be influencing some of the choices made by college-aged women, even if indirectly?"
         }
       ]
     },
@@ -347,11 +326,11 @@
         },
         {
           "type": "text",
-          "value": "Despite featuring a Black Playmates early in their publication, historically, Playboy undoubtedly prefers white women. The magazine reinforced the standard of beauty in America as largely limited to the domain of white women, with 90% of its Playmates being white. It featured a single Black woman for the first time in 1965, and it did not feature a Black woman again for four years. This pattern suggests a standard of beauty that does not represent the diversity of the country, and the stark underrepresentation is striking."
+          "value": "Despite featuring a Black Playmates early in their publication, historically, the magazine reinforced the standard of beauty in America as largely limited to the domain of white women, with 90% of its Playmates being white. It featured a single Black woman for the first time in 1965, and it did not feature a Black woman again for four years. This pattern suggests a standard of beauty that does not represent the diversity of the country, and the stark underrepresentation is striking."
         },
         {
           "type": "text",
-          "value": "Playboy’s exclusion of BIPOC individuals from its pages suggests that their vision of beauty fits squarely within the <a href=\"https://www.npr.org/sections/codeswitch/2019/02/06/685506578/is-beauty-in-the-eyes-of-the-colonizer\" target=\"_blank\" rel\"noopener noreferrer\">colonizer perspective</a> and constructs the “All American Beauty” as a blond, skinny white woman. This impacts more than just their readers, as the “blast radius” of its influence continues to negatively impact BIPOC communities, especially young women, and will likely continue to harm them for years to come."
+          "value": "Playboy’s exclusion of BIPOC individuals from its pages suggests that their vision of beauty fits squarely within the <a href=\"https://www.npr.org/sections/codeswitch/2019/02/06/685506578/is-beauty-in-the-eyes-of-the-colonizer\" target=\"_blank\" rel\"noopener noreferrer\">colonizer perspective</a> and constructs the “All-American Beauty” as a blond, skinny, white woman. This impacts more than just their readers, as the “blast radius” of its influence continues to negatively impact BIPOC communities, especially young women, and will likely continue to affect them for years to come."
         },
         {
           "type": "text",
@@ -448,19 +427,19 @@
     },
     {
       "type": "text",
-      "value": "Behind all the flash and glamour that comes with earning Playmate of the Month and living in the Playboy Mansion, these women are like any of us. They <a href=\"https://m.imdb.com/name/nm0584428/trivia\" target=\"_blank\" rel\"noopener noreferrer\">went to college</a>, struggled with <a href=\"https://en.wikipedia.org/wiki/Star_Stowe\" target=\"_blank\" rel\"noopener noreferrer\">drug abuse</a> and <a href=\"https://cfox.com/news/8089075/bc-playboy-model-kelly-tough/\" target=\"_blank\" rel\"noopener noreferrer\">overcame it</a>, <a href=\"https://www.vaildaily.com/news/playboy-playmate-mother-teresa-of-haiti-skips-oscars/\" target=\"_blank\" rel\"noopener noreferrer\">established philanthropic foundations</a>, used their fortune to <a href=\"https://en.wikipedia.org/wiki/Jayde_Nicole\" target=\"_blank\" rel\"noopener noreferrer\">open restaurants</a> and <a href=\"https://www.imdb.com/name/nm5330841/bio#:~:text=She%20helped%20organize,children%20with%20cancer.\" target=\"_blank\" rel\"noopener noreferrer\">helped those in need</a>, <a href=\"https://www.foxnews.com/entertainment/playboy-playmate-marsha-elle#:~:text=She%20endured%20years%20of%20insecurity%20and%20didn%E2%80%99t%20wear%20shorts%20until%20age%2023.\" target=\"_blank\" rel\"noopener noreferrer\">had insecurities</a>, <a href=\"https://en.wikipedia.org/wiki/Patricia_McClain\" target=\"_blank\" rel\"noopener noreferrer\">got interested in politics</a>, <a href=\"https://thehollywoodtimes.today/model-and-humanitarian-jordan-emanuel-raising-awareness-and-educating-individuals-about-mental-illness/\" target=\"_blank\" rel\"noopener noreferrer\">grappled with depression</a>, led quiet lives, and <a href=\"https://en.wikipedia.org/wiki/Karen_McDougal#Affair_with_Donald_Trump\" target=\"_blank\" rel\"noopener noreferrer\">not so quiet lives</a>. They were into <a href=\"https://411mania.com/movies/411mania-com-interviews-playboy-october-playmate-of-the-month-pamela-horton/#:~:text=Pamela%20Horton%3A%20I%E2%80%99ve%20played,It%20was%20enjoyable%20overall.\" target=\"_blank\" rel\"noopener noreferrer\">LoL and Diablo 3</a>, <a href=\"https://secreteast.ca/2015/02/from-manuels-to-melrose-stephanie-brantons-campaign-for-playmate-of-the-year/#:~:text=%E2%80%9CI%20can%20honestly%20say%20that%20I%E2%80%99ve%20wanted%20to%20be%20Playmate%20my%20whole%20life%2C%20I%20don%E2%80%99t%20know%20if%20that%20%C2%A0would%20mean%20more%20to%20anyone%20else.%E2%80%9D\" target=\"_blank\" rel\"noopener noreferrer\">dreamed of becoming Playmates</a>, and <a href=\"https://abcnews.go.com/Entertainment/horrific-murder-playboy-playmate-verge-hollywood-stardom-flaw/story?id=66193166#:~:text=From%20Dairy%20Queen%20to%20the%20Playboy%20Mansion\" target=\"_blank\" rel\"noopener noreferrer\">worked at Dairy Queen</a>. They were victims of <a href=\"https://www.iheart.com/podcast/256-the-naked-podcaster-30941512/episode/playboy-model-7-times-who-went-52719725/\" target=\"_blank\" rel\"noopener noreferrer\">domestic violence</a>, wanted to <a href=\"https://gallimore985544.livejournal.com/139896.html#:~:text=Q.%20What%20are,a%20bigger%20school.\" target=\"_blank\" rel\"noopener noreferrer\">become broadcasters</a>, were <a href=\"https://www.latimes.com/archives/la-xpm-1998-mar-15-me-29162-story.html\" target=\"_blank\" rel\"noopener noreferrer\">single moms that got sued by Playboy</a>, and on and on."
+      "value": "It’s clear that Hefner’s death has had a significant impact on who appears in Playboy. The world in which Playmates lived, a reality which was masterfully cropped out of photo shoots and PR campaigns, has started to be reflected in the types of women featured. It has changed Playboy’s beauty standards ever so slightly, but it is a more inclusive shift nonetheless."
     },
     {
       "type": "text",
-      "value": "They were and are real people who had a real impact on others around them, good and bad. It’s worth noting this before we go celebrity worshipping or shunning models in this industry."
+      "value": "What these data points can’t illustrate is that behind all the flash and glamour of being a Playmate of the Month and living in the Playboy Mansion, these women are like any of us. They <a href=\"https://m.imdb.com/name/nm0584428/trivia\" target=\"_blank\" rel\"noopener noreferrer\">went to college</a>, struggled with <a href=\"https://en.wikipedia.org/wiki/Star_Stowe\" target=\"_blank\" rel\"noopener noreferrer\">drug abuse</a> and <a href=\"https://cfox.com/news/8089075/bc-playboy-model-kelly-tough/\" target=\"_blank\" rel\"noopener noreferrer\">overcame it</a>, <a href=\"https://www.vaildaily.com/news/playboy-playmate-mother-teresa-of-haiti-skips-oscars/\" target=\"_blank\" rel\"noopener noreferrer\">established philanthropic foundations</a>, used their fortune to <a href=\"https://en.wikipedia.org/wiki/Jayde_Nicole\" target=\"_blank\" rel\"noopener noreferrer\">open restaurants</a> and <a href=\"https://www.imdb.com/name/nm5330841/bio#:~:text=She%20helped%20organize,children%20with%20cancer.\" target=\"_blank\" rel\"noopener noreferrer\">helped those in need</a>, <a href=\"https://www.foxnews.com/entertainment/playboy-playmate-marsha-elle#:~:text=She%20endured%20years%20of%20insecurity%20and%20didn%E2%80%99t%20wear%20shorts%20until%20age%2023.\" target=\"_blank\" rel\"noopener noreferrer\">had insecurities</a>, <a href=\"https://en.wikipedia.org/wiki/Patricia_McClain\" target=\"_blank\" rel\"noopener noreferrer\">got interested in politics</a>, <a href=\"https://thehollywoodtimes.today/model-and-humanitarian-jordan-emanuel-raising-awareness-and-educating-individuals-about-mental-illness/\" target=\"_blank\" rel\"noopener noreferrer\">grappled with depression</a>, led quiet lives, and <a href=\"https://en.wikipedia.org/wiki/Karen_McDougal#Affair_with_Donald_Trump\" target=\"_blank\" rel\"noopener noreferrer\">not so quiet lives</a>. They were into <a href=\"https://411mania.com/movies/411mania-com-interviews-playboy-october-playmate-of-the-month-pamela-horton/#:~:text=Pamela%20Horton%3A%20I%E2%80%99ve%20played,It%20was%20enjoyable%20overall.\" target=\"_blank\" rel\"noopener noreferrer\">LoL and Diablo 3</a>, <a href=\"https://secreteast.ca/2015/02/from-manuels-to-melrose-stephanie-brantons-campaign-for-playmate-of-the-year/#:~:text=%E2%80%9CI%20can%20honestly%20say%20that%20I%E2%80%99ve%20wanted%20to%20be%20Playmate%20my%20whole%20life%2C%20I%20don%E2%80%99t%20know%20if%20that%20%C2%A0would%20mean%20more%20to%20anyone%20else.%E2%80%9D\" target=\"_blank\" rel\"noopener noreferrer\">dreamed of becoming Playmates</a>, and <a href=\"https://abcnews.go.com/Entertainment/horrific-murder-playboy-playmate-verge-hollywood-stardom-flaw/story?id=66193166#:~:text=From%20Dairy%20Queen%20to%20the%20Playboy%20Mansion\" target=\"_blank\" rel\"noopener noreferrer\">worked at Dairy Queen</a>. They were victims of <a href=\"https://www.iheart.com/podcast/256-the-naked-podcaster-30941512/episode/playboy-model-7-times-who-went-52719725/\" target=\"_blank\" rel\"noopener noreferrer\">domestic violence</a>, wanted to <a href=\"https://gallimore985544.livejournal.com/139896.html#:~:text=Q.%20What%20are,a%20bigger%20school.\" target=\"_blank\" rel\"noopener noreferrer\">become broadcasters</a>, were <a href=\"https://www.latimes.com/archives/la-xpm-1998-mar-15-me-29162-story.html\" target=\"_blank\" rel\"noopener noreferrer\">single moms that got sued by Playboy</a>, and on and on."
     },
     {
       "type": "text",
-      "value": "One thing is clear, Hugh Hefner’s death has had more impact on who appears in Playboy than its business dealings or revenues. The real world in which Playmates lived, a reality which was masterfully hidden behind glamour shots and PR campaigns, has started to be reflected in the types of women featured as well. It has changed Playboy’s beauty standards from the core - ever so slightly, but a shift nonetheless - and this is a hopeful change."
+      "value": "They were and are real people who had a real impact on others around them, good and bad. It’s worth noting this before we find ourselves worshipping or shunning models in this industry."
     },
     {
       "type": "text",
-      "value": "PS. On December 2nd, 2021, Playboy announced its first-ever Creative Director In Residence <a href=\"https://www.plbygroup.com/news-releases/news-release-details/playboy-names-cardi-b-first-ever-creative-director-residence\" target=\"_blank\" rel\"noopener noreferrer\">as Cardi B</a>. What direction will this development take Playboy and their Playmates?"
+      "value": "On December 2, 2021, Playboy announced its first-ever Creative Director In Residence <a href=\"https://www.plbygroup.com/news-releases/news-release-details/playboy-names-cardi-b-first-ever-creative-director-residence\" target=\"_blank\" rel\"noopener noreferrer\">as Cardi B</a>. What direction will this development take Playboy and their Playmates? Readers will have to wait and see. But in choosing the musician, the magazine has demonstrated a commitment to leaving its old formula, and it’s limited perspective, squarely in the past."
     }
   ],
   "methodology": [

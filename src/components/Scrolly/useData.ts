@@ -59,14 +59,13 @@ export default function useData(step: Step) {
           // dont overlap. thankfully theres max 3 lol
           if (
             [
-              Step.Start,
+              Step.Explainer,
               Step.Marilyn,
               Step.NoIssue,
               Step.JenniferJackson,
               Step.InesRau,
               Step.MarshaElle,
               Step.OtherFirsts,
-              Step.KarenMcDougal,
               Step.Hefner,
             ].includes(step)
           ) {

@@ -12,8 +12,7 @@ import Scrolly from "./components/Scrolly";
 import Hourglass from "./components/Hourglass";
 import MostAverage from "./components/MostAverage";
 import { useStore } from "./store";
-import { cm2in } from "./util";
-import { formatFeetIn } from "./components/Scrolly/util";
+import { cm2in, formatFeetIn } from "./util";
 import Title from "./components/Title";
 
 import "normalize.css/normalize.css";
@@ -59,7 +58,10 @@ export function App() {
       <article>
         <Title />
 
-        <Paragraphs data={doc.intro} />
+        <Paragraphs
+          // @ts-ignore
+          data={doc.intro}
+        />
 
         <Warning>
           {doc.warning.map((p, i) => (
@@ -72,18 +74,33 @@ export function App() {
           ))}
         </Warning>
 
-        <Paragraphs data={doc.scrollyIntro} />
+        <Paragraphs
+          // @ts-ignore
+          data={doc.scrollyIntro}
+        />
 
         <UnitPicker />
 
-        <Scrolly sections={doc.scrolly} />
+        <Scrolly
+          // @ts-ignore
+          sections={doc.scrolly}
+        />
 
-        <Hourglass data={doc.hourglass} />
+        <Hourglass
+          // @ts-ignore
+          data={doc.hourglass}
+        />
 
-        <MostAverage data={doc.mostAverage} />
+        <MostAverage
+          // @ts-ignore
+          data={doc.mostAverage}
+        />
 
         <h2>{doc.outro[0].value}</h2>
-        <Paragraphs data={doc.outro.slice(1)} />
+        <Paragraphs
+          // @ts-ignore
+          data={doc.outro.slice(1)}
+        />
 
         <hr style={{ maxWidth: "43rem", margin: "3rem auto" }} />
 
@@ -95,6 +112,7 @@ export function App() {
           {doc.methodology[0].value}
         </h2>
         <Paragraphs
+          // @ts-ignore
           data={doc.methodology.slice(1)}
           style={{
             fontSize: "0.9rem",

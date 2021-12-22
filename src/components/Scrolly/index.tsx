@@ -3,7 +3,7 @@ import { useLayoutEffect, useState } from "preact/hooks";
 import { ResponsiveSvg } from "vizlib";
 import { color } from "d3-color";
 
-import { Section, Step } from "./types";
+import { PointSteps, Section, Step } from "./types";
 import Waypoint from "./Waypoint";
 import Chart from "./Chart";
 import Highlights from "./Highlights";
@@ -37,7 +37,7 @@ export default function Scrolly({ sections }: { sections: Section[] }) {
         >
           <ResponsiveSvg margin={{ top: 30, left: 30, right: 10, bottom: 10 }}>
             <Chart step={step} />
-            <Highlights step={step} />
+            {PointSteps.includes(step) && <Highlights step={step} />}
           </ResponsiveSvg>
         </div>
         <div

@@ -1,5 +1,3 @@
-import { format } from "d3";
-
 import { Step } from "./types";
 
 export const MONTHS = [
@@ -66,30 +64,3 @@ export const STEP_UNITS = {
     [Step.Hips]: "in",
   },
 };
-
-export const formatFeetIn = (num) => {
-  const feet = Math.floor(num / 12);
-  const formatter = format(".0f");
-
-  if (!feet) return `${formatter(num)}"`;
-
-  return `${feet}'${formatter(num % 12)}"`;
-};
-
-export const ScatterSteps = [
-  Step.Age,
-  Step.Height,
-  Step.Weight,
-  Step.Bust,
-  Step.Waist,
-  Step.Hips,
-];
-
-export const GroupingSteps = [Step.Hair, Step.Enhancements, Step.Ethnicity];
-
-export const TimelineSteps = [
-  Step.Marilyn,
-  Step.JenniferJackson,
-  Step.InesRau,
-  Step.MarshaElle
-]

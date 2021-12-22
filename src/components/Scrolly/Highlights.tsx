@@ -1,7 +1,7 @@
 import { h } from "preact";
 import { select } from "d3";
 import { useLayoutEffect, useRef } from "preact/hooks";
-import { PlaymateCircle, Step } from "./types";
+import { PlaymateCircle, PointSteps, Step } from "./types";
 import useData from "./useData";
 
 // const circle = (cx, cy, r) =>
@@ -42,11 +42,6 @@ const getCutouts = (
   });
 
   switch (step) {
-    case Step.Marilyn:
-      return data
-        .filter((d) => d.datum.name === "Marilyn Monroe")
-        .map(mapPlaymateToCutoutCircle);
-
     case Step.NoIssue:
       return [
         {
@@ -56,21 +51,6 @@ const getCutouts = (
           key: "noissue",
         },
       ];
-
-    case Step.JenniferJackson:
-      return data
-        .filter((d) => d.datum.name === "Jennifer Jackson")
-        .map(mapPlaymateToCutoutCircle);
-
-    case Step.InesRau:
-      return data
-        .filter((d) => d.datum.name === "Ines Rau")
-        .map(mapPlaymateToCutoutCircle);
-
-    case Step.MarshaElle:
-      return data
-        .filter((d) => d.datum.name === "Marsha Elle")
-        .map(mapPlaymateToCutoutCircle);
 
     case Step.OtherFirsts:
       return data
@@ -127,7 +107,11 @@ const getCutouts = (
   }
 };
 
-export default function Highlights({ step }: { step: Step }) {
+export default function Highlights({
+  step,
+}: {
+  step: typeof PointSteps[number];
+}) {
   // const plotCtx = usePlotContext()
 
   const { data, scales } = useData(Step.Explainer);
@@ -163,8 +147,6 @@ export default function Highlights({ step }: { step: Step }) {
       .duration(750)
       .attr("r", 10);
   }, [step, scales]);
-
-  if ([Step.Explainer, Step.Hefner].includes(step)) return null;
 
   return (
     <>

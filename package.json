@@ -6,7 +6,8 @@
     "prebuild": "node --loader ts-node/esm ./scripts/googleDoc.ts",
     "build": "wmr build --prerender && node --loader ts-node/esm ./scripts/publicPath.ts",
     "serve": "wmr serve",
-    "postinstall": "patch-package"
+    "postinstall": "patch-package",
+    "check": "tsc --noEmit --skipLibCheck"
   },
   "eslintConfig": {
     "extends": "preact"

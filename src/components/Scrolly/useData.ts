@@ -118,6 +118,5 @@ export default function useData(step: Step) {
     accessors: { xA, yA, cA },
     scales: { sX, sY, sC, extras },
     data: playmateCircles,
-    multiplePlaymates,
   };
 }

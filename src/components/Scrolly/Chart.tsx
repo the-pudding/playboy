@@ -9,13 +9,14 @@ import { useIsMetric, useStore } from "../../store";
 import { XAxis, YAxis } from "./Axis";
 import HefnerDeath from "./HefnerDeath";
 import PlaymateCircles from "./PlaymateCircles";
-import { Step } from "./types";
+import { Step, GroupingSteps, ScatterSteps, PointSteps } from "./types";
 import USAverage from "./USAverage";
 import Voronoi from "./Voronoi";
 import useData from "./useData";
 import GroupingCircles from "./GroupingCircles";
 import Bars from "./Bars";
-import { formatFeetIn, GroupingSteps, ScatterSteps, STEP_UNITS } from "./util";
+import { STEP_UNITS } from "./util";
+import { formatFeetIn } from "../../util";
 
 const LOESS = lazy(() => import("./LOESS"));
 
@@ -38,13 +39,13 @@ export default function Chart({ step }: { step: Step }) {
 
   return (
     <Fragment>
-      {!GroupingSteps.includes(step) && (
+      <XAxis
+        //@ts-ignore
+        scale={scales.sX}
+        step={step}
+      />
+      {[...PointSteps, ...ScatterSteps].includes(step) && (
         <Fragment>
-          <XAxis
-            //@ts-ignore
-            scale={scales.sX}
-            step={step}
-          />
           <XAxis
             //@ts-ignore
             scale={scales.sX}

@@ -32,13 +32,20 @@ export default function scales({
   cA: CAccessor;
 }) {
   switch (step) {
-    case Step.Explainer:
     case Step.Marilyn:
-    case Step.NoIssue:
     case Step.JenniferJackson:
     case Step.InesRau:
-    case Step.MarshaElle:
+    case Step.MarshaElle: {
+      return [
+        scaleTime().domain([new Date(1953, 11, 1), new Date(2021, 0, 1)]),
+        () => chartHeight / 2,
+        identity,
+      ] as const;
+    }
+
     case Step.OtherFirsts:
+    case Step.Explainer:
+    case Step.NoIssue:
     case Step.Hefner: {
       return [
         scalePoint()

@@ -10,9 +10,8 @@ export default defineConfig({
   },
   root: `${process.cwd()}/src`,
   out: `${process.cwd()}/docs`,
-  // publicPath: "/playboy/",
   visualize: process.env.VIZ === "true",
-  // middleware: [],
+  // @ts-ignore
   plugins: [csv()],
 });
 

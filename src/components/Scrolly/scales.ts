@@ -31,13 +31,48 @@ export default function scales({
   yA: YAccessor;
   cA: CAccessor;
 }) {
+  const timeScale = scaleTime()
+    //@ts-ignore
+    .domain([new Date(1953, 11, 1), new Date(2021, 0, 1)])
+    .range([0, chartWidth]);
+
   switch (step) {
-    case Step.Marilyn:
-    case Step.JenniferJackson:
-    case Step.InesRau:
-    case Step.MarshaElle: {
+    case Step.Marilyn: {
+      let width = timeScale(new Date(1954, 0, 1));
       return [
-        scaleTime().domain([new Date(1953, 11, 1), new Date(2021, 0, 1)]),
+        scaleTime()
+          .domain([new Date(1953, 11, 1), new Date(1953, 11, 1)])
+          .range([chartWidth / 2 - width / 2, chartWidth / 2 + width / 2]),
+        () => chartHeight / 2,
+        identity,
+      ] as const;
+    }
+    case Step.JenniferJackson: {
+      let width = timeScale(new Date(1965, 2, 1));
+      return [
+        scaleTime()
+          .domain([new Date(1953, 11, 1), new Date(1965, 2, 1)])
+          .range([chartWidth / 2 - width / 2, chartWidth / 2 + width / 2]),
+        () => chartHeight / 2,
+        identity,
+      ] as const;
+    }
+    case Step.InesRau: {
+      let width = timeScale(new Date(2017, 10, 1));
+      return [
+        scaleTime()
+          .domain([new Date(1953, 11, 1), new Date(2017, 10, 1)])
+          .range([chartWidth / 2 - width / 2, chartWidth / 2 + width / 2]),
+        () => chartHeight / 2,
+        identity,
+      ] as const;
+    }
+    case Step.MarshaElle: {
+      let width = timeScale(new Date(2020, 3, 1));
+      return [
+        scaleTime()
+          .domain([new Date(1953, 11, 1), new Date(2020, 3, 1)])
+          .range([chartWidth / 2 - width / 2, chartWidth / 2 + width / 2]),
         () => chartHeight / 2,
         identity,
       ] as const;

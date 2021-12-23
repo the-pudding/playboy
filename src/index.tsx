@@ -1,6 +1,6 @@
 import { hydrate, prerender as ssr } from "preact-iso";
 import { useHead, useLink, toStatic } from "hoofd";
-// import "preact/debug";
+import "preact/debug";
 
 import doc from "./data/doc.json";
 import Header from "./components/Header";

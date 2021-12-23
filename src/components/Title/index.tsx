@@ -129,7 +129,7 @@ function Silhouettes({ data }: { data: { y: string; x: number }[][] }) {
       {data.map((s, i) => (
         <Silhouette
           line={lineGenerator}
-          stroke={["magenta", "cyan", "yellow", "green"][i]}
+          stroke={["magenta", "cyan", "yellow"][i]}
           data={s}
           key={i}
         />

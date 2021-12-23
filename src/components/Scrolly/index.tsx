@@ -35,7 +35,7 @@ export default function Scrolly({ sections }: { sections: Section[] }) {
             zIndex: 0,
           }}
         >
-          <ResponsiveSvg margin={{ top: 30, left: 30, right: 10, bottom: 10 }}>
+          <ResponsiveSvg margin={{ top: 30, left: 30, right: 20, bottom: 10 }}>
             <Chart step={step} />
             {PointSteps.includes(step) && <Highlights step={step} />}
           </ResponsiveSvg>

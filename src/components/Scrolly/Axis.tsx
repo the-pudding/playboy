@@ -1,9 +1,11 @@
+import { select } from "d3";
 import { ComponentProps, h } from "preact";
-import { Axis } from "vizlib";
+import { useEffect, useRef, useState } from "preact/hooks";
+import { Axis, usePlotContext } from "vizlib";
 
 import { useYearTickValues } from "../../hooks";
-import { Step } from "./types";
-import { MONTHS } from "./util";
+import { Step, TimelineSteps } from "./types";
+import { MONTHS_FULL, MONTHS } from "./util";
 
 export const XAxis = ({
   step,
@@ -12,15 +14,99 @@ export const XAxis = ({
   step: Step;
 } & ComponentProps<typeof Axis>) => {
   const xTickValues = useYearTickValues();
+  const { chartHeight } = usePlotContext();
+  // const ref = useRef();
+  // const [transform, setTransform] = useState("");
+
+  // useEffect(() => {
+  //   if (TimelineSteps.includes(step)) {
+  //     setTransform(`translate(0, ${chartHeight / 2})`);
+  //   } else {
+  //     setTransform("translate(0, 0)");
+  //   }
+  // }, [step]);
+
+  // useEffect(() => {
+  //   if (!ref.current) return;
+
+  //   console.log("ah", ref.current);
+
+  //   select(ref.current).transition().duration(750).attr("transform", transform);
+  // }, [ref.current, transform]);
 
   switch (step) {
-    case Step.Explainer:
     case Step.Marilyn:
-    case Step.NoIssue:
+      return (
+        <Axis
+          orientation="top"
+          tickSizeOuter={0}
+          transitionDuration={750}
+          tickValues={[new Date(1953, 11, 1)]}
+          tickFormat={(d) => `${MONTHS_FULL[d.getMonth()]} ${d.getFullYear()}`}
+          style={{
+            transform: `translate(0px, ${chartHeight / 2}px)`,
+            transition: "transform 750ms",
+          }}
+          {...rest}
+        />
+      );
     case Step.JenniferJackson:
+      return (
+        <Axis
+          orientation="top"
+          tickSizeOuter={0}
+          transitionDuration={750}
+          tickValues={[new Date(1953, 11, 1), new Date(1965, 2, 1)]}
+          tickFormat={(d) => `${MONTHS_FULL[d.getMonth()]} ${d.getFullYear()}`}
+          style={{
+            transform: `translate(0px, ${chartHeight / 2}px)`,
+            transition: "transform 750ms",
+          }}
+          {...rest}
+        />
+      );
     case Step.InesRau:
+      return (
+        <Axis
+          orientation="top"
+          tickSizeOuter={0}
+          transitionDuration={750}
+          tickValues={[
+            new Date(1953, 11, 1),
+            new Date(1965, 2, 1),
+            new Date(2017, 10, 1),
+          ]}
+          tickFormat={(d) => `${MONTHS_FULL[d.getMonth()]} ${d.getFullYear()}`}
+          style={{
+            transform: `translate(0px, ${chartHeight / 2}px)`,
+            transition: "transform 750ms",
+          }}
+          {...rest}
+        />
+      );
     case Step.MarshaElle:
+      return (
+        <Axis
+          orientation="top"
+          tickSizeOuter={0}
+          transitionDuration={750}
+          tickValues={[
+            new Date(1953, 11, 1),
+            new Date(1965, 2, 1),
+            new Date(2020, 3, 1),
+          ]}
+          tickFormat={(d) => `${MONTHS_FULL[d.getMonth()]} ${d.getFullYear()}`}
+          style={{
+            transform: `translate(0px, ${chartHeight / 2}px)`,
+            transition: "transform 750ms",
+          }}
+          {...rest}
+        />
+      );
+
     case Step.OtherFirsts:
+    case Step.Explainer:
+    case Step.NoIssue:
     case Step.Hefner:
       return (
         <Axis
@@ -28,6 +114,10 @@ export const XAxis = ({
           tickValues={xTickValues.map(String)}
           tickSizeOuter={0}
           transitionDuration={300}
+          style={{
+            transform: `translate(0, 0)`,
+            transition: "transform 750ms",
+          }}
           {...rest}
         />
       );
@@ -44,6 +134,10 @@ export const XAxis = ({
           tickSizeOuter={0}
           transitionDuration={300}
           tickValues={xTickValues.map((d) => new Date(d, 0, 1))}
+          style={{
+            transform: `translate(0, 0)`,
+            transition: "transform 750ms",
+          }}
           {...rest}
         />
       );
@@ -63,11 +157,7 @@ export const YAxis = ({
 } & ComponentProps<typeof Axis>) => {
   switch (step) {
     case Step.Explainer:
-    case Step.Marilyn:
     case Step.NoIssue:
-    case Step.JenniferJackson:
-    case Step.InesRau:
-    case Step.MarshaElle:
     case Step.OtherFirsts:
     case Step.Hefner:
       return (
@@ -80,6 +170,10 @@ export const YAxis = ({
         />
       );
 
+    case Step.Marilyn:
+    case Step.JenniferJackson:
+    case Step.InesRau:
+    case Step.MarshaElle:
     case Step.Age:
     case Step.Height:
     case Step.Weight:

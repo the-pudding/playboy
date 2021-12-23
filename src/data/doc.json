@@ -4,15 +4,15 @@
   "intro": [
     {
       "type": "text",
-      "value": "Playboy has always been a study in contradictions. It manages to be both a “nudie mag”, and a home for the writings of literary greats like Margaret Atwood, Kurt Vonnegut, Haruki Murakami and Joyce Carol Oates."
+      "value": "Playboy has always been a study in contradictions. It manages to be both a “nudie mag,” and a home for the writings of literary greats like Margaret Atwood, Kurt Vonnegut, Haruki Murakami and Joyce Carol Oates."
     },
     {
       "type": "text",
-      "value": "It’s been <a href=\"https://www.thedailybeast.com/hugh-hefners-surprising-civil-rights-legacy\" target=\"_blank\" rel\"noopener noreferrer\">seen by some as revolutionary</a>, while others have described its output as setting women back by centuries."
+      "value": "At its heyday it was <a href=\"https://www.thedailybeast.com/hugh-hefners-surprising-civil-rights-legacy\" target=\"_blank\" rel\"noopener noreferrer\">seen by some as revolutionary</a>, while now others say it’s <a href=\"https://www.bbc.com/news/world-us-canada-41426299\" target=\"_blank\" rel\"noopener noreferrer\">firmly stuck in the past</a>."
     },
     {
       "type": "text",
-      "value": "Taking it from a kitchen in a Chicago apartment to a landmark mansion in Beverly Hills, Playboy’s founder Hugh Hefner, a figure both vilified and praised, turned the magazine into a cultural icon that would come to influence the world for more than 65 years. Along the way, even the Supreme Court has <a href=\"https://en.wikipedia.org/wiki/United_States_v._Playboy_Entertainment_Group,_Inc.\" target=\"_blank\" rel\"noopener noreferrer\">had to contend with it</a>."
+      "value": "Taking it from a kitchen in a Chicago apartment to a landmark mansion in Beverly Hills, Playboy’s founder Hugh Hefner, a figure both vilified and praised, turned the magazine into a cultural icon that would come to influence the male gaze, and the world, for more than 65 years. Along the way, even the Supreme Court has <a href=\"https://en.wikipedia.org/wiki/United_States_v._Playboy_Entertainment_Group,_Inc.\" target=\"_blank\" rel\"noopener noreferrer\">had to contend with it</a>."
     },
     {
       "type": "text",
@@ -20,7 +20,7 @@
     },
     {
       "type": "text",
-      "value": "Under the surface, looking at the data on Playmates of the Month reveals a more fundamental change happening behind the scenes. Slowly, quietly and without much notice - a <em>paradigm shift</em> has been underway. The publication’s longest-running contradiction, that it could call for sexual liberation while maintaining a very restrictive definition of beauty, seems to be crumbling. <strong>Since Hefner’s death, Playboy has been redefining how it beholds beauty</strong>."
+      "value": "Under the surface, looking at the data on Playmates of the Month reveals a more fundamental change happening behind the scenes. Slowly, quietly and without much notice - a <em>paradigm shift</em> has been underway. One of the publication’s longest-running contradictions, that it could call for sexual liberation while maintaining a very restrictive definition of beauty, seems to be crumbling. <strong>Since Hefner’s death, Playboy has been redefining how it beholds beauty</strong>."
     },
     {
       "type": "text",
@@ -36,7 +36,7 @@
   "scrollyIntro": [
     {
       "type": "text",
-      "value": "Since the first issue in December 1953, Playboy picked the Playmate of the Month <strong>812 times</strong>, featuring <strong>806 unique women</strong>. Playmates are featured in what’s known as the “centerfold”, the middle pages of a magazine that are made up of a single photo or feature story."
+      "value": "Since the first issue in December 1953, Playboy picked the Playmate of the Month <strong>812 times</strong>, featuring <strong>806 unique women</strong>. Playmates are featured in what’s known as the “centerfold,” the middle pages of a magazine that are made up of a single photo or feature story."
     },
     {
       "type": "text",
@@ -55,7 +55,7 @@
       "value": [
         {
           "type": "text",
-          "value": "<strong>Marilyn Monroe</strong> was the first ever “Sweetheart of the Month”, before the introduction of the Playmate of the Month title. Hugh Hefner had bought previously unpublished nude photos of her for a calendar, and picked the “sexiest” picture for the first centerfold. Although she was not the copyright holder, Ms. Monroe did not consent to those images’ use and she reportedly was not compensated."
+          "value": "<strong>Marilyn Monroe</strong> was the first ever “Sweetheart of the Month,” before the introduction of the Playmate of the Month title. Hugh Hefner had bought previously unpublished nude photos of her for a calendar, and picked the “sexiest” picture for the first centerfold. Although she was not the copyright holder, Ms. Monroe did not consent to those images’ use and she reportedly was not compensated."
         },
         {
           "type": "text",
@@ -76,7 +76,7 @@
         },
         {
           "type": "text",
-          "value": "Later, Playboy <a href=\"https://twitter.com/Playboy/status/921155223745306624\" target=\"_blank\" rel\"noopener noreferrer\">tweeted some of the angry letters they received</a> after featuring a Black Playmate."
+          "value": "Years later, Playboy would <a href=\"https://twitter.com/Playboy/status/921155223745306624\" target=\"_blank\" rel\"noopener noreferrer\">tweet some of the angry letters they received</a> after featuring a Black Playmate."
         }
       ]
     },
@@ -107,15 +107,6 @@
       ]
     },
     {
-      "type": "otherfirsts",
-      "value": [
-        {
-          "type": "text",
-          "value": "Here are some of the other “firsts” in Playmate history."
-        }
-      ]
-    },
-    {
       "type": "explainer",
       "value": [
         {
@@ -125,6 +116,15 @@
         {
           "type": "text",
           "value": "There were 7 issues where multiple Playmates appeared at the same time. They’re shown as clusters in the same month."
+        }
+      ]
+    },
+    {
+      "type": "otherfirsts",
+      "value": [
+        {
+          "type": "text",
+          "value": "Here are some of the other “firsts” in Playmate history."
         }
       ]
     },
@@ -146,11 +146,11 @@
         },
         {
           "type": "text",
-          "value": "Hugh Hefner passed away on September 27, 2017. It’s reported that he was personally involved in picking Playmates of the Month, and the data below suggests that the characteristics of who gets picked have started changing significantly after his death."
+          "value": "Hugh Hefner passed away on September 27, 2017. It’s <a href=\"https://money.cnn.com/2017/09/27/media/hugh-hefner/index.html#:~:text=Hefner%20helped%20personally%20select%20monthly%20%22Playmates%2C%22\" target=\"_blank\" rel\"noopener noreferrer\">reported</a> that he was personally involved in picking Playmates of the Month, and the data below suggests that the characteristics of who gets picked have started changing significantly after his death."
         },
         {
           "type": "text",
-          "value": "While Hefner had his fans, it is known that many of those who worked with him did not have a positive experience, and <a href=\"https://www.usmagazine.com/celebrity-news/pictures/every-former-playmate-whos-spoken-out-against-hugh-hefner/\" target=\"_blank\" rel\"noopener noreferrer\">a lot of Playmates have spoken out against him</a>."
+          "value": "While Hefner had his fans, it is known that many of those who worked with him <a href=\"https://www.vice.com/en/article/bjvyvw/dont-mourn-for-hugh-hefner\" target=\"_blank\" rel\"noopener noreferrer\">had harrowing experiences</a>, and <a href=\"https://www.usmagazine.com/celebrity-news/pictures/every-former-playmate-whos-spoken-out-against-hugh-hefner/\" target=\"_blank\" rel\"noopener noreferrer\">a lot of Playmates have spoken out against him</a>."
         }
       ]
     },
@@ -167,7 +167,7 @@
         },
         {
           "type": "text",
-          "value": "Note the highlighted area in red. 8 Playmates, up until 1981 were under the age of 18 when photographed. By today’s laws, this would be a felony. In the 1950s, Hefner was taken to court for<a href=\"https://www.newyorker.com/magazine/2006/03/20/the-girls-next-door-2\" target=\"_blank\" rel\"noopener noreferrer\"> </a><a href=\"https://www.newyorker.com/magazine/2006/03/20/the-girls-next-door-2\" target=\"_blank\" rel\"noopener noreferrer\">contributing to the delinquency of a minor</a>, but the case was dismissed as the child had written permission from her mother."
+          "value": "Note the highlighted area in red. 8 Playmates, up until 1981 were under the age of 18 when photographed. By today’s laws, this would be a felony. In the 1950s, Hefner was taken to court for <a href=\"https://www.newyorker.com/magazine/2006/03/20/the-girls-next-door-2\" target=\"_blank\" rel\"noopener noreferrer\">contributing to the delinquency of a minor</a>, but the case was dismissed as the child had written permission from her mother."
         },
         {
           "type": "text",
@@ -212,7 +212,7 @@
         },
         {
           "type": "text",
-          "value": "<strong>Ali Chanel</strong>, dubbed “Playboy’s curviest Playmate”, is regarded as a champion of body positivity, and has <a href=\"https://www.foxnews.com/entertainment/ali-chanel-playboy-playmate\" target=\"_blank\" rel\"noopener noreferrer\">encouraged</a> others to accept their bodies as they are."
+          "value": "<strong>Ali Chanel</strong>, dubbed “Playboy’s curviest Playmate,” is regarded as a champion of body positivity, and has <a href=\"https://www.foxnews.com/entertainment/ali-chanel-playboy-playmate\" target=\"_blank\" rel\"noopener noreferrer\">encouraged</a> others to accept their bodies as they are."
         }
       ]
     },
@@ -280,7 +280,7 @@
         },
         {
           "type": "text",
-          "value": "What do you think of when you think of hair color in the context of Playboy magazine? Marilyn Monroe, Pamela Anderson, Anna Nicole Smith were all blond."
+          "value": "What do you think of when you think of hair color in the context of Playboy magazine? Marilyn Monroe, Pamela Anderson and Anna Nicole Smith, for instance, were all blond."
         },
         {
           "type": "text",
@@ -292,7 +292,7 @@
         },
         {
           "type": "text",
-          "value": "Having light hair has become the “beauty standard”, with <a href=\"https://books.google.ca/books?id=3asbkganD14C&q=What+percent+of+adults+are+naturally+blond%3F&pg=PA52&redir_esc=y#v=onepage&q=What%20percent%20of%20adults%20are%20naturally%20blond%3F&f=false\" target=\"_blank\" rel\"noopener noreferrer\">48% of White college women dyed their hair blond or blonder</a>, higher than any other color. This might also be a reason why black hair is underrepresented."
+          "value": "Having light hair has become the “beauty standard,” with <a href=\"https://books.google.ca/books?id=3asbkganD14C&q=What+percent+of+adults+are+naturally+blond%3F&pg=PA52&redir_esc=y#v=onepage&q=What%20percent%20of%20adults%20are%20naturally%20blond%3F&f=false\" target=\"_blank\" rel\"noopener noreferrer\">48% of White college women dyeing their hair blond or blonder</a>, higher than any other color. This might also be a reason why black hair is underrepresented."
         },
         {
           "type": "text",
@@ -439,7 +439,7 @@
     },
     {
       "type": "text",
-      "value": "On December 2, 2021, Playboy announced its first-ever Creative Director In Residence <a href=\"https://www.plbygroup.com/news-releases/news-release-details/playboy-names-cardi-b-first-ever-creative-director-residence\" target=\"_blank\" rel\"noopener noreferrer\">as Cardi B</a>. What direction will this development take Playboy and their Playmates? Readers will have to wait and see. But in choosing the musician, the magazine has demonstrated a commitment to leaving its old formula, and it’s limited perspective, squarely in the past."
+      "value": "On December 2, 2021, Playboy announced its first-ever Creative Director In Residence <a href=\"https://www.plbygroup.com/news-releases/news-release-details/playboy-names-cardi-b-first-ever-creative-director-residence\" target=\"_blank\" rel\"noopener noreferrer\">as Cardi B</a>. What direction will this development take Playboy and their Playmates? Readers will have to wait and see. But in choosing the musician, the magazine has demonstrated a commitment to leaving its old formula, and its limited perspective, squarely in the past."
     }
   ],
   "methodology": [

@@ -2,6 +2,7 @@ import { bin, extent, scaleLinear, schemeTableau10 } from "d3";
 import { usePlotContext, Svg } from "vizlib";
 
 import { data, Playmate } from "../../data/data";
+import { PLAYMATE_PINK } from "../../util";
 
 const getHistFor = (key: keyof Playmate) => {
   const dats = data.map((d) => +d[key]);
@@ -40,7 +41,7 @@ export function Viz({ pm, hkey }: { pm: Playmate; hkey: keyof typeof hist }) {
             width={x(d.x1) - x(d.x0)}
             y={y(d.length)}
             height={Math.max(1, ctx.chartHeight - y(d.length))}
-            fill={schemeTableau10[0]}
+            fill={PLAYMATE_PINK}
           />
         ))}
       </g>
@@ -49,7 +50,7 @@ export function Viz({ pm, hkey }: { pm: Playmate; hkey: keyof typeof hist }) {
         x2={x(pm[hkey])}
         y={0}
         y2={ctx.chartHeight}
-        stroke={schemeTableau10[1]}
+        stroke="yellow"
         strokeWidth={3}
       />
     </>

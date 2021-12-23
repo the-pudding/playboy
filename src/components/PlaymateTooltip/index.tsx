@@ -96,7 +96,7 @@ export default function PlaymateTooltip({
               textAlign: "center",
             }}
           >
-            click elswhere to close
+            click elsewhere to close
           </div>
           <div
             style={{

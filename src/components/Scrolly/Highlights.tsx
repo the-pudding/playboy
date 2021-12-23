@@ -136,6 +136,7 @@ export default function Highlights({
             .attr("fill", "none")
             .attr("stroke", "red")
             .attr("stroke-width", 3)
+            .attr("pointer-events", "none")
             .call((enter) => enter.transition().duration(750).attr("r", 10)),
         (update) => update.attr("cx", (d) => d.cx).attr("cy", (d) => d.cy),
         (exit) =>

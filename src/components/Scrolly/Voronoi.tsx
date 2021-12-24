@@ -27,6 +27,7 @@ export default function Voronoi({
     showing?.reference,
     popper,
     {
+      strategy: "fixed",
       placement: "top",
       modifiers: [
         {

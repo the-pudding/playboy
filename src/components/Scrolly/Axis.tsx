@@ -1,10 +1,8 @@
-import { select } from "d3";
 import { ComponentProps, h } from "preact";
-import { useEffect, useRef, useState } from "preact/hooks";
 import { Axis, usePlotContext } from "vizlib";
 
 import { useYearTickValues } from "../../hooks";
-import { Step, TimelineSteps } from "./types";
+import { Step } from "./types";
 import { MONTHS_FULL, MONTHS } from "./util";
 
 export const XAxis = ({
@@ -15,24 +13,6 @@ export const XAxis = ({
 } & ComponentProps<typeof Axis>) => {
   const xTickValues = useYearTickValues();
   const { chartHeight } = usePlotContext();
-  // const ref = useRef();
-  // const [transform, setTransform] = useState("");
-
-  // useEffect(() => {
-  //   if (TimelineSteps.includes(step)) {
-  //     setTransform(`translate(0, ${chartHeight / 2})`);
-  //   } else {
-  //     setTransform("translate(0, 0)");
-  //   }
-  // }, [step]);
-
-  // useEffect(() => {
-  //   if (!ref.current) return;
-
-  //   console.log("ah", ref.current);
-
-  //   select(ref.current).transition().duration(750).attr("transform", transform);
-  // }, [ref.current, transform]);
 
   switch (step) {
     case Step.Marilyn:

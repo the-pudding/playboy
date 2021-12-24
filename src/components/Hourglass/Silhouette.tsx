@@ -2,7 +2,14 @@ import { select } from "d3";
 import { h } from "preact";
 import { useEffect, useRef } from "preact/hooks";
 
-export default function Silhouette({ data, line, stroke, opacity = 1 }) {
+export default function Silhouette({
+  data,
+  line,
+  stroke,
+  strokeWidth = 3,
+  strokeDasharray = null,
+  opacity = 1,
+}) {
   const ref = useRef(null);
 
   useEffect(() => {
@@ -20,8 +27,9 @@ export default function Silhouette({ data, line, stroke, opacity = 1 }) {
       <path
         style={{
           stroke,
+          strokeWidth,
+          strokeDasharray,
           fill: "none",
-          strokeWidth: 3,
           opacity: 0.7,
         }}
         d={line(data.left)}
@@ -29,8 +37,9 @@ export default function Silhouette({ data, line, stroke, opacity = 1 }) {
       <path
         style={{
           stroke,
+          strokeWidth,
+          strokeDasharray,
           fill: "none",
-          strokeWidth: 3,
           opacity: 0.7,
         }}
         d={line(data.right)}

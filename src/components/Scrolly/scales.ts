@@ -148,7 +148,7 @@ export default function scales({
           .map((d) => d.toString()),
       };
       const csR = {
-        hair: ["#fee08b", "#555", "rgb(140 81 23)", "rgb(215, 25, 28)"],
+        hair: ["#fee08b", "#555", "rgb(140 81 23)", "#c74742"],
         ethnicity: schemeSpectral[4],
         enhancements: schemeSpectral[3],
       };

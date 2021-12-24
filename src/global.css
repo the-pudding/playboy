@@ -3,15 +3,18 @@
   --serif: "Tiempos Text Web", Georgia, Times, serif;
   --mono: "Space Mono", Menlo, Consolas, Monaco, "Courier New", monospace;
 
-  --color-lenna: yellow;
+  --magenta: #ff7fff;
+  --cyan: cyan;
+  --yellow: yellow;
 }
 
 .theme {
   --color-background: #363636;
   --color-text: white;
   --color-warning: #4c657e;
-  --color-links: #ff7cde;
-  --color-playmate: #ff7cde;
+  --color-links: #ff7fff;
+  --color-playmate: #ff7fff;
+  --color-lenna: var(--yellow);
 }
 
 *,

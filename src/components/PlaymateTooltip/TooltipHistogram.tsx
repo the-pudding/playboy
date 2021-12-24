@@ -48,10 +48,10 @@ export function Viz({ pm, hkey }: { pm: Playmate; hkey: keyof typeof hist }) {
       <line
         x1={x(pm[hkey])}
         x2={x(pm[hkey])}
-        y={0}
+        y1={-3}
         y2={ctx.chartHeight}
-        stroke="yellow"
-        strokeWidth={3}
+        stroke="var(--cyan)"
+        strokeWidth={2}
       />
     </>
   );

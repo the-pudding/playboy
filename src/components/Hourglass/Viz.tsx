@@ -1,15 +1,9 @@
-import {
-  curveCatmullRom,
-  line,
-  max,
-  scaleLinear,
-  scaleOrdinal,
-  schemeGreens,
-} from "d3";
+import { curveCatmullRom, line, max, scaleLinear, scaleOrdinal } from "d3";
 import { h } from "preact";
 import { usePlotContext } from "vizlib";
 
 import Silhouette from "./Silhouette";
+import { pinks } from "./util";
 
 export default function Viz({
   decades,
@@ -37,7 +31,7 @@ export default function Viz({
   };
 
   const color = scaleOrdinal()
-    .range(schemeGreens[9])
+    .range(pinks)
     .domain(Object.keys(decades).concat(""));
 
   const lineGenerator = line()
@@ -57,7 +51,9 @@ export default function Viz({
     <>
       <Silhouette
         line={lineGenerator}
-        stroke={"yellow"}
+        stroke="yellow"
+        strokeWidth={2}
+        strokeDasharray={[5, 5]}
         data={{
           left: [
             ["top", -(35 * multiplier)],
@@ -83,6 +79,7 @@ export default function Viz({
           key={key}
           line={lineGenerator}
           stroke={color(key)}
+          strokeWidth={3}
           data={{
             left: [
               ["top", -((decades[key][0] - 4) * multiplier)],
@@ -103,7 +100,9 @@ export default function Viz({
       ))}
       <Silhouette
         line={lineGenerator}
-        stroke={"red"}
+        stroke="cyan"
+        strokeWidth={2}
+        strokeDasharray={[5, 5]}
         data={{
           left: [
             ["top", -(32 * multiplier)],

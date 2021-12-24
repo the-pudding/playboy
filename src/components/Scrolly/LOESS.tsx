@@ -105,7 +105,7 @@ export default function LOESS({
         ref={avgRef}
         style={{
           opacity: 0.9,
-          stroke: "red",
+          stroke: "var(--cyan)",
           strokeWidth: 4,
           fill: "none",
         }}

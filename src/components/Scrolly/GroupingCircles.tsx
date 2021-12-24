@@ -175,5 +175,5 @@ export default function GroupingCircles({
       );
   });
 
-  return <g ref={ref} {...rest} className="wtf" />;
+  return <g ref={ref} {...rest} />;
 }

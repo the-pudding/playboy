@@ -7,9 +7,10 @@ export default function Quote({ data }: { data: Quote }) {
     <blockquote
       style={{
         padding: "1rem",
-        fontSize: "1.3rem",
+        fontSize: "1.1rem",
         maxWidth: "43rem",
         margin: "0 auto",
+        fontFamily: "Tiempos Headline Web",
       }}
     >
       <p

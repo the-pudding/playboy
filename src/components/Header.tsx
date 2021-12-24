@@ -19,6 +19,7 @@ export default function Header() {
           style={{
             display: "block",
             flex: "1 0 auto",
+            width: "100%",
           }}
         >
           <Wordmark />

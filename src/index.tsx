@@ -132,6 +132,9 @@ useStore.subscribe((state) => {
     document.querySelectorAll("[data-cm]").forEach((el) => {
       el.innerHTML = `${+el.attributes["data-cm"].value} cm`;
     });
+    const hourglassSubtitle = document.querySelector("[data-ideal]");
+    hourglassSubtitle.innerHTML =
+      hourglassSubtitle.attributes["data-ideal-cm"].value;
   } else {
     document.querySelectorAll("[data-cm]").forEach((el) => {
       if (el.attributes["only-inches"]) {
@@ -140,6 +143,9 @@ useStore.subscribe((state) => {
         el.innerHTML = formatFeetIn(cm2in(+el.attributes["data-cm"].value));
       }
     });
+    const hourglassSubtitle = document.querySelector("[data-ideal]");
+    hourglassSubtitle.innerHTML =
+      hourglassSubtitle.attributes["data-ideal-in"].value;
   }
 });
 

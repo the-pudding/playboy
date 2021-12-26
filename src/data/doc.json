@@ -384,7 +384,7 @@
       "type": "avgViz",
       "value": {
         "title": "Most/Least Average Playmates",
-        "subtitle": "Playmates ordered by their distance to the average Playmate. The top 5 most average are all from older issues, whereas the top 5 least average are all from 2003 and later."
+        "subtitle": "Playmates ordered by their distance to the average Playmate. The most and least average top 5 Playmates split the age of the magazine into almost perfect quarters. The top 5 most average are all from older issues, whereas the top 5 least average are all from 2003 and later."
       }
     },
     {
@@ -453,7 +453,7 @@
     },
     {
       "type": "text",
-      "value": "The trendlines shown in red were computed via <a href=\"https://en.wikipedia.org/wiki/Local_regression\" target=\"_blank\" rel=\"noopener noreferrer\">LOESS</a>. Averages for women in the US between 2015-2018 are from the <a href=\"https://www.cdc.gov/nchs/data/series/sr_03/sr03-046-508.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">CDC NCHS Vital and Health Statistics</a>."
+      "value": "The trendlines shown in cyan were computed via <a href=\"https://en.wikipedia.org/wiki/Local_regression\" target=\"_blank\" rel=\"noopener noreferrer\">LOESS</a>. Averages for women in the US between 2015-2018 are from the <a href=\"https://www.cdc.gov/nchs/data/series/sr_03/sr03-046-508.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">CDC NCHS Vital and Health Statistics</a>."
     },
     {
       "type": "text",

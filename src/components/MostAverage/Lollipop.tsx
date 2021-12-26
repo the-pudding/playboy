@@ -113,7 +113,14 @@ export default function Lollipop({
           width={R * 2}
         />
       </pattern>
-      <line x1={x1} y1={y1} x2={chartWidth} y2={y2} stroke={PLAYMATE_PINK} />
+      <line
+        x1={x1}
+        y1={y1}
+        x2={chartWidth}
+        y2={y2}
+        stroke={PLAYMATE_PINK}
+        strokeDasharray="5, 5"
+      />
       <circle
         cx={x1}
         cy={y1}

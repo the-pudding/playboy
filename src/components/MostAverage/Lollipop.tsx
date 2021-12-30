@@ -8,16 +8,16 @@ import { Playmate } from "../../data/data";
 import PlaymateTooltip from "../PlaymateTooltip";
 import { PLAYMATE_PINK } from "../../util";
 
-import AliChanel from "./AliChanel.jpg";
-import GeenaRocero from "./GeenaRocero.jpg";
-import CarmellaDeCesare from "./CarmellaDeCesare.jpg";
-import GraceKim from "./GraceKim.jpg";
-import IdaLjungqvist from "./IdaLjungqvist.jpg";
-import KatherineHushaw from "./KatherineHushaw.jpg";
-import LizStewart from "./LizStewart.jpg";
-import PhyllisColeman from "./PhyllisColeman.jpg";
-import CarmenBerg from "./CarmenBerg.jpg";
-import ChrisKoren from "./ChrisKoren.jpg";
+import AliChanel from "./AliChanel.webp";
+import GeenaRocero from "./GeenaRocero.webp";
+import CarmellaDeCesare from "./CarmellaDeCesare.webp";
+import GraceKim from "./GraceKim.webp";
+import IdaLjungqvist from "./IdaLjungqvist.webp";
+import KatherineHushaw from "./KatherineHushaw.webp";
+import LizStewart from "./LizStewart.webp";
+import PhyllisColeman from "./PhyllisColeman.webp";
+import CarmenBerg from "./CarmenBerg.webp";
+import ChrisKoren from "./ChrisKoren.webp";
 
 const R = 15;
 const images = {

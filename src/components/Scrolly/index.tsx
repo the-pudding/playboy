@@ -17,7 +17,7 @@ export default function Scrolly({ sections }: { sections: Section[] }) {
       window
         .getComputedStyle(document.documentElement)
         .getPropertyValue("--color-background")
-    ).brighter(2);
+    ).brighter(0.5);
     waypointBG.opacity = 0.7;
     setWaypointBG(waypointBG.toString());
   });
@@ -61,8 +61,7 @@ export default function Scrolly({ sections }: { sections: Section[] }) {
               total={sections.length}
               style={{
                 background: waypointBG,
-                border: "1px solid transparent",
-                opacity: step === section.type ? 1 : 0.5,
+                border: "1px solid white",
                 padding: "0 0.5rem",
                 marginBottom: "90vh",
                 pointerEvents: "all",

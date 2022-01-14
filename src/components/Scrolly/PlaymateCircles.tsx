@@ -43,7 +43,8 @@ export default function PlaymateCircles({
               enter
                 .transition(t) //
                 .attr("opacity", 1)
-            );
+            )
+            .attr("tabindex", 0);
 
           return entered;
         },

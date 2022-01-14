@@ -4,7 +4,7 @@ import Wordmark from "./Wordmark";
 
 export default function Header() {
   return (
-    <header>
+    <header role="banner">
       <div
         style={{
           maxWidth: "10rem",

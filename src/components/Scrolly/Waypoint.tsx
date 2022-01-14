@@ -48,7 +48,7 @@ export default function Waypoint({
           style={{
             textAlign: "right",
             fontSize: "0.7rem",
-            color: "rgba(255,255,255,0.5)",
+            color: "var(--color-text)",
           }}
         >
           {number}/{total}

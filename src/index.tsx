@@ -55,62 +55,65 @@ export function App() {
     <>
       <Header />
 
-      <article>
-        <Title />
+      <main role="main">
+        <article>
+          <Title />
 
-        <Paragraphs
-          // @ts-ignore
-          data={doc.intro}
-        />
+          <Paragraphs
+            // @ts-ignore
+            data={doc.intro}
+          />
 
-        <Warning>
-          {doc.warning.map((p, i) => (
-            <p
-              key={i}
-              dangerouslySetInnerHTML={{
-                __html: p.value,
-              }}
-            />
-          ))}
-        </Warning>
+          <Warning>
+            {doc.warning.map((p, i) => (
+              <p
+                key={i}
+                dangerouslySetInnerHTML={{
+                  __html: p.value,
+                }}
+              />
+            ))}
+          </Warning>
 
-        <Paragraphs
-          // @ts-ignore
-          data={doc.scrollyIntro}
-        />
+          <Paragraphs
+            // @ts-ignore
+            data={doc.scrollyIntro}
+          />
 
-        <UnitPicker />
+          <UnitPicker />
 
-        <Scrolly
-          // @ts-ignore
-          sections={doc.scrolly}
-        />
+          <Scrolly
+            // @ts-ignore
+            sections={doc.scrolly}
+          />
 
-        <Hourglass
-          // @ts-ignore
-          data={doc.hourglass}
-        />
+          <Hourglass
+            // @ts-ignore
+            data={doc.hourglass}
+          />
 
-        <MostAverage
-          // @ts-ignore
-          data={doc.mostAverage}
-        />
+          <MostAverage
+            // @ts-ignore
+            data={doc.mostAverage}
+          />
 
-        <h2>{doc.outro[0].value}</h2>
-        <Paragraphs
-          // @ts-ignore
-          data={doc.outro.slice(1)}
-        />
+          <h2>{doc.outro[0].value}</h2>
+          <Paragraphs
+            // @ts-ignore
+            data={doc.outro.slice(1)}
+          />
 
-        <hr style={{ maxWidth: "43rem", margin: "3rem auto" }} />
+          <hr style={{ maxWidth: "43rem", margin: "3rem auto" }} />
 
-        <h2
-          style={{
-            fontSize: "1.1rem",
-          }}
-        >
-          {doc.methodology[0].value}
-        </h2>
+          <h2
+            style={{
+              fontSize: "1.1rem",
+            }}
+          >
+            {doc.methodology[0].value}
+          </h2>
+        </article>
+
         <Paragraphs
           // @ts-ignore
           data={doc.methodology.slice(1)}
@@ -118,7 +121,7 @@ export function App() {
             fontSize: "0.9rem",
           }}
         />
-      </article>
+      </main>
 
       <Footer />
     </>

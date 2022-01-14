@@ -26,6 +26,7 @@ export default function Footer() {
         padding: "3em 1em",
         marginTop: "10em",
       }}
+      role="contentinfo"
     >
       <section
         style={{

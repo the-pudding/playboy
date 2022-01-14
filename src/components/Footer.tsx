@@ -49,7 +49,7 @@ export default function Footer() {
             >
               <img
                 src={`https://pudding.cool/common/assets/thumbnails/640/${image}.jpg`}
-                alt="thumbnail"
+                alt={`thumbnail for ${hed}`}
                 style={{
                   width: "100%",
                 }}

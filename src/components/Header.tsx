@@ -7,7 +7,7 @@ export default function Header() {
     <header role="banner">
       <div
         style={{
-          maxWidth: "10rem",
+          maxWidth: "160px",
           display: "flex",
           justifyContent: "center",
           margin: "0 auto",

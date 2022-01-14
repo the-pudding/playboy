@@ -4,6 +4,7 @@
 }
 .subtitle {
   font-size: 1.6rem;
+  text-align: center;
 }
 
 @media only screen and (max-width: 425px) {

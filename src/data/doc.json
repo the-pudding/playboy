@@ -188,7 +188,7 @@
         },
         {
           "type": "text",
-          "value": "The average height of women in the US was <span data-cm=162.6>5’4”</span> <a href=\"https://www.cdc.gov/nchs/data/series/sr_03/sr03-046-508.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">between 2015-2018</a>."
+          "value": "The average height of women in the US was <span data-cm=162.6>5’4”</span> <a href=\"https://www.cdc.gov/nchs/data/series/sr_03/sr03-046-508.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">between 2015-2018 [pdf]</a>."
         }
       ]
     },
@@ -351,12 +351,13 @@
       "type": "viz",
       "value": {
         "title": "Breaking the mold",
-        "subtitle": "2020 is the first and only year the hourglass-figure mold was broken. What we call curvy or “thick” is finally embraced by Playboy in 2020. The <a href=\"https://en.wikipedia.org/wiki/Bust/waist/hip_measurements#:~:text=The%20specific%20proportions%20of%2036%E2%80%9324%E2%80%9336%20inches%20(90%2D60%2D90%20centimeters)%20have%20frequently%20been%20given%20as%20the%20%22ideal%22%2C%20or%20%22hourglass%22%20proportions%20for%20women%20since%20at%20least%20the%201960s%20(these%20measurements%20are%2C%20for%20example%2C%20the%20title%20of%20a%20hit%20instrumental%20by%20The%20Shadows).%5B2%5D%5B3%5D%5B4%5D\" target=\"_blank\" rel=\"noopener noreferrer\">“</a><a href=\"https://en.wikipedia.org/wiki/Bust/waist/hip_measurements#:~:text=The%20specific%20proportions%20of%2036%E2%80%9324%E2%80%9336%20inches%20(90%2D60%2D90%20centimeters)%20have%20frequently%20been%20given%20as%20the%20%22ideal%22%2C%20or%20%22hourglass%22%20proportions%20for%20women%20since%20at%20least%20the%201960s%20(these%20measurements%20are%2C%20for%20example%2C%20the%20title%20of%20a%20hit%20instrumental%20by%20The%20Shadows).%5B2%5D%5B3%5D%5B4%5D\" target=\"_blank\" rel=\"noopener noreferrer\">Ideal</a><a href=\"https://en.wikipedia.org/wiki/Bust/waist/hip_measurements#:~:text=The%20specific%20proportions%20of%2036%E2%80%9324%E2%80%9336%20inches%20(90%2D60%2D90%20centimeters)%20have%20frequently%20been%20given%20as%20the%20%22ideal%22%2C%20or%20%22hourglass%22%20proportions%20for%20women%20since%20at%20least%20the%201960s%20(these%20measurements%20are%2C%20for%20example%2C%20the%20title%20of%20a%20hit%20instrumental%20by%20The%20Shadows).%5B2%5D%5B3%5D%5B4%5D\" target=\"_blank\" rel=\"noopener noreferrer\">”</a> <span data-ideal data-ideal-cm=90-60-90 data-ideal-in=36-24-36>36-24-36</span> shown in cyan. <a href=\"https://www.huffpost.com/entry/the-scary-reality-of-a-re_b_845239\" target=\"_blank\" rel=\"noopener noreferrer\">Projected dimensions</a> of the Barbie doll in yellow. Click on the decades to isolate."
+        "subtitle": "2020 is the first and only year the hourglass-figure mold was broken. What we call curvy or “thick” is finally embraced by Playboy in 2020. The <a href=\"https://en.wikipedia.org/wiki/Bust/waist/hip_measurements#:~:text=The%20specific%20proportions%20of%2036%E2%80%9324%E2%80%9336%20inches%20(90%2D60%2D90%20centimeters)%20have%20frequently%20been%20given%20as%20the%20%22ideal%22%2C%20or%20%22hourglass%22%20proportions%20for%20women%20since%20at%20least%20the%201960s%20(these%20measurements%20are%2C%20for%20example%2C%20the%20title%20of%20a%20hit%20instrumental%20by%20The%20Shadows).%5B2%5D%5B3%5D%5B4%5D\" target=\"_blank\" rel=\"noopener noreferrer\">“</a><a href=\"https://en.wikipedia.org/wiki/Bust/waist/hip_measurements#:~:text=The%20specific%20proportions%20of%2036%E2%80%9324%E2%80%9336%20inches%20(90%2D60%2D90%20centimeters)%20have%20frequently%20been%20given%20as%20the%20%22ideal%22%2C%20or%20%22hourglass%22%20proportions%20for%20women%20since%20at%20least%20the%201960s%20(these%20measurements%20are%2C%20for%20example%2C%20the%20title%20of%20a%20hit%20instrumental%20by%20The%20Shadows).%5B2%5D%5B3%5D%5B4%5D\" target=\"_blank\" rel=\"noopener noreferrer\">Ideal</a><a href=\"https://en.wikipedia.org/wiki/Bust/waist/hip_measurements#:~:text=The%20specific%20proportions%20of%2036%E2%80%9324%E2%80%9336%20inches%20(90%2D60%2D90%20centimeters)%20have%20frequently%20been%20given%20as%20the%20%22ideal%22%2C%20or%20%22hourglass%22%20proportions%20for%20women%20since%20at%20least%20the%201960s%20(these%20measurements%20are%2C%20for%20example%2C%20the%20title%20of%20a%20hit%20instrumental%20by%20The%20Shadows).%5B2%5D%5B3%5D%5B4%5D\" target=\"_blank\" rel=\"noopener noreferrer\">”</a> <span data-ideal data-ideal-cm=90-60-90 data-ideal-in=36-24-36>36-24-36</span> shown in cyan. <a href=\"https://www.huffpost.com/entry/the-scary-reality-of-a-re_b_845239\" target=\"_blank\" rel=\"noopener noreferrer\">Projected dimensions</a> of the Barbie doll in yellow. Click on the decades to isolate.",
+        "caption": "Line chart showing bust, waist and hips measurements for Playmates where bust and hips have decreased and waist measurements have increased every decade since the 1950s. 2020 is the year when the measurements broke out of the “Ideal” figure."
       }
     },
     {
       "type": "text",
-      "value": "The controversial measurements for the Barbie doll are highlighted to show <a href=\"https://www.chapman.edu/students/health-and-safety/psychological-counseling/_files/eating-disorder-files/13-barbie-facts.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">how ridiculous</a> the proportions of the doll <a href=\"https://time.com/barbie-new-body-cover-story/\" target=\"_blank\" rel=\"noopener noreferrer\">used to be</a>. Like the absurd measurements of the Barbie doll, the standard of beauty devised by those in power is unrealistic and manufactured for mass consumption. While not exactly a full embrace of body diversity, the shift in Playboy’s outlook on beauty is certainly visible in recent years."
+      "value": "The controversial measurements for the Barbie doll are highlighted to show <a href=\"https://www.chapman.edu/students/health-and-safety/psychological-counseling/_files/eating-disorder-files/13-barbie-facts.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">how ridiculous [pdf]</a> the proportions of the doll <a href=\"https://time.com/barbie-new-body-cover-story/\" target=\"_blank\" rel=\"noopener noreferrer\">used to be</a>. Like the absurd measurements of the Barbie doll, the standard of beauty devised by those in power is unrealistic and manufactured for mass consumption. While not exactly a full embrace of body diversity, the shift in Playboy’s outlook on beauty is certainly visible in recent years."
     }
   ],
   "mostAverage": [
@@ -376,7 +377,8 @@
       "type": "avgViz",
       "value": {
         "title": "Most/Least Average Playmates",
-        "subtitle": "Playmates ordered by their distance to the average Playmate. The most and least average top 5 Playmates split the age of the magazine into almost perfect quarters. The top 5 most average are all from older issues, whereas the top 5 least average are all from 2003 and later."
+        "subtitle": "Playmates ordered by their distance to the average Playmate. The most and least average top 5 Playmates split the age of the magazine into almost perfect quarters. The top 5 most average are all from older issues, whereas the top 5 least average are all from 2003 and later.",
+        "caption": "Lollipop chart showing the top 5 most average and top 5 least average Playmates where the top 5 most average Playmates were in the second quarter of the magazine’s lifetime, and top 5 least average Playmates were in the last quarter."
       }
     },
     {
@@ -394,7 +396,8 @@
       "type": "diffViz",
       "value": {
         "title": "Difference from Average per Year",
-        "subtitle": "Playmates have been increasingly different from the “Most Average Playmate” through the years."
+        "subtitle": "Playmates have been increasingly different from the “Most Average Playmate” through the years.",
+        "caption": "Bar chart of the average difference per year from the “Most Average Playmate” where the difference from the average grows higher as the years pass, 2020 being the least average year."
       }
     }
   ],
@@ -445,7 +448,7 @@
     },
     {
       "type": "text",
-      "value": "The trendlines shown in cyan were computed via <a href=\"https://en.wikipedia.org/wiki/Local_regression\" target=\"_blank\" rel=\"noopener noreferrer\">LOESS</a>. Averages for women in the US between 2015-2018 are from the <a href=\"https://www.cdc.gov/nchs/data/series/sr_03/sr03-046-508.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">CDC NCHS Vital and Health Statistics</a>."
+      "value": "The trendlines shown in cyan were computed via <a href=\"https://en.wikipedia.org/wiki/Local_regression\" target=\"_blank\" rel=\"noopener noreferrer\">LOESS</a>. Averages for women in the US between 2015-2018 are from the <a href=\"https://www.cdc.gov/nchs/data/series/sr_03/sr03-046-508.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">CDC NCHS Vital and Health Statistics [pdf]</a>."
     },
     {
       "type": "text",

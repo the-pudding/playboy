@@ -12,6 +12,7 @@ export interface Viz {
   value: {
     title: string;
     subtitle: string;
+    caption: string;
   };
 }
 
@@ -27,10 +28,10 @@ export default function MostAverage({ data }: { data: Section[] }) {
         if (section.type === "quote") return <Quote key={i} data={section} />;
         if (section.type === "avgViz" || section.type === "diffViz")
           return (
-            <div>
+            <figure>
               <VizHeading data={section.value} />
               {section.type === "avgViz" ? <MostLeast /> : <YearAverages />}
-            </div>
+            </figure>
           );
       })}
     </Fragment>

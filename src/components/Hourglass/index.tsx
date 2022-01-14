@@ -11,6 +11,7 @@ export interface Viz {
   value: {
     title: string;
     subtitle: string;
+    caption: string;
   };
 }
 
@@ -26,10 +27,10 @@ export default function Hourglass({ data }: { data: Section[] }) {
         if (section.type === "quote") return <Quote key={i} data={section} />;
         if (section.type === "viz")
           return (
-            <div>
+            <figure>
               <VizHeading data={section.value} />
               <HourglassViz />
-            </div>
+            </figure>
           );
       })}
     </Fragment>

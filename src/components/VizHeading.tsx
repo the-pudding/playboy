@@ -1,11 +1,12 @@
 import { h } from "preact";
 
 export default function VizHeading({
-  data: { title, subtitle },
+  data: { title, subtitle, caption },
 }: {
   data: {
     title: string;
     subtitle: string;
+    caption: string;
   };
 }) {
   return (
@@ -28,6 +29,7 @@ export default function VizHeading({
           __html: subtitle,
         }}
       />
+      <figcaption style={{ display: "none" }}>{caption}</figcaption>
     </div>
   );
 }

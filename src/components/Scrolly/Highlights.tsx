@@ -3,6 +3,7 @@ import { select } from "d3";
 import { useLayoutEffect, useRef } from "preact/hooks";
 import { PlaymateCircle, PointSteps, Step } from "./types";
 import useData from "./useData";
+import { useWindowSize } from "../../hooks";
 
 // const circle = (cx, cy, r) =>
 //   `M ${cx},${cy - r} A ${r},${r} 0 0,0 ${cx},${
@@ -119,6 +120,7 @@ export default function Highlights({
 
   // const pathRef = useRef(null)
   const circlesRef = useRef(null);
+  const ws = useWindowSize();
 
   useLayoutEffect(() => {
     if (!circlesRef.current) return;
@@ -146,7 +148,7 @@ export default function Highlights({
       )
       .transition()
       .duration(750)
-      .attr("r", 10);
+      .attr("r", ws.width >= 768 ? 10 : 6);
   }, [step, scales]);
 
   return (

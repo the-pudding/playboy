@@ -23,6 +23,7 @@ export default function scales({
   xA,
   yA,
   cA,
+  isSm,
 }: {
   step: Step;
   chartHeight: number;
@@ -30,6 +31,7 @@ export default function scales({
   xA: XAccessor;
   yA: YAccessor;
   cA: CAccessor;
+  isSm: boolean;
 }) {
   const timeScale = scaleTime()
     //@ts-ignore
@@ -125,7 +127,11 @@ export default function scales({
     case Step.Ethnicity:
     case Step.Enhancements: {
       const packer = pack<Playmate>()
-        .size([chartWidth / 2 - 10, chartHeight])
+        .size(
+          isSm
+            ? [chartWidth, chartHeight / 2]
+            : [chartWidth / 2 - 10, chartHeight]
+        )
         .padding((d) => (d.depth === 1 ? 5 : 25));
 
       const grouped = group(data, cA);

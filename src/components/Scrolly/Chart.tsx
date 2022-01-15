@@ -17,6 +17,7 @@ import GroupingCircles from "./GroupingCircles";
 import Bars from "./Bars";
 import { STEP_UNITS } from "./util";
 import { formatFeetIn } from "../../util";
+import { useWindowSize } from "../../hooks";
 
 const LOESS = lazy(() => import("./LOESS"));
 
@@ -36,6 +37,9 @@ export default function Chart({ step }: { step: Step }) {
       .duration(750)
       .attr("fill-opacity", 0.2);
   }, [step]);
+
+  const ws = useWindowSize();
+  const isSm = ws.width < 768;
 
   return (
     <Fragment>
@@ -119,14 +123,29 @@ export default function Chart({ step }: { step: Step }) {
             transitionDuration={750}
           />
           <Bars
-            width={chartWidth / 2 - 40}
-            height={Math.min(chartWidth / 2 / 1.6, chartHeight)}
+            // width={chartWidth / 2 - 40}
+            // height={Math.min(chartWidth / 2 / 1.6, chartHeight)}
+            width={isSm ? chartWidth : chartWidth / 2 - 40}
+            height={
+              isSm
+                ? chartHeight / 2 / 1.6
+                : Math.min(chartWidth / 2 / 1.6, chartHeight)
+            }
             accessor={accessors.cA}
             // @ts-ignore
             colorScale={scales.sC}
-            transform={`translate(${chartWidth / 2 + 20},${
-              (chartHeight - Math.min(chartWidth / 2 / 1.6, chartHeight)) / 2
-            })`}
+            // transform={`translate(${chartWidth / 2 + 20},${
+            //   (chartHeight - Math.min(chartWidth / 2 / 1.6, chartHeight)) / 2
+            // })`}
+            transform={
+              isSm
+                ? `translate(10,${chartHeight / 2})`
+                : `translate(${chartWidth / 2 + 20},${
+                    (chartHeight -
+                      Math.min(chartWidth / 2 / 1.6, chartHeight)) /
+                    2
+                  })`
+            }
           />
         </Fragment>
       )}

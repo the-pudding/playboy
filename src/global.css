@@ -141,6 +141,16 @@ a:visited:hover {
   border-bottom-color: var(--color-playmate);
 }
 
+.scrolly-text {
+  margin-left: 120px;
+}
+
+@media only screen and (max-width: 30rem) {
+  .scrolly-text {
+    margin: 0;
+  }
+}
+
 /*
 			This font software is the property of Commercial Type.
 

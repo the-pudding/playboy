@@ -49,6 +49,7 @@ export default function Scrolly({ sections }: { sections: Section[] }) {
             display: "flex",
             flexDirection: "column",
           }}
+          className="scrolly-text"
         >
           {sections.map((section, i) => (
             <Waypoint
@@ -62,9 +63,9 @@ export default function Scrolly({ sections }: { sections: Section[] }) {
               style={{
                 background: waypointBG,
                 border: "1px solid white",
-                padding: "0 0.5rem",
                 marginBottom: "90vh",
                 pointerEvents: "all",
+                padding: "0 1rem",
               }}
             />
           ))}

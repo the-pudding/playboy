@@ -1,7 +1,7 @@
 import { ComponentProps, h } from "preact";
 import { Axis, usePlotContext } from "vizlib";
 
-import { useYearTickValues } from "../../hooks";
+import { useWindowSize, useYearTickValues } from "../../hooks";
 import { Step } from "./types";
 import { MONTHS_FULL, MONTHS } from "./util";
 
@@ -13,6 +13,11 @@ export const XAxis = ({
 } & ComponentProps<typeof Axis>) => {
   const xTickValues = useYearTickValues();
   const { chartHeight } = usePlotContext();
+  const ws = useWindowSize();
+  const tickFormat = (d) =>
+    ws.width >= 768
+      ? `${MONTHS_FULL[d.getMonth()]} ${d.getFullYear()}`
+      : `${MONTHS[d.getMonth()]} ${d.getFullYear()}`;
 
   switch (step) {
     case Step.Marilyn:
@@ -22,7 +27,7 @@ export const XAxis = ({
           tickSizeOuter={0}
           transitionDuration={750}
           tickValues={[new Date(1953, 11, 1)]}
-          tickFormat={(d) => `${MONTHS_FULL[d.getMonth()]} ${d.getFullYear()}`}
+          tickFormat={tickFormat}
           style={{
             transform: `translate(0px, ${chartHeight / 2}px)`,
             transition: "transform 750ms",
@@ -37,7 +42,7 @@ export const XAxis = ({
           tickSizeOuter={0}
           transitionDuration={750}
           tickValues={[new Date(1953, 11, 1), new Date(1965, 2, 1)]}
-          tickFormat={(d) => `${MONTHS_FULL[d.getMonth()]} ${d.getFullYear()}`}
+          tickFormat={tickFormat}
           style={{
             transform: `translate(0px, ${chartHeight / 2}px)`,
             transition: "transform 750ms",
@@ -56,7 +61,7 @@ export const XAxis = ({
             new Date(1965, 2, 1),
             new Date(2017, 10, 1),
           ]}
-          tickFormat={(d) => `${MONTHS_FULL[d.getMonth()]} ${d.getFullYear()}`}
+          tickFormat={tickFormat}
           style={{
             transform: `translate(0px, ${chartHeight / 2}px)`,
             transition: "transform 750ms",
@@ -75,7 +80,7 @@ export const XAxis = ({
             new Date(1965, 2, 1),
             new Date(2020, 3, 1),
           ]}
-          tickFormat={(d) => `${MONTHS_FULL[d.getMonth()]} ${d.getFullYear()}`}
+          tickFormat={tickFormat}
           style={{
             transform: `translate(0px, ${chartHeight / 2}px)`,
             transition: "transform 750ms",

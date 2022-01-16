@@ -29,5 +29,5 @@ export function useWindowSize() {
 
 export function useYearTickValues() {
   const ws = useWindowSize();
-  return (ws.width ?? 0) >= 425 ? range(1955, 2021, 5) : range(1960, 2021, 10);
+  return (ws.width ?? 0) > 425 ? range(1955, 2021, 5) : range(1960, 2021, 10);
 }

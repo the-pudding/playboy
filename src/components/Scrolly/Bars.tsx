@@ -111,7 +111,7 @@ export default function Bars({
   const ws = useWindowSize();
   const wWidth = ws.width ?? 0;
   let xTickValues = useYearTickValues();
-  if (wWidth < 768) {
+  if (wWidth < 424) {
     xTickValues = range(1960, 2021, 20);
   } else if (wWidth <= 1024) {
     xTickValues = range(1960, 2021, 10);

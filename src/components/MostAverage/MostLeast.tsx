@@ -42,9 +42,9 @@ function Viz() {
         orientation="right"
         transform={`translate(${chartWidth},0)`}
         tickFormat={(d) => {
-          if (d === 0) return `#1 - Most Average`;
+          if (d === 0) return `#1 - Most Avg.`;
           if (d < 5) return `#${d + 1}`;
-          if (d === 14) return `#806 - Least Average`;
+          if (d === 14) return `#806 - Least Avg.`;
           if (d > 9) return `#${806 - 14 + d}`;
           return "";
         }}
@@ -90,7 +90,7 @@ function Viz() {
           fill="white"
           fontSize={12}
         >
-          ~{d[1]} years
+          ~{d[1]} yrs.
         </text>
       ))}
       {most.map((d, i) => (

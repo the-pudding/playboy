@@ -80,6 +80,7 @@ export default function Viz({
           line={lineGenerator}
           stroke={color(key)}
           strokeWidth={3}
+          strokeDasharray={key === "2020s" ? [5, 5] : null}
           data={{
             left: [
               ["top", -((decades[key][0] - 4) * multiplier)],

@@ -100,7 +100,7 @@ export default function Hourglass() {
                 marginRight: "0.25rem",
               }}
             />{" "}
-            {k}
+            {k.replace("2020s", "2020")}
           </div>
         ))}
         <div
@@ -139,7 +139,7 @@ export default function Hourglass() {
               marginRight: "0.25rem",
             }}
           />{" "}
-          Barbie doll
+          Barbie
         </div>
       </div>
     </div>

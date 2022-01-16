@@ -142,13 +142,17 @@ a:visited:hover {
 }
 
 .scrolly-text {
-  margin-left: 120px;
+  margin-left: 70px;
 }
 
 @media only screen and (max-width: 30rem) {
   .scrolly-text {
     margin: 0;
   }
+}
+
+.tick text {
+  font-size: 12px;
 }
 
 /*

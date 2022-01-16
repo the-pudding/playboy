@@ -17,7 +17,7 @@ export const XAxis = ({
   const tickFormat = (d) =>
     ws.width >= 768
       ? `${MONTHS_FULL[d.getMonth()]} ${d.getFullYear()}`
-      : `${MONTHS[d.getMonth()]} ${d.getFullYear()}`;
+      : `${d.getMonth() + 1}/${d.getFullYear()}`;
 
   switch (step) {
     case Step.Marilyn:

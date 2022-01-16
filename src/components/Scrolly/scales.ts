@@ -132,7 +132,7 @@ export default function scales({
             ? [chartWidth, chartHeight / 2]
             : [chartWidth / 2 - 10, chartHeight]
         )
-        .padding((d) => (d.depth === 1 ? 8 : 55));
+        .padding((d) => (d.depth === 1 ? 8 : 60));
 
       const grouped = group(data, cA);
       const hi = hierarchy(grouped).count();

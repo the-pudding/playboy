@@ -76,7 +76,7 @@ export default function GroupingCircles({
       .startAngle(0)
       .endAngle((d) => {
         const total = d.data[0].length + 4;
-        const angl = (total * 10) / (d.r + Math.PI * 6);
+        const angl = (total * 10) / (d.r + Math.PI * 5.6);
         return angl;
       });
 

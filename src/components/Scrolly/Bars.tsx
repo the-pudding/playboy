@@ -30,7 +30,7 @@ export default function Bars({
   colorScale: ScaleOrdinal<string, any, never>;
   accessor: XAccessor | YAccessor | CAccessor;
 } & SVGProps<SVGGElement>) {
-  const years = range(1953, 2021).map((year) => {
+  const years = range(1954, 2021).map((year) => {
     const cols = Object.fromEntries(
       group(
         data.filter((d) => d.year === year),
@@ -70,6 +70,7 @@ export default function Bars({
 
     select(barsRef.current)
       .selectAll("g")
+      .interrupt()
       .data(stack, (d: Series<Playmate, string>) => d.key)
       .join("g")
       .attr("fill", (d: Series<Playmate, string>) => colorScale(d.key))
@@ -78,23 +79,34 @@ export default function Bars({
         (d) => d,
         (d: Series<Playmate, string>) => d.key
       )
-      .join((enter) =>
-        enter
-          .append("rect")
-          .attr("x", (d) => xScale(d.data.year.toString()))
-          .attr("width", (d) => xScale.bandwidth())
-          .attr("y", yScale(yScale.domain()[0]))
-          .attr("height", 0)
-          .transition()
-          .duration(750)
-          .delay((d, i) => i * 25)
-          .attr("y", (d) => yScale(d[1]))
-          .attr("height", (d) => {
-            const h = yScale(d[0]) - yScale(d[1]);
-            return h;
-          })
+      .join(
+        (enter) =>
+          enter
+            .append("rect")
+            .attr("x", (d) => xScale(d.data.year.toString()))
+            .attr("width", () => xScale.bandwidth())
+            .attr("y", yScale(yScale.domain()[0]))
+            .attr("height", 0)
+            .transition()
+            .duration(750)
+            .delay((d, i) => i * 25)
+            .attr("y", (d) => yScale(d[1]))
+            .attr("height", (d, i) => {
+              const h = yScale(d[0]) - yScale(d[1]);
+              return h;
+            }),
+        (update) =>
+          update
+            .attr("x", (d) => xScale(d.data.year.toString()))
+            .attr("width", () => xScale.bandwidth())
+            .attr("y", yScale(yScale.domain()[0]))
+            .attr("y", (d) => yScale(d[1]))
+            .attr("height", (d, i) => {
+              const h = yScale(d[0]) - yScale(d[1]);
+              return h;
+            })
       );
-  }, [width, height, colorScale, accessor]);
+  }, [width, height, colorScale, accessor, stack]);
 
   const ws = useWindowSize();
   const wWidth = ws.width ?? 0;

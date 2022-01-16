@@ -24,7 +24,7 @@ export default function useData(step: Step) {
         cA,
         isSm: ws.width < 768,
       }),
-    [step, chartHeight, chartWidth, xA, yA]
+    [step, chartHeight, chartWidth, xA, yA, ws.width]
   );
 
   const multiplePlaymates = useMemo(
@@ -57,7 +57,6 @@ export default function useData(step: Step) {
             datum: d,
           };
 
-          // fuck im such a noob..
           // when there are multiple playmates, spread the points around so they
           // dont overlap. thankfully theres max 3 lol
           if (

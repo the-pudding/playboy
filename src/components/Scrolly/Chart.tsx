@@ -123,8 +123,6 @@ export default function Chart({ step }: { step: Step }) {
             transitionDuration={750}
           />
           <Bars
-            // width={chartWidth / 2 - 40}
-            // height={Math.min(chartWidth / 2 / 1.6, chartHeight)}
             width={isSm ? chartWidth : chartWidth / 2 - 40}
             height={
               isSm
@@ -134,13 +132,10 @@ export default function Chart({ step }: { step: Step }) {
             accessor={accessors.cA}
             // @ts-ignore
             colorScale={scales.sC}
-            // transform={`translate(${chartWidth / 2 + 20},${
-            //   (chartHeight - Math.min(chartWidth / 2 / 1.6, chartHeight)) / 2
-            // })`}
             transform={
               isSm
                 ? `translate(10,${chartHeight / 2})`
-                : `translate(${chartWidth / 2 + 20},${
+                : `translate(${chartWidth / 2 + 25},${
                     (chartHeight -
                       Math.min(chartWidth / 2 / 1.6, chartHeight)) /
                     2

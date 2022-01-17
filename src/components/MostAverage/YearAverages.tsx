@@ -111,11 +111,13 @@ function Viz() {
 
 export default function YearAverages() {
   return (
-    <ResponsiveSvg
-      aspectRatio={2}
-      margin={{ top: 0, left: 40, right: 30, bottom: 20 }}
-    >
-      <Viz />
-    </ResponsiveSvg>
+    <div style={{ maxWidth: "50rem", margin: "0 auto" }}>
+      <ResponsiveSvg
+        aspectRatio={2}
+        margin={{ top: 0, left: 40, right: 30, bottom: 20 }}
+      >
+        <Viz />
+      </ResponsiveSvg>
+    </div>
   );
 }

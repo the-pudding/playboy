@@ -41,7 +41,8 @@ export function Viz({ pm, hkey }: { pm: Playmate; hkey: keyof typeof hist }) {
             width={x(d.x1) - x(d.x0)}
             y={y(d.length)}
             height={Math.max(1, ctx.chartHeight - y(d.length))}
-            fill={PLAYMATE_PINK}
+            // fill={PLAYMATE_PINK}
+            fill="#888"
           />
         ))}
       </g>
@@ -50,7 +51,8 @@ export function Viz({ pm, hkey }: { pm: Playmate; hkey: keyof typeof hist }) {
         x2={x(pm[hkey])}
         y1={-3}
         y2={ctx.chartHeight}
-        stroke="var(--cyan)"
+        // stroke="var(--cyan)"
+        stroke={PLAYMATE_PINK}
         strokeWidth={2}
       />
     </>

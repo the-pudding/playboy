@@ -110,17 +110,33 @@ export function App() {
               fontSize: "1.1rem",
             }}
           >
+            {doc.acknowledgements[0].value}
+          </h2>
+
+          <Paragraphs
+            // @ts-ignore
+            data={doc.acknowledgements.slice(1)}
+            style={{
+              fontSize: "0.9rem",
+            }}
+          />
+
+          <h2
+            style={{
+              fontSize: "1.1rem",
+            }}
+          >
             {doc.methodology[0].value}
           </h2>
-        </article>
 
-        <Paragraphs
-          // @ts-ignore
-          data={doc.methodology.slice(1)}
-          style={{
-            fontSize: "0.9rem",
-          }}
-        />
+          <Paragraphs
+            // @ts-ignore
+            data={doc.methodology.slice(1)}
+            style={{
+              fontSize: "0.9rem",
+            }}
+          />
+        </article>
       </main>
 
       <Footer />

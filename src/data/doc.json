@@ -8,7 +8,7 @@
     },
     {
       "type": "text",
-      "value": "At its heyday, it was <a href=\"https://www.thedailybeast.com/hugh-hefners-surprising-civil-rights-legacy\" target=\"_blank\" rel=\"noopener noreferrer\">seen by some as revolutionary</a>, while now others say it’s <a href=\"https://www.bbc.com/news/world-us-canada-41426299\" target=\"_blank\" rel=\"noopener noreferrer\">firmly stuck in the past</a>. While being the harbinger of the sexual revolution and claiming to be a part of the feminist movement, it aggressively pursued a <a href=\"https://www.bbc.com/news/world-us-canada-41426299#:~:text=He%20did%20not%20empower%20women.%20He%20gave%20them%20just%20one%20more%20restrictive%20role%20to%20choose%20from.\" target=\"_blank\" rel=\"noopener noreferrer\">rigid role for women</a>, and a strictly heterosexual one, even in the face of the <a href=\"https://en.wikipedia.org/wiki/Gay_liberation\" target=\"_blank\" rel=\"noopener noreferrer\">Gay Liberation Movement</a> of the ’60s."
+      "value": "In its heyday, it was <a href=\"https://www.thedailybeast.com/hugh-hefners-surprising-civil-rights-legacy\" target=\"_blank\" rel=\"noopener noreferrer\">seen by some as revolutionary</a>, while now others say it’s <a href=\"https://www.bbc.com/news/world-us-canada-41426299\" target=\"_blank\" rel=\"noopener noreferrer\">firmly stuck in the past</a>. While being the harbinger of the sexual revolution and claiming to be a part of the feminist movement, it aggressively pursued a <a href=\"https://www.bbc.com/news/world-us-canada-41426299#:~:text=He%20did%20not%20empower%20women.%20He%20gave%20them%20just%20one%20more%20restrictive%20role%20to%20choose%20from.\" target=\"_blank\" rel=\"noopener noreferrer\">rigid role for women</a>, and a strictly heterosexual one, even in the face of the <a href=\"https://en.wikipedia.org/wiki/Gay_liberation\" target=\"_blank\" rel=\"noopener noreferrer\">Gay Liberation Movement</a> of the ’60s."
     },
     {
       "type": "text",
@@ -102,7 +102,7 @@
       "value": [
         {
           "type": "text",
-          "value": "<strong>Marsha Elle</strong> is a singer-songwriter and a motivational speaker based in Miami. She was born with <em>proximal femoral focal deficiency</em>, which required the amputation of her right leg, and she’s had a prosthetic leg since 5 years old. After struggling with insecurity for most of her life – she didn’t wear shorts until she was 23! – <a href=\"https://www.foxnews.com/entertainment/playboy-playmate-marsha-elle\" target=\"_blank\" rel=\"noopener noreferrer\">she became the first amputee Playmate</a>."
+          "value": "<strong>Marsha Elle</strong> is a singer-songwriter and a motivational speaker based in Miami. She was born with <em>proximal femoral focal deficiency</em>, which required the amputation of her right leg, and she’s had a prosthetic leg since she was 5 years old. After struggling with insecurity for most of her life – she didn’t wear shorts until she was 23! – <a href=\"https://www.foxnews.com/entertainment/playboy-playmate-marsha-elle\" target=\"_blank\" rel=\"noopener noreferrer\">she became the first amputee Playmate</a>."
         }
       ]
     },
@@ -326,7 +326,7 @@
         },
         {
           "type": "text",
-          "value": "Playboy’s exclusion of BIPOC individuals from its pages impacts more than just their readers. The “blast radius” of its influence continues to negatively impact BIPOC communities, especially young women, and will likely continue to affect them for years to come."
+          "value": "Playboy’s exclusion of BIPOC individuals from its pages impacts more than just its readers. The “blast radius” of its influence continues to negatively impact BIPOC communities, especially young women, and will likely continue to affect them for years to come."
         },
         {
           "type": "text",
@@ -353,19 +353,23 @@
     },
     {
       "type": "text",
-      "value": "“The Hourglass Figure” is one of the most well-known body shapes. All across the media, <a href=\"https://www.vogue.com/article/playboy-bunnies-hourglass-body-gloria-steinem-hugh-hefner-death-playboy-club-new-york\" target=\"_blank\" rel=\"noopener noreferrer\">including Playboy</a>, it is favored above others. Yet, there is evidence that this insistence is responsible for the widespread prevalence of mental disorders surrounding body image, including body dysmorphia and disordered eating, particularly among <a href=\"https://www.semanticscholar.org/paper/An-Evolutionary-Theory-of-Female-Physical-Singh/00dde6b664c882410fa5e4ed1d7e17f994636793\" target=\"_blank\" rel=\"noopener noreferrer\">young women</a>. Research supports that the most commonplace efforts to change the body to conform to beauty standards do not often ultimately lead to positive body image."
+      "value": "“The Hourglass Figure” is one of the most <a href=\"https://pubmed.ncbi.nlm.nih.gov/16818094/\" target=\"_blank\" rel=\"noopener noreferrer\">well-known body shapes</a>, and in <a href=\"https://www.vogue.com/article/playboy-bunnies-hourglass-body-gloria-steinem-hugh-hefner-death-playboy-club-new-york\" target=\"_blank\" rel=\"noopener noreferrer\">Playboy</a>, it is favored above others. Yet, there is evidence that the insistence on meeting this standard is responsible for the widespread prevalence of mental disorders surrounding body image, including body dysmorphia and disordered eating, particularly among <a href=\"https://www.semanticscholar.org/paper/An-Evolutionary-Theory-of-Female-Physical-Singh/00dde6b664c882410fa5e4ed1d7e17f994636793\" target=\"_blank\" rel=\"noopener noreferrer\">young women</a>. Research supports that the most commonplace efforts to change the body to conform to beauty standards do not often ultimately lead to positive body image."
     },
     {
       "type": "viz",
       "value": {
         "title": "Breaking the mold",
         "subtitle": "2020 is the first and only year in the dataset where the hourglass-figure mold was broken. What we call curvy or “thick” is finally welcomed by Playboy in 2020. The <a href=\"https://en.wikipedia.org/wiki/Bust/waist/hip_measurements#:~:text=The%20specific%20proportions%20of%2036%E2%80%9324%E2%80%9336%20inches%20(90%2D60%2D90%20centimeters)%20have%20frequently%20been%20given%20as%20the%20%22ideal%22%2C%20or%20%22hourglass%22%20proportions%20for%20women%20since%20at%20least%20the%201960s%20(these%20measurements%20are%2C%20for%20example%2C%20the%20title%20of%20a%20hit%20instrumental%20by%20The%20Shadows).%5B2%5D%5B3%5D%5B4%5D\" target=\"_blank\" rel=\"noopener noreferrer\">“</a><a href=\"https://en.wikipedia.org/wiki/Bust/waist/hip_measurements#:~:text=The%20specific%20proportions%20of%2036%E2%80%9324%E2%80%9336%20inches%20(90%2D60%2D90%20centimeters)%20have%20frequently%20been%20given%20as%20the%20%22ideal%22%2C%20or%20%22hourglass%22%20proportions%20for%20women%20since%20at%20least%20the%201960s%20(these%20measurements%20are%2C%20for%20example%2C%20the%20title%20of%20a%20hit%20instrumental%20by%20The%20Shadows).%5B2%5D%5B3%5D%5B4%5D\" target=\"_blank\" rel=\"noopener noreferrer\">Ideal</a><a href=\"https://en.wikipedia.org/wiki/Bust/waist/hip_measurements#:~:text=The%20specific%20proportions%20of%2036%E2%80%9324%E2%80%9336%20inches%20(90%2D60%2D90%20centimeters)%20have%20frequently%20been%20given%20as%20the%20%22ideal%22%2C%20or%20%22hourglass%22%20proportions%20for%20women%20since%20at%20least%20the%201960s%20(these%20measurements%20are%2C%20for%20example%2C%20the%20title%20of%20a%20hit%20instrumental%20by%20The%20Shadows).%5B2%5D%5B3%5D%5B4%5D\" target=\"_blank\" rel=\"noopener noreferrer\">”</a> <span data-ideal data-ideal-cm=90-60-90 data-ideal-in=36-24-36>36-24-36</span> shown in cyan. <a href=\"https://www.huffpost.com/entry/the-scary-reality-of-a-re_b_845239\" target=\"_blank\" rel=\"noopener noreferrer\">Projected dimensions</a> of the Barbie doll in yellow. Click on the decades to isolate.",
-        "caption": "Line chart showing bust, waist, and hips measurements for Playmates where bust and hips have decreased, and waist measurements have increased every decade since the 1950s. 2020 is when the measurements broke out of the “Ideal” figure."
+        "caption": "Line chart showing bust, waist, and hips measurements for Playmates where bust and hips have decreased, and waist measurements have increased every decade since the 1950s. 2020 is when the measurements broke out of the “ideal” figure."
       }
     },
     {
       "type": "text",
-      "value": "As harmful as the hourglass ideal is, the slim-thick image has also <a href=\"https://www.sciencedirect.com/science/article/abs/pii/S1740144521001546\" target=\"_blank\" rel=\"noopener noreferrer\">been found to have adverse effects on youth</a>. The controversial measurements for the Barbie doll are highlighted to show <a href=\"https://www.chapman.edu/students/health-and-safety/psychological-counseling/_files/eating-disorder-files/13-barbie-facts.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">how ridiculous [pdf]</a> the doll's proportions <a href=\"https://time.com/barbie-new-body-cover-story/\" target=\"_blank\" rel=\"noopener noreferrer\">used to be</a>. Both Barbie (Mattel) and Playboy used the sexualized female form to create a cultural product that both challenged and later maintained specific beauty standards for their time. While Mattel <a href=\"https://www.nydailynews.com/life-style/fashion/mattel-remakes-barbie-dolls-include-curvy-body-type-article-1.2512210\" target=\"_blank\" rel=\"noopener noreferrer\">introduced a more diverse set of dolls</a>, ostensibly for body positivity, this also served to <a href=\"https://www.statista.com/statistics/370361/gross-sales-of-mattel-s-barbie-brand/#:~:text=In%202020%2C%20Mattel's%20Barbie%20brand,U.S.%20dollars%20the%20year%20before.&text=Since%20the%20launch%20of%20Mattel's,America%20and%20around%20the%20world.\" target=\"_blank\" rel=\"noopener noreferrer\">increase their bottom line</a>. Still, while not exactly a full embrace of body diversity, the shift in Playboy’s outlook on beauty is undoubtedly visible in recent years. Is Playboy playing catch-up?"
+      "value": "As harmful as the hourglass ideal is, the slim-thick image has also <a href=\"https://www.sciencedirect.com/science/article/abs/pii/S1740144521001546\" target=\"_blank\" rel=\"noopener noreferrer\">been found to have adverse effects on young women</a>."
+    },
+    {
+      "type": "text",
+      "value": "The controversial measurements for Mattel’s Barbie doll are highlighted to show <a href=\"https://www.chapman.edu/students/health-and-safety/psychological-counseling/_files/eating-disorder-files/13-barbie-facts.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">how ridiculous [pdf]</a> the doll's proportions <a href=\"https://time.com/barbie-new-body-cover-story/\" target=\"_blank\" rel=\"noopener noreferrer\">used to be</a>. Mattel, like Playboy, has used the sexualized female form to create a cultural product that both challenged and later maintained specific beauty standards for their time. While Mattel has, in recent years, <a href=\"https://www.nydailynews.com/life-style/fashion/mattel-remakes-barbie-dolls-include-curvy-body-type-article-1.2512210\" target=\"_blank\" rel=\"noopener noreferrer\">introduced a more diverse set of Barbie dolls</a>, ostensibly for body positivity, this new set has also <a href=\"https://www.statista.com/statistics/370361/gross-sales-of-mattel-s-barbie-brand/#:~:text=In%202020%2C%20Mattel's%20Barbie%20brand,U.S.%20dollars%20the%20year%20before.&text=Since%20the%20launch%20of%20Mattel's,America%20and%20around%20the%20world.\" target=\"_blank\" rel=\"noopener noreferrer\">increased their bottom line</a>. Is Playboy following the same path?"
     }
   ],
   "mostAverage": [
@@ -379,7 +383,7 @@
     },
     {
       "type": "text",
-      "value": "An interesting trend is revealed when looking at the average values across all Playmates for their weight, height, body measurements, hair color, and ethnicity, and ordering them by their distance from this average."
+      "value": "An interesting trend is revealed when looking at the average values across all Playmates for their weight, height, body measurements, hair color, and ethnicity and ordering them by their distance from this average."
     },
     {
       "type": "avgViz",
@@ -405,7 +409,7 @@
       "value": {
         "title": "Difference from Average per Year",
         "subtitle": "Playmates have been increasingly different from the “Most Average Playmate” through the years.",
-        "caption": "Bar chart of the average difference per year from the “Most Average Playmate” where the difference from the average grows higher as the years pass, 2020 is the least average year."
+        "caption": "Bar chart of the average difference per year from the “Most Average Playmate” where the difference from the average grows higher as the years pass. 2020 is the least average year."
       }
     }
   ],
@@ -430,7 +434,7 @@
     },
     {
       "type": "text",
-      "value": "It’s clear that Hefner’s death has significantly impacted who appears in Playboy. The world in which Playmates lived, a reality that was masterfully cropped out of photoshoots and PR campaigns, has started to be reflected in the types of women featured. It has changed Playboy’s beauty standards ever so slightly, but it is a more inclusive shift nonetheless. One question remains to be answered: is this shift towards inclusion sincere or merely performative? Many a brand has made an effort to be more inclusive in their messaging but often fall short. A giveaway here is that this embrace of body positivity has been led by primarily White models. The body positivity movement in Playboy - as is also the case in many other areas - has been co-opted and made palatable to their audience via medium-sized White women.These"
+      "value": "It’s clear that Hefner’s death has significantly impacted who appears in Playboy. The world in which Playmates lived, a reality that was masterfully cropped out of photoshoots and PR campaigns, has started to be reflected in the types of women featured. It has changed Playboy’s beauty standards ever so slightly, but it is a more inclusive shift nonetheless. One question remains to be answered: is this shift towards inclusion sincere or merely performative? Many a brand has made an effort to be more inclusive in their messaging but often fall short. A giveaway here is that this embrace of body positivity has been led by primarily White models. The body positivity movement in Playboy — as is also the case in many other areas — has been co-opted and made palatable to their audience via medium-sized White women."
     },
     {
       "type": "text",
@@ -452,7 +456,7 @@
     },
     {
       "type": "text",
-      "value": "Many thanks to Rob Smith, who gave this article the love and polish it desperately needed. Thanks to the team at the Pudding for their invaluable input and ideas. Special thanks to Kathy Peiss and Anonymous for their incredible feedback in their role as sensitivity readers. Thanks to many friends who shared with me their time, energy, and knowledge in making this happen."
+      "value": "Many thanks to Rob Smith, who gave this article the love and polish it desperately needed. Thanks to the team at the Pudding for their invaluable input and ideas. Special thanks to Kathy Peiss and Rabab Al-Sharif for their incredible feedback in their role as sensitivity readers. Thanks to many friends who shared with me their time, energy, and knowledge in making this happen."
     }
   ],
   "methodology": [

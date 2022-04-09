@@ -12,19 +12,15 @@
     },
     {
       "type": "text",
-      "value": "Taking it from a kitchen in a Chicago apartment to a landmark mansion in Beverly Hills, Playboy’s founder Hugh Hefner, a figure both vilified and praised, turned the magazine into a cultural icon that would come to influence the male gaze, and the world, for more than 65 years. Along the way, even the Supreme Court has <a href=\"https://en.wikipedia.org/wiki/United_States_v._Playboy_Entertainment_Group,_Inc.\" target=\"_blank\" rel=\"noopener noreferrer\">had to contend with it</a>."
+      "value": "Taking the magazine from a Chicago apartment to a mansion in Beverly Hills, Playboy’s founder Hugh Hefner, a figure both vilified and praised, turned the brand into a cultural icon that would come to influence the American male gaze, for better or for worse, for more than 65 years."
     },
     {
       "type": "text",
-      "value": "A casualty of the COVID-19 pandemic, the physical print of the magazine <a href=\"https://medium.com/naked-open-letters-from-playboy/an-open-letter-to-our-team-and-partners-b859b1a4c663\" target=\"_blank\" rel=\"noopener noreferrer\">ended in the spring of 2020</a>, and in 2021 Playboy stopped picking the iconic Playmate of the Month, instead choosing a Playmate every quarter. This data includes every Playmate of the Month until it was discontinued in 2021."
+      "value": "But how well has the Playboy gaze reflected the wider spectrum of American life? One of the publication’s longest-running contradictions, that it could call for sexual liberation while maintaining a very restrictive definition of beauty, seems to now be crumbling. <strong>Since Hefner’s death in 2017, Playboy has been redefining how it beholds beauty</strong>."
     },
     {
       "type": "text",
-      "value": "Under the surface, looking at the data on Playmates of the Month reveals a more fundamental change happening behind the scenes. Slowly, quietly and without much notice — a <em>paradigm shift</em> has been underway. One of the publication’s longest-running contradictions, that it could call for sexual liberation while maintaining a very restrictive definition of beauty, seems to be crumbling. <strong>Since Hefner’s death, Playboy has been redefining how it beholds beauty</strong>."
-    },
-    {
-      "type": "text",
-      "value": "How did Playboy view beauty over the years, and where is the trend headed now?"
+      "value": "Looking at the data on the Playmate of the Month feature (a title that was retired in 2021), and grounding it in the cultural context of the last several decades, we can begin to understand how Playboy has viewed beauty historically, and where it’s headed now."
     }
   ],
   "warning": [
@@ -40,7 +36,7 @@
     },
     {
       "type": "text",
-      "value": "While we look at the data for Playmates, it’s important to remember that there are real human beings behind this data. Playboy recognized this as well, and the Data Sheet could be seen as an attempt to avoid the dehumanized sexual objectification of the women featured. This particular set of numbers serves as anchors to talk about beauty as perceived by Playboy, limited as they might be in describing <em>actual</em> beauty."
+      "value": "As we look at the data for Playmates, it’s important to remember that there are real human beings behind this data. The Data Sheet could be seen as an attempt to avoid the dehumanized sexual objectification of the women featured. This particular set of numbers serves as anchors to talk about beauty as perceived by Playboy, limited as they might be in describing <em>actual</em> beauty."
     }
   ],
   "unitPicker": [
@@ -55,7 +51,7 @@
       "value": [
         {
           "type": "text",
-          "value": "<strong>Marilyn Monroe</strong> was the first-ever “Sweetheart of the Month” before the introduction of the Playmate of the Month title. Hugh Hefner had bought previously unpublished nude photos of her for a calendar and picked the “sexiest” picture for the first centerfold. Although she was not the copyright holder, Ms. Monroe did not consent to those images’ use, and she reportedly was not compensated."
+          "value": "<strong>Marilyn Monroe</strong> was the first-ever “Sweetheart of the Month” before the introduction of the Playmate of the Month title. Hugh Hefner had bought previously unpublished nude photos of her for a calendar and picked the “sexiest” picture for the first centerfold. Although she was not the copyright holder, Ms. Monroe did not consent to those images’ use in the magazine, and she reportedly was not compensated."
         },
         {
           "type": "text",
@@ -76,7 +72,7 @@
         },
         {
           "type": "text",
-          "value": "Years later, Playboy would <a href=\"https://twitter.com/Playboy/status/921155223745306624\" target=\"_blank\" rel=\"noopener noreferrer\">tweet some of the angry letters they received</a> after featuring a Black Playmate."
+          "value": "Years later, Playboy would <a href=\"https://twitter.com/Playboy/status/921155223745306624\" target=\"_blank\" rel=\"noopener noreferrer\">tweet some of the angry letters they received</a> after featuring a Black Playmate, as well as the support."
         }
       ]
     },
@@ -102,7 +98,7 @@
       "value": [
         {
           "type": "text",
-          "value": "<strong>Marsha Elle</strong> is a singer-songwriter and a motivational speaker based in Miami. She was born with <em>proximal femoral focal deficiency</em>, which required the amputation of her right leg, and she’s had a prosthetic leg since she was 5 years old. After struggling with insecurity for most of her life – she didn’t wear shorts until she was 23! – <a href=\"https://www.foxnews.com/entertainment/playboy-playmate-marsha-elle\" target=\"_blank\" rel=\"noopener noreferrer\">she became the first amputee Playmate</a>."
+          "value": "<strong>Marsha Elle</strong> is a singer-songwriter and a motivational speaker based in Miami. She was born with <em>proximal femoral focal deficiency</em>, which required the amputation of her right leg, and she’s had a prosthetic leg since she was 5 years old. After struggling with insecurity for most of her life — she didn’t wear shorts until she was 23 — <a href=\"https://www.foxnews.com/entertainment/playboy-playmate-marsha-elle\" target=\"_blank\" rel=\"noopener noreferrer\">she became the first amputee Playmate</a>."
         }
       ]
     },
@@ -202,7 +198,7 @@
         {
           "type": "quote",
           "value": {
-            "text": "It was a competition because you couldn't gain any weight. They watched your weight, they watched your appearance, and no one paid you a salary.",
+            "text": "It was a competition because you couldn’t gain any weight. They watched your weight, they watched your appearance, and no one paid you a salary.",
             "attr": "<a href=\"https://www.huffpost.com/entry/exclusive-interview-playmate-jennifer-jackson_n_980502#:~:text=It%20was%20competition%20because%20you%20couldn%27t%20gain%20any%20weight.%20They%20watched%20your%20weight%2C%20they%20watched%20your%20appearance%2C%20and%20no%20one%20paid%20you%20a%20salary.\" target=\"_blank\" rel=\"noopener noreferrer\">Jennifer Jackson</a>"
           }
         },
@@ -334,7 +330,7 @@
         },
         {
           "type": "text",
-          "value": "In contrast, Hefner <a href=\"https://people.com/music/hugh-hefner-dead-playboy-after-dark-music-performances/#:~:text=Mostly%20importantly%2C%20the%20publishing%20giant%20used%20his%20outlet%20to%20give%20equal%20airtime%20to%20African%2DAmerican%20artists%2C%20allowing%20Ike%20and%20Tina%20Turner%2C%20James%20Brown%2C%20B.B.%20King%20and%20Motown%E2%80%99s%20Marvin%20Gaye%20and%20Smokey%20Robinson%20an%20all%2Dtoo%2Drare%20opportunity%20to%20share%20their%20talent%20and%20message%20with%20the%20country.\" target=\"_blank\" rel=\"noopener noreferrer\">gave equal airtime</a> to Black artists in his show “Playboy After Dark.”"
+          "value": "In contrast, Hefner <a href=\"https://people.com/music/hugh-hefner-dead-playboy-after-dark-music-performances/#:~:text=Mostly%20importantly%2C%20the%20publishing%20giant%20used%20his%20outlet%20to%20give%20equal%20airtime%20to%20African%2DAmerican%20artists%2C%20allowing%20Ike%20and%20Tina%20Turner%2C%20James%20Brown%2C%20B.B.%20King%20and%20Motown%E2%80%99s%20Marvin%20Gaye%20and%20Smokey%20Robinson%20an%20all%2Dtoo%2Drare%20opportunity%20to%20share%20their%20talent%20and%20message%20with%20the%20country.\" target=\"_blank\" rel=\"noopener noreferrer\">gave equal airtime</a> to Black artists in his TV show “Playboy After Dark.”"
         }
       ]
     }
@@ -359,17 +355,17 @@
       "type": "viz",
       "value": {
         "title": "Breaking the mold",
-        "subtitle": "2020 is the first and only year in the dataset where the hourglass-figure mold was broken. What we call curvy or “thick” is finally welcomed by Playboy in 2020. The <a href=\"https://en.wikipedia.org/wiki/Bust/waist/hip_measurements#:~:text=The%20specific%20proportions%20of%2036%E2%80%9324%E2%80%9336%20inches%20(90%2D60%2D90%20centimeters)%20have%20frequently%20been%20given%20as%20the%20%22ideal%22%2C%20or%20%22hourglass%22%20proportions%20for%20women%20since%20at%20least%20the%201960s%20(these%20measurements%20are%2C%20for%20example%2C%20the%20title%20of%20a%20hit%20instrumental%20by%20The%20Shadows).%5B2%5D%5B3%5D%5B4%5D\" target=\"_blank\" rel=\"noopener noreferrer\">“</a><a href=\"https://en.wikipedia.org/wiki/Bust/waist/hip_measurements#:~:text=The%20specific%20proportions%20of%2036%E2%80%9324%E2%80%9336%20inches%20(90%2D60%2D90%20centimeters)%20have%20frequently%20been%20given%20as%20the%20%22ideal%22%2C%20or%20%22hourglass%22%20proportions%20for%20women%20since%20at%20least%20the%201960s%20(these%20measurements%20are%2C%20for%20example%2C%20the%20title%20of%20a%20hit%20instrumental%20by%20The%20Shadows).%5B2%5D%5B3%5D%5B4%5D\" target=\"_blank\" rel=\"noopener noreferrer\">Ideal</a><a href=\"https://en.wikipedia.org/wiki/Bust/waist/hip_measurements#:~:text=The%20specific%20proportions%20of%2036%E2%80%9324%E2%80%9336%20inches%20(90%2D60%2D90%20centimeters)%20have%20frequently%20been%20given%20as%20the%20%22ideal%22%2C%20or%20%22hourglass%22%20proportions%20for%20women%20since%20at%20least%20the%201960s%20(these%20measurements%20are%2C%20for%20example%2C%20the%20title%20of%20a%20hit%20instrumental%20by%20The%20Shadows).%5B2%5D%5B3%5D%5B4%5D\" target=\"_blank\" rel=\"noopener noreferrer\">”</a> <span data-ideal data-ideal-cm=90-60-90 data-ideal-in=36-24-36>36-24-36</span> shown in cyan. <a href=\"https://www.huffpost.com/entry/the-scary-reality-of-a-re_b_845239\" target=\"_blank\" rel=\"noopener noreferrer\">Projected dimensions</a> of the Barbie doll in yellow. Click on the decades to isolate.",
+        "subtitle": "2020 is the first and only year in the dataset where the hourglass-figure mold was broken. What some call curvy or “thick” is finally welcomed by Playboy in 2020. The <a href=\"https://en.wikipedia.org/wiki/Bust/waist/hip_measurements#:~:text=The%20specific%20proportions%20of%2036%E2%80%9324%E2%80%9336%20inches%20(90%2D60%2D90%20centimeters)%20have%20frequently%20been%20given%20as%20the%20%22ideal%22%2C%20or%20%22hourglass%22%20proportions%20for%20women%20since%20at%20least%20the%201960s%20(these%20measurements%20are%2C%20for%20example%2C%20the%20title%20of%20a%20hit%20instrumental%20by%20The%20Shadows).%5B2%5D%5B3%5D%5B4%5D\" target=\"_blank\" rel=\"noopener noreferrer\">“</a><a href=\"https://en.wikipedia.org/wiki/Bust/waist/hip_measurements#:~:text=The%20specific%20proportions%20of%2036%E2%80%9324%E2%80%9336%20inches%20(90%2D60%2D90%20centimeters)%20have%20frequently%20been%20given%20as%20the%20%22ideal%22%2C%20or%20%22hourglass%22%20proportions%20for%20women%20since%20at%20least%20the%201960s%20(these%20measurements%20are%2C%20for%20example%2C%20the%20title%20of%20a%20hit%20instrumental%20by%20The%20Shadows).%5B2%5D%5B3%5D%5B4%5D\" target=\"_blank\" rel=\"noopener noreferrer\">Ideal</a><a href=\"https://en.wikipedia.org/wiki/Bust/waist/hip_measurements#:~:text=The%20specific%20proportions%20of%2036%E2%80%9324%E2%80%9336%20inches%20(90%2D60%2D90%20centimeters)%20have%20frequently%20been%20given%20as%20the%20%22ideal%22%2C%20or%20%22hourglass%22%20proportions%20for%20women%20since%20at%20least%20the%201960s%20(these%20measurements%20are%2C%20for%20example%2C%20the%20title%20of%20a%20hit%20instrumental%20by%20The%20Shadows).%5B2%5D%5B3%5D%5B4%5D\" target=\"_blank\" rel=\"noopener noreferrer\">”</a> <span data-ideal data-ideal-cm=90-60-90 data-ideal-in=36-24-36>36-24-36</span> shown in cyan. <a href=\"https://www.huffpost.com/entry/the-scary-reality-of-a-re_b_845239\" target=\"_blank\" rel=\"noopener noreferrer\">Projected dimensions</a> of the Barbie doll in yellow. Click on the decades to isolate.",
         "caption": "Line chart showing bust, waist, and hips measurements for Playmates where bust and hips have decreased, and waist measurements have increased every decade since the 1950s. 2020 is when the measurements broke out of the “ideal” figure."
       }
     },
     {
       "type": "text",
-      "value": "As harmful as the hourglass ideal is, the slim-thick image has also <a href=\"https://www.sciencedirect.com/science/article/abs/pii/S1740144521001546\" target=\"_blank\" rel=\"noopener noreferrer\">been found to have adverse effects on young women</a>."
+      "value": "As harmful as the hourglass ideal is, the popular slim-thick image has also <a href=\"https://www.sciencedirect.com/science/article/abs/pii/S1740144521001546\" target=\"_blank\" rel=\"noopener noreferrer\">been found to have adverse effects on young women</a>."
     },
     {
       "type": "text",
-      "value": "The controversial measurements for Mattel’s Barbie doll are highlighted to show <a href=\"https://www.chapman.edu/students/health-and-safety/psychological-counseling/_files/eating-disorder-files/13-barbie-facts.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">how ridiculous [pdf]</a> the doll's proportions <a href=\"https://time.com/barbie-new-body-cover-story/\" target=\"_blank\" rel=\"noopener noreferrer\">used to be</a>. Mattel, like Playboy, has used the sexualized female form to create a cultural product that both challenged and later maintained specific beauty standards for their time. While Mattel has, in recent years, <a href=\"https://www.nydailynews.com/life-style/fashion/mattel-remakes-barbie-dolls-include-curvy-body-type-article-1.2512210\" target=\"_blank\" rel=\"noopener noreferrer\">introduced a more diverse set of Barbie dolls</a>, ostensibly for body positivity, this new set has also <a href=\"https://www.statista.com/statistics/370361/gross-sales-of-mattel-s-barbie-brand/#:~:text=In%202020%2C%20Mattel's%20Barbie%20brand,U.S.%20dollars%20the%20year%20before.&text=Since%20the%20launch%20of%20Mattel's,America%20and%20around%20the%20world.\" target=\"_blank\" rel=\"noopener noreferrer\">increased their bottom line</a>. Is Playboy following the same path?"
+      "value": "The controversial measurements for Mattel’s Barbie doll are highlighted to show <a href=\"https://www.chapman.edu/students/health-and-safety/psychological-counseling/_files/eating-disorder-files/13-barbie-facts.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">how ridiculous [pdf]</a> the doll's proportions <a href=\"https://time.com/barbie-new-body-cover-story/\" target=\"_blank\" rel=\"noopener noreferrer\">used to be</a>. Mattel, like Playboy, has used the sexualized female form to create a cultural product that both challenged and later maintained specific beauty standards for their time. While Mattel has, in recent years, <a href=\"https://www.nydailynews.com/life-style/fashion/mattel-remakes-barbie-dolls-include-curvy-body-type-article-1.2512210\" target=\"_blank\" rel=\"noopener noreferrer\">introduced a more diverse set of </a><a href=\"https://www.nydailynews.com/life-style/fashion/mattel-remakes-barbie-dolls-include-curvy-body-type-article-1.2512210\" target=\"_blank\" rel=\"noopener noreferrer\">body types for its</a><a href=\"https://www.nydailynews.com/life-style/fashion/mattel-remakes-barbie-dolls-include-curvy-body-type-article-1.2512210\" target=\"_blank\" rel=\"noopener noreferrer\"> Barbie dolls</a>, ostensibly for body positivity, this new set has also <a href=\"https://www.statista.com/statistics/370361/gross-sales-of-mattel-s-barbie-brand/#:~:text=In%202020%2C%20Mattel's%20Barbie%20brand,U.S.%20dollars%20the%20year%20before.&text=Since%20the%20launch%20of%20Mattel's,America%20and%20around%20the%20world.\" target=\"_blank\" rel=\"noopener noreferrer\">increased their bottom line</a>. Is Playboy following the same path?"
     }
   ],
   "mostAverage": [
@@ -434,7 +430,7 @@
     },
     {
       "type": "text",
-      "value": "It’s clear that Hefner’s death has significantly impacted who appears in Playboy. The world in which Playmates lived, a reality that was masterfully cropped out of photoshoots and PR campaigns, has started to be reflected in the types of women featured. It has changed Playboy’s beauty standards ever so slightly, but it is a more inclusive shift nonetheless. One question remains to be answered: is this shift towards inclusion sincere or merely performative? Many a brand has made an effort to be more inclusive in their messaging but often fall short. A giveaway here is that this embrace of body positivity has been led by primarily White models. The body positivity movement in Playboy — as is also the case in many other areas — has been co-opted and made palatable to their audience via medium-sized White women."
+      "value": "It’s clear that Hefner’s death has significantly impacted who appears in Playboy. The world in which Playmates lived, a reality that was masterfully cropped out of photoshoots and public relations campaigns, has started to be reflected in the types of women featured. It has changed Playboy’s beauty standards ever so slightly, but it is a more inclusive shift nonetheless. One question remains to be answered: is this shift towards inclusion sincere or merely performative? Many a brand has made an effort to be more inclusive in their messaging but often fall short. A giveaway here is that this change has been led by primarily white models. The body positivity movement in Playboy — as is also the case in many other areas — has been <a href=\"https://www.refinery29.com/en-gb/2021/03/10389843/body-positivity-neutrality-movement-history\" target=\"_blank\" rel=\"noopener noreferrer\">co-opted and made palatable</a> to their audience via white women."
     },
     {
       "type": "text",
@@ -446,7 +442,7 @@
     },
     {
       "type": "text",
-      "value": "On December 2, 2021, Playboy announced its first-ever Creative Director In Residence <a href=\"https://www.plbygroup.com/news-releases/news-release-details/playboy-names-cardi-b-first-ever-creative-director-residence\" target=\"_blank\" rel=\"noopener noreferrer\">as Cardi B</a>. What direction will this development take Playboy and their Playmates? Readers will have to wait and see. In choosing the musician, the magazine signaled a commitment to leaving its old formula and its limited perspective squarely in the past."
+      "value": "On December 2, 2021, Playboy announced its first-ever Creative Director In Residence <a href=\"https://www.plbygroup.com/news-releases/news-release-details/playboy-names-cardi-b-first-ever-creative-director-residence\" target=\"_blank\" rel=\"noopener noreferrer\">as Cardi B</a>. In choosing the musician, the magazine signaled a commitment to leaving its old formula and its limited perspective squarely in the past. Just how far will this development push Playboy and their Playmates? Readers will have to wait and see."
     }
   ],
   "acknowledgements": [
@@ -456,13 +452,17 @@
     },
     {
       "type": "text",
-      "value": "Many thanks to Rob Smith, who gave this article the love and polish it desperately needed. Thanks to the team at the Pudding for their invaluable input and ideas. Special thanks to Kathy Peiss and Rabab Al-Sharif for their incredible feedback in their role as sensitivity readers. Thanks to many friends who shared with me their time, energy, and knowledge in making this happen."
+      "value": "Many thanks to Rob Smith, who gave this article the love and polish it desperately needed. Thanks to the team at The Pudding for their invaluable input and ideas. Special thanks to Kathy Peiss and Rabab Al-Sharif for their incredible feedback in their role as sensitivity readers. Thanks to my wonderful partner for her immense support, and many friends who shared with me their time, energy, and knowledge in making this happen."
     }
   ],
   "methodology": [
     {
       "type": "title",
       "value": "Methodology"
+    },
+    {
+      "type": "text",
+      "value": "The physical print of the magazine <a href=\"https://medium.com/naked-open-letters-from-playboy/an-open-letter-to-our-team-and-partners-b859b1a4c663\" target=\"_blank\" rel=\"noopener noreferrer\">ended in the spring of 2020</a>, and in 2021 Playboy stopped picking the Playmate of the Month, instead choosing a Playmate every quarter. This data includes every Playmate of the Month until it was discontinued in 2021."
     },
     {
       "type": "text",
